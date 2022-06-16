@@ -1,10 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'Diseño de experiencias gastronómicas',
+    componenteFormativo: 'Estructuración de la experiencia turística',
     descripcionCurso:
-      'Actualmente, destinos de todo el mundo diseñan estrategias para potenciar la identidad gastronómica de sus territorios e impulsar propuestas que conlleven a los turistas a querer profundizar en la cultura gastronómica de los lugares que visita. Así, la gastronomía ha tomado relevancia, en la diferenciación de los destinos y del turismo gastronómico convirtiéndose en un segmento de mercado, enfocado en generar experiencias.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+      'Actualmente la manera en que se realizan y se disfrutan los viajes es diferente. Los turistas buscan satisfacer sus necesidades a partir de un producto o servicio turístico, y vivir una experiencia que satisfaga sus gustos, deseos y emociones. La flexibilidad y transformación, de la compra, obliga a las empresas del sector, a adaptarse a esta demanda, aplicar nuevas tecnologías y comercialización digital de servicios.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerInterno: require('@/assets/curso/portada/fondo-banner-interno.jpg'),
   },
   menuPrincipal: {
     menu: [
@@ -23,68 +24,111 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'La gastronomía en la industria del turismo ',
+        titulo: 'Generalidades del turismo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Tipos de alimentos  ',
-            hash: 't_1_1',
+            titulo: 'Objetivos, características y beneficios del turismo',
+            hash: 'objetivos',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Propiedades organolépticas de los alimentos',
-            hash: 't_1_2',
+            titulo:
+              'Elementos básicos o factores que componen la actividad turística',
+            hash: 'elementos',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Parámetros de inocuidad alimentaria  ',
-            hash: 't_1_3',
+            titulo: 'Prestadores de servicios turísticos',
+            hash: 'prestadores',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Caracterización de menús ',
-            hash: 't_1_4',
+            titulo: 'Turista y sus motivaciones',
+            hash: 'turista',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Caracterización de bebidas ',
-            hash: 't_1_5',
+            titulo: 'Evolución del turismo',
+            hash: 'evolucion',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
-            titulo: 'Emplatados y presentación de platos',
-            hash: 't_1_6',
+            titulo: 'Morfología del turismo',
+            hash: 'morfologia',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
-            titulo: 'Menaje ',
-            hash: 't_1_7',
+            titulo: 'Leyes en turismo',
+            hash: 'leyes',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.8',
-            titulo: 'Tipos de servicio en un restaurante',
-            hash: 't_1_8',
+            titulo: 'Sistema turístico',
+            hash: 'sistema',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.9',
-            titulo: 'Mercadeo digital para restaurantes',
-            hash: 't_1_9',
+            titulo: 'Inventario turístico',
+            hash: 'inventario',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.10',
-            titulo: 'Costos para restaurantes',
-            hash: 't_1_10',
+            titulo: 'Producto turístico',
+            hash: 'producto',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.11',
+            titulo: 'Agencias de viaje',
+            hash: 'agencias',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.12',
+            titulo: 'Paquetes turísticos',
+            hash: 'paquetes',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.13',
+            titulo: 'Rutas y circuitos turísticos',
+            hash: 'rutas',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.14',
+            titulo: 'Establecimientos de alojamiento y hospedaje',
+            hash: 'establecimiento',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.15',
+            titulo: 'Sostenibilidad turística',
+            hash: 'sostenibilidad',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.16',
+            titulo: 'Colombia turística',
+            hash: 'colombia',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.17',
+            titulo: 'Estadísticas sectoriales',
+            hash: 'estadisticas',
           },
         ],
       },
@@ -92,39 +136,73 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Experiencia Gastronómicas  ',
+        titulo: 'Experiencias turísticas',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Tipos de experiencias gastronómicas      ',
+            titulo:
+              'Comunicar la experiencia turística en la web y redes sociales',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo:
-              'Determinantes de una experiencia gastronómica memorable   ',
+            titulo: 'Servicio al cliente',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Pasos para crear una experiencia memorable ',
+            titulo: 'Negociación con proveedores',
             hash: 't_2_3',
           },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Fundamentación Textil',
+        desarrolloContenidos: true,
+        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Experiencias gastronómicas online  ',
-            hash: 't_2_4',
+            numero: '3.1',
+            titulo:
+              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Digitalización de las experiencias gastronómicas    ',
-            hash: 't_2_5',
+            numero: '3.2',
+            titulo: 'Identificación fibras por combustión',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Clasificación de los hilos',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Clasificación de tejidos',
+            hash: 't_3_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo: 'Caracterización de los tejidos',
+            hash: 't_3_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.6',
+            titulo: 'Procesos textiles',
+            hash: 't_3_6',
           },
         ],
       },
@@ -171,132 +249,132 @@ export default {
   referencias: [
     {
       referencia:
-        'Bartalent Lab (sf).Top 3 plataformas online para dar visibilidad a tu restaurante. ',
+        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
       link:
-        'https://www.bartalentlab.com/degustanews/hosteleria-digital/hosteleria-digital/degustanewstendenciashosteleria-digitaltop-3-plataformas-online-para-dar-visibilidad-a-tu-restaurante',
+        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
     },
     {
       referencia:
-        'Basque Culinary Center (2018), Future of Food Report for 2050.',
+        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
       link:
-        'http://projectgastronomia.org/uploads/categories/FUTURE_FOOD_REPORT_2050-Reduced.pdf  ',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
     },
     {
       referencia:
-        'En la Cocina, Magazine (sf). Cómo diseñar la carta de un restaurante. ',
+        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+    },
+    {
+      referencia:
+        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
       link:
-        'https://enlacocina.telemesa.es/marketing-restaurantes/como-disenar-la-carta-de-un-restaurante/ ',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
     },
     {
       referencia:
-        'González Ramos, E (2019). La experiencia de cliente en el sector gastronómico. Facultad de Ciencias Económicas y Empresariales. Universidad Pontificia Comillas. ',
-      link: 'https://repositorio.comillas.edu/rest/bitstreams/272538/retrieve ',
+        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
     },
     {
       referencia:
-        'Kotler, P. (1973). Atmospherics as a Mercadeo Tool. Journal of Retailing, 49 (4).',
-    },
-    {
-      referencia:
-        'Magazinehorse (2015). Experiencias gastronómicas que estimulan cada uno de los sentidos. ',
+        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
       link:
-        'https://www.magazinehorse.com/experiencias-gastronomicas-que-estimulan-cada-uno-de-los-sentidos/ ',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
     },
     {
       referencia:
-        'Morillo Moreno, M (2009). Costos del servicio de alimentos y bebidas en establecimientos de alojamientos turísticos Visión Gerencial, núm. 2, pp. 304-327 Universidad de los Andes Mérida, Venezuela.',
-      link: 'https://www.redalyc.org/pdf/4655/465545881013.pdf ',
-    },
-    {
-      referencia:
-        'Organización Mundial del Turismo (2021). Guía para el desarrollo del turismo gastronómico. ',
-      link: 'https://www.e-unwto.org/doi/pdf/10.18111/9789284420995',
-    },
-    {
-      referencia:
-        'Ocampo A (2018). ¿Por qué el menaje es el elemento diferenciador de su restaurante?  ',
+        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
       link:
-        'https://www.revistalabarra.com/campanias/vajillas-corona/el-menaje-como-elemento-diferenciador-de-su-restaurante/ ',
-    },
-
-    {
-      referencia:
-        'Ortega Reina, F (sf). ¿Qué es una experiencia gastronómica? Definición, Ideas, Precios y Ejemplos. ',
-      link: 'https://ingenieriademenu.com/experiencia-gastronomica/ ',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
     },
     {
       referencia:
-        'Salazar A (2017). Especial: conozca los diferentes tipos de menú. Revista La Barra. ',
+        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
       link:
-        'https://www.revistalabarra.com/especial-conozca-los-diferentes-tipos-menu/',
-    },
-    {
-      referencia:
-        'Servicio Nacional de Turismo – Sernatur (2017). Manual de diseño experiencias turísticas. Subdirección de Desarrollo-Chile. ',
-      link:
-        'https://www.sernatur.cl/wp-content/uploads/2018/11/MDD-Manual-de-Experiencias-Turi%CC%81sticas-1.pdf ',
-    },
-    {
-      referencia:
-        'Subdirección de Salud Nutricional, Alimentos y Bebidas (2018). Guía de inocuidad de alimentos y bebidas para restaurantes o establecimientos gastronómicos. ',
-      link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SNA/Guia-inocuidad-alimentos-establecimientos-gastronomicos-restaurantes.pdf  ',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
     },
   ],
   glosario: [
     {
-      termino: 'Digitalización',
+      termino: 'MoodBoard',
       significado:
-        'Es el proceso de transformar procesos analógicos y objetos físicos en digitales.',
+        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
     },
     {
-      termino: 'Gastronomía',
+      termino: '<em>Suftware</em>',
       significado:
-        'Conjunto de conocimientos y actividades que están relacionados con los ingredientes, recetas y técnicas de la culinaria, así como con su evolución histórica.',
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
     },
     {
-      termino: 'Menaje ',
+      termino: 'Pirognóstico',
       significado:
-        'Todos los utensilios, elementos y material profesional, empleados para el servicio de alimentos y bebidas',
+        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
     },
     {
-      termino: 'Mercadeo',
+      termino: '<em>Áectores</em>',
       significado:
-        'Conjunto de técnicas y estudios que tienen como objeto mejorar la comercialización de un producto.',
+        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+    },
+    {
+      termino: 'Moda',
+      significado:
+        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+    },
+    {
+      termino: 'Diseña',
+      significado:
+        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+    },
+    {
+      termino: 'DIseño',
+      significado:
+        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+    },
+    {
+      termino: 'Tipología',
+      significado:
+        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+    },
+    {
+      termino: 'Bidimensional',
+      significado:
+        'que se representa según su altura y su anchura y no su profundidad.',
+    },
+    {
+      termino: 'Interés Inferior del menor',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: 'Interseccionalidad',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: 'Interés superior del menor',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
     },
   ],
   complementario: [
     {
-      texto:
-        'Organización Mundial del Turismo y Basque Culinary Center (2021). Guía para el desarrollo del turismo gastronómico.',
-      tipo: 'Documento Guía',
-      link: 'https://www.e-unwto.org/doi/pdf/10.18111/9789284420995 ',
+      tema: 'Estrategias para la segmentación de mercados',
+      referencia:
+        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
     },
     {
-      texto:
-        'Guía de inocuidad de alimentos y bebidas para restaurantes o establecimientos gastronómicos. Subdirección de Salud Nutricional, Alimentos y Bebidas. Bogotá D.C. 2017',
-      tipo: 'Documento Guía',
-      link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SNA/Guia-inocuidad-alimentos-establecimientos-gastronomicos-restaurantes.pdf ',
+      tema: 'Estrategias para la segmentación de mercados',
+      referencia:
+        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
     },
     {
-      texto:
-        'De Suremain, C.E (2017). Cuando la alimentación se hace patrimonio. Rutas gastronómicas, globalización y desarrollo local (México). Trace (Méx. DF) n.72, pp.165-181.  ',
-      tipo: 'Artículo',
-      link:
-        'http://www.scielo.org.mx/scielo.php?pid=S0185-62862017000200165&script=sci_abstract&tlng=pt ',
-    },
-    {
-      texto:
-        'Plate like a pro with these quick and easy dinner party plating tricks | Food Hacks by So Yummy. [Vídeo] 2022.',
-      tipo: 'Vídeo',
-      link: 'https://www.youtube.com/watch?v=02Brgs60BiY&t=8s ',
-    },
-    {
-      texto:
-        'Costos del servicio de alimentos y bebidas en establecimientos de alojamientos turísticos Visión Gerencial, núm. 2, pp. 304-327 Universidad de los Andes Mérida, Venezuela.',
-      tipo: 'Artículo',
-      link: 'https://www.redalyc.org/pdf/4655/465545881013.pdf ',
+      tema: 'Estrategias para la segmentación de mercados',
+      referencia:
+        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
     },
   ],
   creditos: {
@@ -314,42 +392,6 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-      {
-        nombre: 'Fabio Alberto Ramírez Ayala',
-        cargo: 'Experto temático',
-        centro: 'Regional Tolima. Centro Comercio y Servicios.',
-      },
-      {
-        nombre: 'Zuleidy María Ruiz Torres',
-        cargo: 'Experto temático',
-        centro: 'Regional Tolima. Centro Comercio y Servicios.',
-      },
-      {
-        nombre: 'Luisa Fernanda Posada Hincapié',
-        cargo: 'Experto temático',
-        centro: 'Regional Quindío. Centro de Comercio, Industria y Turismo',
-      },
-      {
-        nombre: 'Gloria Alexandra Orejarena Barrios',
-        cargo: 'Diseñador instruccional',
-        centro: 'Regional Distrito Capital. Centro de Gestión Industrial.',
-      },
-      {
-        nombre: 'María Inés Machado López',
-        cargo: 'Diseñador instruccional',
-        centro:
-          'Regional Norte de Santander. Centro de la Industria, la Empresa y los Servicios.',
-      },
-      {
-        nombre: 'Carolina Coca Salazar',
-        cargo: 'Asesor metodológico',
-        centro: 'Regional Distrito Capital. Centro de Diseño y Metrología.',
-      },
-      {
-        nombre: 'Sandra Patricia Hoyos Sepúlveda',
-        cargo: 'Corrección de estilo',
-        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
-      },
     ],
     desarrolloProducto: [
       {
@@ -364,31 +406,19 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Fabian Zarate'],
+        nombre: ['Nombre 1', 'Nombre 2'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Sergio Mauricio Valencia Martinez',
+        nombre: 'Nombre',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Zuleidy María Ruíz Torres',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Wilson Andrés Arenales Cáceres',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

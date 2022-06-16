@@ -1,1 +1,2 @@
-module.exports = 'Diseño de experiencias gastronómicas'
+module.exports =
+  'Estructuración de la experiencia turística'
