@@ -1,2 +1,2 @@
 module.exports =
-  'Estructuración de la experiencia turística'
+  'Componente Formativo con un nombre extremadamente largo y extenso'

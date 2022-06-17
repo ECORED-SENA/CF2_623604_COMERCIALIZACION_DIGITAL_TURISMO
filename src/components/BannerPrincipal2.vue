@@ -17,11 +17,11 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         img(:src="globalData.imagenBannerPrincipal" style="width: 481px")
-      .imagen_flotante_1.d-none.d-lg-block: img(src="@/assets/curso/banner/4.png")
-      .imagen_flotante_2.d-none.d-lg-block: img(src="@/assets/curso/banner/1.png")
-      .imagen_flotante_3.d-none.d-lg-block: img(src="@/assets/curso/banner/3.png")
-      .imagen_flotante_5.d-none.d-lg-block: img(src="@/assets/curso/banner/2.png")
-      .imagen_flotante_6.d-none.d-lg-block: img(src="@/assets/curso/banner/5.png")
+    .imagen_flotante_1: img(src="@/assets/curso/banner/4.png")
+    .imagen_flotante_2: img(src="@/assets/curso/banner/1.png")
+    .imagen_flotante_3: img(src="@/assets/curso/banner/3.png")
+    .imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/banner/5.png")
+    .imagen_flotante_6.d-none.d-xl-block: img(src="@/assets/curso/banner/2.png")
     //.imagen_flotante_7: img(src="@/assets/curso/banner/img01.svg")
     //.imagen_flotante_8: img(src="@/assets/curso/banner/img01.svg")
   
@@ -51,8 +51,7 @@ export default {
 .banner-principal__info
   padding-left: 80px  !important
   z-index: 3
-  @media screen and ( max-width: 992px)
-    padding-left: 30px !important
+
 
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
@@ -93,7 +92,7 @@ export default {
         padding-right: 1.5rem!important
       @media (min-width: $bp-min-sm)
         .banner-principal__img
-          padding-right: 1rem!important
+          padding-right: 3rem!important
 
   &__img
     animation: scale 5s ease-in-out infinite alternate
@@ -113,15 +112,15 @@ export default {
       padding-bottom: 1.5rem
       @media (min-width: $bp-min-sm)
         padding-top: 3rem!important
-        padding-bottom: 1.3rem!important
+        padding-bottom: 3rem!important
 
 
 .imagen_flotante
   &_1
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    width: 200px
-    bottom: 40px
+    width: 97px
+    bottom: 120px
     left: 55%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
@@ -129,12 +128,10 @@ export default {
     width: 154px
     top: 250px
     left: -4%
-    @media screen and ( max-width: 1400px)
-      left: -6%
   &_3
     animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
-    width: 150px
+    width: 80px
     top: 50px
     left: 55%
   &_4
@@ -147,20 +144,16 @@ export default {
   &_5
     animation: float1 3.9s ease-in-out infinite alternate
     position: absolute
-    width: 150px
+    width: 61px
     top: 5%
     left: 2%
     z-index: 99
-    @media screen and ( max-width: 1400px)
-      left: -2%
-      top: 0
-      width: 125px
   &_6
     animation: float1 2.7s ease-in-out infinite alternate
     position: absolute
-    width: 100px
-    top: 50px
-    right: 10px
+    width: 250px
+    top: 270px
+    right: 130px
     z-index: 99
   &_7
     animation: float1 2.5s ease-in-out infinite alternate
@@ -187,7 +180,7 @@ export default {
     transform: translateY(0px)
 @keyframes scale
   0%
-    transform: scale(1.1)
+    transform: scale(1)
 
   100%
     transform: scale(1)

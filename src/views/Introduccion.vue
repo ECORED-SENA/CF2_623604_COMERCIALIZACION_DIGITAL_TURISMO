@@ -3,23 +3,17 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-contenido(data-aos="fade")
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span.text-dark 
+        span 
           i.fas.fa-info
       h1 Introducción
-    p.mb-5 Se da la bienvenida al componente formativo 
-      span.text-bold "Estructuración de la experiencia turística"
-      span . Para comenzar el recorrido por el mismo, visitar el recurso didáctico que se muestra a continuación:
-    figure.mb-5
+    p Le damos la bienvenida al componente formativo “Diseño de experiencias gastronómicas”. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
+    figure.mb-5(data-aos="fade-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
-
-</template>
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)</template>
 
 <script>
-import BannerInterno from '../components/BannerInterno.vue'
 export default {
   name: 'Introduccion',
   data: () => ({
