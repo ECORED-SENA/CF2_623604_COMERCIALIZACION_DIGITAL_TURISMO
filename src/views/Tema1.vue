@@ -244,9 +244,6 @@
       .col-xxl-4.col-xxl.pe-0.col-xxl.me-3.col-xxl.pb-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.col-11.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/turista.svg')
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
           .tarjeta.fondo3
             ul.lista-ul--color.col-xxl.ps-4.pb-5.mb-5.col-xxl.pe-4.col-md.me-2.col-sm.ps-4
               li 
@@ -259,15 +256,9 @@
                 i.lista-ul__vineta
                 | Razones del viaje: recreo, vacaciones, salud, estudio, religión, deportes o negocios.
 
-
-
-
       .col-xxl-4.col-xxl.pe-0.col-xl-5.col-lg-6.col-md-8.col-md.px-0.col-sm-10.col-11.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/excursionista.svg')
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
           .tarjeta.fondo5
             ul.lista-ul--color.px-5.col-xxl.pb-4.col-xxl.mb-5.mb-5.col-xxl.pe-4.col-md.me-2
               li 
@@ -301,8 +292,6 @@
       span.text-small.mb-0 Relación entre necesidades, motivación y referencia turísticas
     .tabla-c
       table
-        caption 
-          p.mb-0 Nota. Adaptado de Gutiérrez y Bordas (1993) por Cordente Rodríguez, M; Mondéjar Jiménez, J.A; Esteban Talaya, A (s.f.).
         tr.fondo6
           th 
             h4.text-center Necesidad
@@ -454,7 +443,8 @@
                 | Medioambiente
               li 
                 i.lista-ul__vineta
-                | Manifestaciones culturales y artísticas 
+                | Manifestaciones culturales y artísticas
+    p.my-5.text-center Nota. Adaptado de Gutiérrez y Bordas (1993) por Cordente Rodríguez, M; Mondéjar Jiménez, J.A; Esteban Talaya, A (s.f.).
     p.mt-5 Según la OMT, el perfil del turista ha ido evolucionando durante los últimos años. Hoy por hoy, se puede encontrar un viajero mucho más exigente, informado, digital y comprometido con el medio ambiente y el entorno. 
     p.mb-5 A pesar de que se siguen presentando las motivaciones descritas en la sección anterior, también se han venido presentando otras como la práctica de negocios, actividades saludables, formación o aprendizaje; actividades de sanación o espiritualidad y enriquecimiento cultural; todas ellas han dado lugar a nuevas tipologías de turista como puede apreciarse en el siguiente recurso educativo, se puede ver:
 
@@ -525,7 +515,326 @@
         
           .col-md-7
             figure
-              img(src='@/assets/curso/tema1/solos.png')    
+              img(src='@/assets/curso/tema1/solos.png')
+    separador
+    #evolucion.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
+      h2 1.5 Evolución del turismo
+    p.mb-5 Para el caso colombiano, el turismo comenzó a desarrollarse en mayor medida con la llegada del tren a comienzos del siglo XX, lo que permitió que varias familias pudieran realizar viajes cortos de descanso y diversión a los destinos cercanos a sus hogares. Lo anterior también impulsó la organización de “tours”, ya que algunas personas comenzaron a ofrecer viajes incluyendo los pasajes de tren, alimentación, alojamientos en establecimientos como fincas y hoteles, y visitas a monumentos y recintos religiosos. Se podrá entender un poco más sobre la evolución del turismo con la siguiente línea del tiempo:
+    .row.justify-content-center
+      .col-xxl-10.col-lg-10.col-md-11.col-11.fondo9
+        LineaTiempoB.m-5(:datos="datosLineaTiempoB")    
+
+    p.my-5 Así surgieron las primeras agencias de viajes, que posteriormente a mediados de siglo, con la llegada de la aviación al país, crecieron en mayor medida, porque tuvieron la oportunidad de incursionar en el ámbito internacional.
+    .row.justify-content-around.align-items-center
+      .col-xxl-10.col-xl-10.col-11.col-md-11
+        .tarjeta.fondo8.p-3.mb-5
+          .row.justify-content-center.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/tema1/figura2.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p Se invita a conocer un poco más sobre el turismo, revisando el siguiente artículo publicado por El Tiempo el 16 de octubre del 2008, que agrupa los 25 hitos de la historia del turismo colombiano, y que puede consultar en el siguiente enlace: 
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/25 hitos de la historia del turismo colombiano.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
+    p.my-5 En cuanto a las tendencias que rigen el turismo, se encuentra que la FITUR (2021), que es la feria de turismo más importante de España y Procolombia (2021), indica que entre las preferencias del turismo en los años entrantes estarán:
+    .row.justify-content-center.align-items-center
+      .col-xxl-6.col-lg-6.col-md-6.col-sm-10.col-11
+        LineaTiempoD.color-secundario
+          p.text-small(numero="1" titulo="Ecoturismo y turismo sostenible") Un modo de hacer turismo que consiste en el respeto por el medio ambiente y el planeta, acorde con los principios de sostenibilidad y la conservación de los recursos de los destinos turísticos.
+
+          p.text-small(numero="2" titulo="<i>Mindful Travel</i>") Es un modo de viajar relacionado con el bienestar, autocuidado y la transformación personal. Son viajes tranquilos donde no se cumple con horarios estrictos ya que su principal objetivo es que los turistas, realmente conecten con el destino, con su cultura, sus costumbres y tradiciones.
+
+          p.text-small(numero="3" titulo="Experiencias turísticas") Los turistas buscan experiencias memorables, sentir emociones y vivir aventuras placenteras en cada uno de sus viajes. El viajero experto busca actividades distintas, destinos turísticos que ofrezcan atractivos y experiencias diferentes, lejos del turismo masivo y en busca de vivencias en lugares especiales.
+
+          
+          p.text-small(numero="4" titulo="Turismo de viajes nómadas") Son los empresarios y empleados que se desplazan hacia cualquier destino con la intención de trabajar a distancia. Este tipo de turismo también combinado con los viajes, es una oportunidad excelente para que los destinos ofrezcan espacios ideales para trabajar y a la vez viajar. 
+      .col-xxl-6.col-lg-6.col-md-6.col-sm-7.col-8
+        img.mt-4(src="@/assets/curso/tema1/imagen5.jpg")
+    p.my-5 También se puede encontrar nuevas preferencias de los turistas a la hora de viajar como:
+    .row.justify-content-center.align-items-center
+      .col-xxl-6.col-lg-6.col-md-6.col-sm-7.col-8
+        img.mb-4(src="@/assets/curso/tema1/imagen6.jpg")
+      .col-xxl-6.col-lg-6.col-md-6.col-sm-10.col-11
+        ul.lista-ul--color
+          li 
+            i.fas.fa-check
+            | Preferencia por destinos turísticos no masificados y viajes de una corta estancia en fechas de baja demanda.
+          li
+            i.fas.fa-check
+            | Búsqueda de alojamientos de pequeño tamaño y sin espacios compartidos, como viviendas de turismo rural, apartamentos turísticos y bungalow.
+          li 
+            i.fas.fa-check
+            | Interés en destinos de naturaleza, donde sea posible la realización de actividades al aire libre y espacios abiertos.
+          li 
+            i.fas.fa-check
+            | Reservas a última hora y políticas que permitan la cancelación gratuita.
+          li 
+            i.fas.fa-check
+            | Actividades turísticas en grupos reducidos.
+          li 
+            i.fas.fa-check
+            | Turismo individual.
+    separador
+    #morfologia.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
+      h2 1.6 Morfología del turismo
+    p El turismo se puede clasificar según el tipo de desplazamiento que se haga, como se puede apreciar en la siguiente figura 2:
+    .titulo-sexto.color-acento-contenido
+      span.text-bold.mb-0 Figura 2 
+      span Clasificación de los tipos de turismo, según el desplazamiento
+
+    .row.mb-5.justificar.align-items-center
+      .col-xxl-3.col-xl-3.col-lg-3.col-md-6.col-sm-6.col-6.margenesx
+        .tarjeta-avatar.tamanotipo.fondo10
+          .tarjeta
+            p.px-5.ms-3 Realizado por los no residentes, en el territorio económico del país.
+
+      .col-xxl-3.col-xl-3.col-lg-3.col-md-6.col-sm-6.col-6.margenesx
+        .tarjeta-avatar.fondo11.tamanotipo
+          .tarjeta
+            p.px-5.ms-3 Residentes de propio país se dirigen a otros países.
+      .col-xxl-3.col-xl-3.col-lg-3.col-md-6.col-sm-6.col-6.margenesx
+        .tarjeta-avatar.tamanotipo.fondo12
+          .tarjeta
+            p.px-5.ms-3 El realizado por los residentes en el territorio económico del país.
+    p.my-5 En cuanto al turismo según la actividad desarrollada, en el siguiente recurso se podrá consultar con mayor detalle, la clasificación respectiva:
+    .row.justify-content-center
+      .col-xxl-6.col-xl-7.col-lg-8.col-md-10.col-12.fondo2.mb-5
+        h3.text-white.text-center.pt-2.pb-3.mb-0 Tipos de turismo según la actividad desarrollada
+    //-slider    
+    .tarjeta.tarjeta--azul.p-4.mb-5.fondo13
+      SlyderA.pt-4.otroslide(tipo="b")
+        .row.justify-content-center
+          .col-lg-4.col-md-10.mb-4.mb-md-0
+            h4 Turismo sostenible
+            p El turismo que tiene plenamente en cuenta las repercusiones actuales y futuras, económicas, sociales y medioambientales para satisfacer las necesidades de los visitantes, de la industria, del entorno y de las comunidades anfitrionas. 
+            p Poco a poco la sociedad es cada vez más consciente del impacto que sus acciones tienen en el entorno y el turismo no es una excepción.
+            p Muchas personas buscan que sus vacaciones no tengan repercusiones en el medio ambiente o al menos reducirlas al máximo.
+        
+          .col-lg-7.col-md-8
+            figure
+              img(src='@/assets/curso/tema1/sostenible.png')
+        .row.justify-content-center
+          .col-lg-4.col-md-10.mb-4.mb-md-0
+            h4 Turismo rural
+            p Ofrece al turista la oportunidad de experimentar el encuentro con las diferentes formas de vivir de las comunidades que cohabitan en un ambiente rural y además lo sensibiliza sobre el respeto y valor de su identidad cultural.
+            p Este tipo de turismo de complementa con el agroturismo, que consiste en involucras al turista, con las labores del campo y agrícolas, en donde se puede aprender técnicas, cultura y vivir en el entorno natural de conservación.
+          .col-lg-7.col-md-8
+            figure
+              img(src='@/assets/curso/tema1/rural.png')
+        .row.justify-content-center
+          .col-lg-4.col-md-10.mb-4.mb-md-0
+            h4 Turismo de aventura
+            p Son los viajes que tienen como fin, realizar actividades recreativas, asociadas a desafíos impuestos por la naturaleza.
+            p En tierra, agua, aire, disfrutar de: ciclismo de montaña, alpinismo, <i>rappel</i>, espeleísmo, cabalgata, descenso ríos, pesca recreativa, <i>rafting</i> / kayakismo, vuelo en parapente vuelo en ala delta y <i>bungee jumping</i>.
+
+          .col-lg-7.col-md-8
+            figure
+              img(src='@/assets/curso/tema1/aventura.png')
+        .row.justify-content-center
+          .col-lg-4.col-md-10.mb-4.mb-md-0
+            h4 Turismo gastronómico
+            p Es un tipo de turismo emergente que atrae a viajeros que no solo buscan comer bien, sino descubrir que hay detrás de la gastronomía de un destino, vivir experiencias culinarias, recorrer la zona con rutas de vinos y tapas y visitar mercados en los que descubrir productos autóctonos.
+          .col-lg-7.col-md-8
+            figure
+              img(src='@/assets/curso/tema1/gastro.png')
+        .row.justify-content-center
+          .col-lg-4.col-md-10.mb-4.mb-md-0
+            h4 Turismo de negocios
+            p Los viajes de negocios, MICE (por sus siglas en ingles,<i> Meetings, Incentives, Conventions and Exhibitions</i>),se refiere a los traslados de una ciudad o país a otra, relacionados con actividades corporativas o laborales. Este puede ser individual o grupal.
+            ul.lista-ul--color
+              li 
+                i.fas.fa-caret-right
+                | Es utilizado por empresarios, ejecutivos, comerciales y otros profesionales para cerrar negocios, captar clientes o prestar servicios.
+              li
+                i.fas.fa-caret-right
+                | El cliente suele ser de alto poder adquisitivo.
+              li 
+                i.fas.fa-caret-right
+                | Turismo fundamentalmente urbano
+              li 
+                i.fas.fa-caret-right
+                | Se destacan las reuniones, congresos, convenciones, viajes de incentivos.
+          .col-lg-7.col-md-8
+            figure
+              img(src='@/assets/curso/tema1/negocios.png')
+        .row.justify-content-center
+          .col-lg-4.col-md-10.mb-4.mb-md-0
+            h4 Turismo de bienestar
+            p Este incremento responde, sobre todo, a un cambio de mentalidad en la sociedad. Las personas están más implicadas en cuestiones relacionadas con su bienestar físico y mental. De ahí que cada vez surjan más ofertas de viajes que incluyen retiros de yoga, una alimentación saludable, tratamientos <i>wellness</i> y demás actividades relacionadas con el turismo de bienestar.
+          .col-lg-7.col-md-8
+            figure
+              img(src='@/assets/curso/tema1/bienestar.png')
+        .row.justify-content-center
+          .col-lg-4.col-md-10.mb-4.mb-md-0
+            h4 Turismo sol y playa
+            p Aunque generalmente es masivo, de alto consumo y tiene un impacto considerable sobre los ecosistemas y la cultura anfitriona; hoy por hoy este tipo de turismo se viene combinando con la sostenibilidad, iniciativas de cuidados del medio ambiente y los viajes de bienestar, con la intención de disminuir los impactos adversos y cuidar de los ecosistemas.
+
+          .col-lg-7.col-md-8
+            figure
+              img(src='@/assets/curso/tema1/solyplaya.png')
+        .row.justify-content-center
+          .col-lg-4.col-md-10.mb-4.mb-md-0
+            h4 El turismo urbano
+            p Son los viajes realizados a las grandes ciudades y centros urbanos del mundo. El turista busca grandes aeropuertos con vuelos directos a cualquier parte del mundo, amplia infraestructura hotelera (adaptada a todas las necesidades) y una gran oferta gastronómica y actividades de ocio. El turismo urbano engloba a su vez relaciones de negocios, turismo educativo y turismo cultural puesto que las ciudades aglutinan una variada y robusta oferta de ocio y entretenimiento.
+        
+          .col-lg-7.col-md-8
+            figure
+              img(src='@/assets/curso/tema1/noche.png')
+        .row.justify-content-center
+          .col-lg-4.col-md-10.mb-4.mb-md-0
+            h4 Turismo médico/salud
+            p Es aquel en el que el turista se moviliza con la finalidad de realizar una consulta médica o someterse a un proceso quirúrgico al que no tiene acceso en su lugar de origen. Dentro de este grupo, la cirugía estética es una de las más demandadas, aunque puede tratarse de cualquier procedimiento o consulta.
+        
+          .col-lg-7.col-md-8
+            figure
+              img(src='@/assets/curso/tema1/salud.png') 
+        .row.justify-content-center
+          .col-lg-4.col-md-10.mb-4.mb-md-0
+            h4 Turismo educativo
+            p Es aquel en el que el turista se moviliza con la finalidad de realizar una consulta médica o someterse a un proceso quirúrgico al que no tiene acceso en su lugar de origen. Dentro de este grupo, la cirugía estética es una de las más demandadas, aunque puede tratarse de cualquier procedimiento o consulta.
+        
+          .col-lg-7.col-md-8
+            figure
+              img(src='@/assets/curso/tema1/educativo.png') 
+
+    separador
+    #leyes.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
+      h2 1.7 Leyes en turismo
+    p El turismo no está exento de la aplicación de leyes y normativas que regulan la industria de este sector, desde 1996 se ha ido reconociendo no sólo su importancia, sino también la reglamentación que favorece el servicio, y el renglón económico al que pertenece y que genera un importante aporte a la economía del país. Las principales leyes que enmarcan la industria del turismo son (ver tabla 2):
+
+    .titulo-sexto.color-acento-contenido.my-5
+      span.text-small.mb-0 Tabla 2 
+      span.text-small.mb-0 Normatividad que regula el sector turístico
+    .tabla-c
+      table
+        tr.fondo14
+          th 
+            h4.text-center.text-white 
+          td
+            h4.text-center.text-white Ley 300 de 1996
+          td
+            h4.text-center.text-white Ley 1101 de 2006
+          td
+            h4.text-center.text-white Ley 1558 de 2012
+          td
+            h4.text-center.text-white Ley 2068 de 2020
+        tr
+          th 
+            h4.text-center Objeto de la ley
+          td 
+            p Ley general del turismo, reconoce la importancia del turismo para el desarrollo nacional.
+          td
+            p Modifica la ley 300 de 1996 y crea el impuesto nacional con destino al turismo como inversión social mediante la promoción y el fortalecimiento de la competitividad que comprende la capacitación y la calidad turísticas.
+          td
+            p Fomenta, el desarrollo, la promoción, la competitividad del sector y la regulación de la actividad turística, mediante el aprovechamiento de los recursos y atractivos turísticos nacionales.
+          td
+            p Fomenta la sostenibilidad e implementa mecanismos para la conservación, protección y aprovechamiento de los destinos y atractivos turísticos, formaliza la competitividad del sector y promueve la recuperación de la industria turística, mediante incentivos, la calidad y el impulso de oportunidades del sector.
+        tr
+          th 
+            h4.text-center Concepción del turismo
+          td 
+            p Una industria esencial para el desarrollo del país con una función social.
+          td
+            p Una industria esencial para el desarrollo del país con una función social.
+          td
+            p El turismo se concibe, como una industria esencial para el desarrollo del país con una función social, una actividad comercial o industrial.
+          td
+            p Un sector esencial para el desarrollo del país con funciones económicas, sociales y ambientales que se debe reactivar y velar por su crecimiento.
+    .row.ampliarambos.fondo15
+      .col-xxl-12.px-5
+        p.my-5.text-center Nota. SENA (2022).
+        p.mb-5 En relación con la ley 1558 de 2012, como ya se indicó, su objetivo fue conseguir más recursos para promoción y competitividad a partir del pago de impuestos de los prestadores de servicios turísticos. Teniendo en cuenta que estos recursos se destinan a:
+        .row.justify-content-center
+          .col-xxl-3.col-xl-3.col-lg-3.col-md-4.col-sm-4.col-5
+            ul.lista-ul--color
+              li 
+                i.fas.fa-check
+                | Promoción nacional e internacional.
+              li
+                i.fas.fa-check
+                | Competitividad.
+              li 
+                i.fas.fa-check
+                | Prevención del turismo sexual infantil.     
+          .col-xxl-7.col-xl-7.col-lg-7.col-md-6.col-sm-6.col-5
+            p Para recolectarlos se crea el Fondo de Promoción Turística que se encarga de administrar el recaudo del impuesto al turismo, los recursos que entran a financiar la infraestructura turística, y también el dinero que se invertirá posteriormente en los temas relacionados con la promoción y la competitividad turística de los destinos.
+        .cajon.color-primario.p-4.mb-4.mt-4.fondo1
+          p En esta ley se deja determinado el cumplimiento obligatorio para los prestadores de servicios turísticos en cuanto a la inscripción al Registro Nacional de Turismo, que es el documento legal que les confiere el permiso a estas empresas para que desempeñen su función y también para que puedan acceder a las diferentes fuentes de apoyo del Gobierno Nacional y sus programas regionales.
+        p.my-5 Este Registro Nacional de Turismo, brinda unos beneficios, entre los que se puede encontrar:
+        .titulo-sexto.color-acento-contenido
+          span.text-bold.mb-0 Figura 3 
+          span Beneficios Registro Nacional de Turismo
+        .row.justify-content-center
+          .col-xxl-2.col-xl-3.col-lg-3.col-md-5.col-sm-5.col-6
+            img(src='@/assets/curso/tema1/beneficio1.svg')
+          .col-xxl-2.col-xl-3.col-lg-3.col-md-5.col-sm-5.col-6
+            img(src='@/assets/curso/tema1/beneficio2.svg')
+          .col-xxl-2.col-xl-3.col-lg-3.col-md-5.col-sm-5.col-6
+            img(src='@/assets/curso/tema1/beneficio3.svg')
+          .col-xxl-2.col-xl-3.col-lg-3.col-md-5.col-sm-5.col-6
+            img.anchoimg(src='@/assets/curso/tema1/beneficio4.svg')
+        p.text-center.mt-5 Nota. SENA (2022)
+    p.mb-5 De manera adicional, en esta misma ley se generaron varios proyectos relacionados con el gremio, como puede verse a continuación:
+
+    TabsC.color-primario
+      .py-3.py-md-4(titulo="Proyectos generados en la ley 1558 de 2012 de turismo")
+        .row.justify-content-around
+          .col-md-7.mb-4.mb-md-0
+            p Comités locales para la Organización de las Playas  que divide las zonas así:
+            ul.lista-ul--color
+              li 
+                i.fas.fa-caret-right
+                | Zonas destinadas al baño y al descanso.
+              li
+                i.fas.fa-caret-right
+                | Zonas destinadas a la recreación.
+              li 
+                i.fas.fa-caret-right
+                | Zonas destinadas a las ventas de bienes de consumo. 
+              li 
+                i.fas.fa-caret-right
+                | Zonas destinadas a la prestación de otros servicios relacionados con las actividades de aprovechamiento del tiempo libre que desarrollen los usuarios de las playas.
+              li 
+                i.fas.fa-caret-right
+                | Aprovechamiento del tiempo libre que desarrollen los usuarios de las playas.
+          .col-md-3
+            figure
+              img(src='@/assets/curso/tema1/ley1.jpg', alt='Texto que describa la imagen')
+
+      .py-3.py-md-4(titulo="Programas de inversión social en las comunidades")
+        .row.justify-content-around
+          .col-md-7
+            p Teniendo especial cuidado aquellas comunidades/personas, en condición de vulnerabilidad.
+          .col-md-3.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema1/ley2.jpg', alt='Texto que describa la imagen')
+      .py-3.py-md-4(titulo="Destinación al turismo de bienes incautados al narcotráfico")
+        .row.justify-content-around
+          .col-md-7.mb-4.mb-md-0
+            p Los bienes inmuebles con vocación turística incautados por delitos de narcotráfico, serán administrados por el Fondo Nacional de Turismo o la entidad pública que este contrate.
+          .col-md-3
+            figure
+              img(src='@/assets/curso/tema1/ley3.jpg', alt='Texto que describa la imagen')
+
+      .py-3.py-md-4(titulo="Medalla al mérito turístico")
+        .row.justify-content-around
+          .col-md-7
+            p Esta medalla, tiene como fin el reconocimiento a los prestadores de servicios turísticos que se destaquen por su innovación, promoción o internacionalización del turismo otorgada por el Ministerio de Comercio, Industria y Turismo.
+          .col-md-3.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema1/ley4.jpg', alt='Texto que describa la imagen')
+
+    p.mt-5 La última ley generada para regular las actividades del sector es la 2060 de 2020, esta ley modifica el programa de apoyo al empleo formal PAEF y el programa de apoyo para el pago de la prima de servicios PAP.
+    p.mb-5 Entre sus objetivos principales está fortalecer la sostenibilidad, la formalización y la competitividad del sector y promover la reactivación del turismo, para consolidar el país como un destino altamente reconocido, sostenible, responsable y de alta calidad. Además de tener como propósito fundamental, reactivar económicamente al sector después de un año de pandemia, combinando medidas de corto, mediano y largo plazo.
+    p.mb-5 Entre las medidas tributarias transitorias de la ley y que serán de gran ayuda se encuentran las indicadas en la siguiente figura 4:
+    .titulo-sexto.color-acento-contenido
+      span.text-bold.mb-0 Figura 4 
+      span  Medidas tributarias transitorias en la Ley 2060 de 2020 de Turismo
+
 </template>
 
 <script>
@@ -537,7 +846,45 @@ export default {
     Muestras, // borrar una vez el componente "Muestras" no se necesite
   },
   data: () => ({
-    // variables de vue
+    datosLineaTiempoB: [
+      {
+        titulo: '<p style="color: #111E61; font-weight: 700;">Prehistoria</p>',
+        texto:
+          '<p style="color: #111E61;">Primeros desplazamientos por cuestiones climáticas, de alimentación y presiones de grupos.</p>',
+        icono: require('@/assets/curso/tema1/prehistoria.png'),
+      },
+      {
+        titulo: '<p style="color: #111E61; font-weight: 700;">Edad antigua</p>',
+        texto:
+          '<p style="color: #111E61;">Aparecen actividades de tiempo libre y de ocio creativo en la Antigua Grecia. Con la cultura Romana inician las primeras actividades de termalismo. Primeros viajes hacia el mar en época dorada de la antigua Roma, así como las actividades de teatro.</p>',
+        icono: require('@/assets/curso/tema1/antigua.png'),
+      },
+      {
+        titulo: '<p style="color: #111E61; font-weight: 700;">Edad media</p>',
+        texto:
+          '<ul style="list-style-type: disc; margin-left:1em; color:#008BD2;"><li><p style="color: #111E61;">Primeros peregrinaciones hacia lugares cristianos.</p></li><li><p style="color: #111E61;">Surgen las Cruzadas con el objetivo de recuperar territorios cristianos invadidos por los árabes.</p></li><li><p style="color: #111E61;">Primeros mapas y rutas de caminos de peregrinación.</p></li><li><p style="color: #111E61;">Nacen los refugios y hospedajes en dichos caminos por Europa.</p></li></ul>',
+        icono: require('@/assets/curso/tema1/media.png'),
+      },
+      {
+        titulo: '<p style="color: #111E61; font-weight: 700;">Edad moderna</p>',
+        texto:
+          '<p style="color: #111E61;">Aparecen las primeras formas de alojamiento y surge el concepto de Hotel. Por cuenta de los viajes a América, aparece la geografía como ciencia. Surgen las expediciones para jóvenes aristócratas <i>“El Grand Tour”</i>.Aumenta la demanda de visitas a aguas termales.</p>',
+        icono: require('@/assets/curso/tema1/moderna.png'),
+      },
+      {
+        titulo:
+          '<p style="color: #111E61; font-weight: 700;">Edad contemporánea</p>',
+        texto:
+          '<p style="color: #111E61;">Revolución industrial que aumenta actividades de tiempo libre y viajes. El inglés Thomas Cook organiza el primer viaje y crea su agencia de viajes. Se fortalecen hoteles y la administración en este campo. Se potencializan los viajes en automóvil y avión. Se universaliza el mercado turístico a partir de la apertura de fronteras.</p>',
+        icono: require('@/assets/curso/tema1/contemporanea.png'),
+      },
+      {
+        titulo: '<p style="color: #111E61; font-weight: 700;">Siglo XXI</p>',
+        texto:
+          '<p style="color: #111E61;">Aumentan los viajes a destinos como Asia Central y el Pacífico. Entra el auge del Turismo de aventura y de naturaleza. Con las tendencias del siglo XXI se potencializa el turismo experiencial. En turismo de sol y playa, los viajes se dirigen hacia lugares lejanos.</p>',
+        icono: require('@/assets/curso/tema1/xxi.png'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
