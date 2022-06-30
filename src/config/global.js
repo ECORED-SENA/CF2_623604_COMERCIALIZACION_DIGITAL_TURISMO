@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Diseño de experiencias gastronómicas',
     descripcionCurso:
       'Actualmente, destinos de todo el mundo diseñan estrategias para potenciar la identidad gastronómica de sus territorios e impulsar propuestas que conlleven a los turistas a querer profundizar en la cultura gastronómica de los lugares que visita. Así, la gastronomía ha tomado relevancia, en la diferenciación de los destinos y del turismo gastronómico convirtiéndose en un segmento de mercado, enfocado en generar experiencias.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {

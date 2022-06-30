@@ -11,12 +11,12 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica 1
-        p.mb-4 Relación de conceptos
+          h2 Relación de conceptos
+        p.mb-4 Afianzar conocimientos del diseño de experiencias gastronómicas en el proceso de aprehensión de conocimientos.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Afianzar conocimientos del diseño de experiencias gastronómicas en el proceso de aprehensión de conocimientos.
+              p.fw-bold.mb-0 Arrastrar y soltar 
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar

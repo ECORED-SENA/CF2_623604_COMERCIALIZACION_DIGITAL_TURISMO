@@ -189,7 +189,7 @@
         .row
           .col-lg-1
             img.tamimg(src='@/assets/curso/tema1/ico.svg', alt='Texto que describa la imagen')
-          .col-lg-9
+          .col-lg-9.mt-2
             p.text-small.mb-0 Para minimizar los riesgos en los establecimientos gastronómicos colombianos, el gobierno y puntualmente la Subdirección de Salud Nutricional, Alimentos y Bebidas, han creado una guía orientadora de la normatividad sanitaria vigente, dirigida a quienes ejercen actividades de manipulación de alimentos y bebidas en establecimientos gastronómicos; la puede consultar en el siguiente enlace: 
           .col-lg-2
             .mt-3
@@ -406,7 +406,7 @@
             p.p-3 Como ya se había indicado también existe la carta de platos, cuyo objetivo es promocionar y dar a conocer los productos que se ofrecen en un restaurante, por ello es fundamental su diseño, para obtener la atención de los comensales.
             p.p-3.mb-0 Es necesario pensar en diferentes ítems cuando se está a punto de diseñar la carta: en caso de ser impresa, se deberá considerar la resistencia, la firmeza, la textura, el color y la tipografía para describir los platos; esto con el fin de generarle una fácil lectura al cliente.
 
-      .col-lg-4
+      .col-lg-4.mt-2
         img(src='@/assets/curso/tema1/25.png' alt='AvatarTop')
       .col-lg-4
         .row.justify-content-center.color4
@@ -415,43 +415,52 @@
             p.p-3.mb-5 Se debe tener especial cuidado con el uso del color, ya que, según el neuromarketing, este puede estimular el apetito del cliente y reflejar la imagen del restaurante. A continuación, se explican los diferentes tipos de cartas que hay, así como las consideraciones en su diseño, veamos:
     .tarjeta.tarjeta--azul.p-4.mb-5.mt-5.bg4
       SlyderA(tipo="b")
-        .row
+        .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h5 Carta central
             p.mt-5 Este formato sirve para menús cortos, de servicio rápido y donde los clientes están familiarizados con las opciones que van a encontrar en el menú. Es común encontrarlo en restaurantes de comidas rápidas ya que permite que el comensal lea el menú mientras hace la fila. 
         
-          .col-md-8    
+          .col-md-7    
               img(src='@/assets/curso/tema1/80.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h5 Formato de una sola página
             p.mt-5 Se utiliza cuando se tienen pocos productos para ofrecer y no requieren de mucha explicación. Es muy común encontrarlos en restaurantes de comida casual y gourmet. Funcionan en diferentes tipos y formas, a una sola cara o por ambas. La ventaja de este estilo de menú es que es muy sencillo y flexible, además de que es a bajo costo. 
 
         
-          .col-md-8    
+          .col-md-7   
               img(src='@/assets/curso/tema1/26.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h5 Formato de múltiples páginas
             p.mt-5 este menú es utilizado cuando existe una larga lista de platos que requieren de una descripción. También, si en su oferta tiene entradas, postres, fuertes y bebidas. El problema que tiene este tipo de menú es que el comensal se demora más tiempo en decidir, revisar y pedir. Lo que trae como consecuencia que se retrase la facturación y se estanque la rotación.
-          .col-md-8    
+          .col-md-7  
               img(src='@/assets/curso/tema1/27.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h5 Secciones de la carta
             p.mt-5 Para crear y diseñar una carta de restaurante, es importante que la dividas por grupos:
-          .col-md-8    
-              img(src='@/assets/curso/tema1/28.png', alt='Texto que describa la imagen')
-        .row
+          .col-md-8 
+            .row.pt1.p-2
+              p <strong>Primero</strong> puede incluir aquellos platos que estimulan el apetito del cliente “Para picar”: Entradas, Sopas, Cremas, Aperitivos…
+            .row.pt2.p-2
+              p En un <strong>segundo grupo</strong> se coloca los platos ligeros: ensaladas, sándwiches, tortillas, arroces y pastas.
+            .row.pt1.p-2
+              p En una <strong>tercera parte</strong> coloca los platos principales y fuertes: carnes blancas, rojas, pescados o platos de la casa.
+            .row.pt2.p-2
+              p Por último, coloca los postres (tanto fríos como calientes), y las principales bebidas.
+              p Si se tiene una selección grande de vinos, cocktails o alcoholes fuertes, incluye otra carta especial para este tipo de bebidas.
+   
+        .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h5 Aspectos que se deben incluir para diseñar la carta
 
             p.mt-5 <strong>1. Datos del negocio:</strong> son elementos que ayudarán al cliente a identificar el negocio: nombre, logotipo de manera visible, dirección, teléfono de contacto, correo electrónico y, muy importante hoy en día ¡las redes sociales!
             p <strong>2. Define tu público objetivo:</strong>  esto es esencial para saber cuál será el mejor estilo de carta y también ayudará a elegir los colores, los gráficos, los platos destacados, etc.
             p <strong>3. La propuesta gastronómica:</strong>   se debe tener por escrito los platillos que se quieren ofrecer, una breve reseña que describa su preparación y el precio. <strong>Comienza con los títulos o categorías y luego detalla las opciones.</strong> 
-          .col-md-8    
+          .col-md-7    
               img(src='@/assets/curso/tema1/29.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h5 Categoriza y simplifica la información
 
@@ -463,9 +472,9 @@
             p.mb-0 Hacer que el cliente no piense en el gasto y no se guie por los precios: no se incluye el símbolo de $ o se coloca el precio con la letra K a lo último (que indica miles). Ejemplo 10 K.
             p Otra opción es exponer el valor de lo que se ofrece, es decir, mostrar por qué los platos más caros de la carta cuestan más. Por ejemplo, infórmale al cliente si el plato incluye una carne de primera calidad, verduras orgánicas o un proceso artesanal que insume más tiempo.
 
-          .col-md-8    
+          .col-md-7  
               img(src='@/assets/curso/tema1/300.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h5 Define la línea de diseño
             p esto va depender del público objetivo y la propuesta de tu restaurante.
@@ -474,15 +483,15 @@
             p.mb-0 - El tipo de papel, tipo de acabado o la plataforma digital en la que se hará
             p.mb-0 - El tipo de letra: tamaño equilibrado, que sea legible (y ayudar a la percepción del cliente), con letras de color oscuro sobre un fondo claro, y facilitando la lectura.
             p.mb-0 - El tipo de carta a diseñar (según lo que ya se vio anteriormente).
-          .col-md-8    
+          .col-md-7 
               img(src='@/assets/curso/tema1/311.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h5 Y por último, pero no menos importante, esmérate con las fotos
 
             p.mt-5 No es imprescindible que en una carta de restaurante haya fotos de los platos, pero si se incluyen, deben ser de buena calidad.
 
-          .col-md-8    
+          .col-md-7   
               img(src='@/assets/curso/tema1/32.png', alt='Texto que describa la imagen')
     separador            
     #t_1_5.titulo-segundo.color-acento-contenido
@@ -493,7 +502,7 @@
       .col-lg-6
         .row
           .col-lg-12
-            .cajon.color-primario.p-4.mb-4
+            .cajon.color-primario.p-4.mb-4.mt-2
               p La palabra bebida es de uso común, y se refiere a todo tipo de líquidos (naturales o artificiales) que puedan ser utilizados para el consumo humano y cuyo principal objeto es calmar la sed o hidratar nuestro organismo. 
               p El concepto de bebida se relaciona puntualmente con una de las necesidades primarias del ser humano que es reponer los líquidos que utiliza en la realización de sus actividades diarias. 
         
@@ -570,7 +579,7 @@
           p(numero="5" titulo="Separa las cartas de bebida") Un error clásico es juntar los vinos con el resto de bebidas, debe crear dos cartas, una con los vinos de comercialización, y otra con el resto de las bebidas. 
           p(numero="6" titulo="Destaque sugerencias o especialidades de la casa") Ponga algunas bebidas en negrita, mayúsculas o cursiva, reálcelas con imágenes atractivas o colores sugerentes. Pero no exagere demasiado o el efecto se esfumará.
           p(numero="7" titulo="El diseño") Una vez definida la estructura hay que decidir el diseño. La carta es un buen escaparate, se deben tener en cuenta varios factores para su elaboración, como el estilo y el diseño de la portada, el tipo de letra, el color e imágenes, el tipo de papel y la distribución del contenido.
-      .col-lg-6     
+      .col-lg-6.mt-2  
         img(src='@/assets/curso/tema1/i3.png', alt='Texto que describa la imagen')
     p.mt-5 La tendencia actual es tener cartas reducidas porque facilitan al cliente su elección, acortan el tiempo de toma de la comanda y reducen el número de artículos de almacén.
     .row.justify-content-center.mt-4
@@ -598,23 +607,23 @@
       //- PasosB debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       PasosB.color-primario
-        .row(titulo="Palabra")
-          .col-md-6.mb-4.mb-md-0.mt-5
+        .row.justify-content-center(titulo="Palabra")
+          .col-md-5.mb-4.mb-md-0.mt-5
             h5 Agua de panela
             p El agua de panela, o ‘aguapanela’, como se le conoce comúnmente, es una de las bebidas tradicionales, es refrescante, energizante y al mismo tiempo, un “remedio” casero para aliviar los días de resfriado. Se prepara con panela, agua y en algunas ocasiones, con zumo de limón, y se consume en todas las regiones de Colombia, ya sea caliente o fría.
             p La aguapanela es especialmente popular en la cultura colombiana, pues hace parte del día a día de los colombianos. Se suele acompañar con queso, almojábana o arepa. Incluso, tiene una versión con alcohol conocida como “canelazo” una preparación a base de canela y aguardiente.
           .col-md-6.mt-5
             figure
               img(src='@/assets/curso/tema1/50.png', alt='Texto que describa la imagen')
-        .row(titulo="Champús colombiano")
-          .col-md-6.mb-4.mb-md-0.mt-5
+        .row.justify-content-center(titulo="Champús colombiano")
+          .col-md-5.mb-4.mb-md-0.mt-5
             h5 Champús colombiano
             p Esta bebida, mayormente conocida y consumida en el Valle del Cauca, se prepara con melado de panela, maíz y frutas locales como: lulo, piña o guanábana, clavos de olor y canela al gusto. Una preparación que se licúa y se sirve con mucho hielo como refresco para los intensos días de calor en la capital de la salsa. Se suele acompañar del tradicional ‘pandebono’ o de empanadas vallunas.
           .col-md-6.mt-5
             figure
               img(src='@/assets/curso/tema1/51.png', alt='Texto que describa la imagen')
-        .row(titulo="La chicha")
-          .col-md-6.mb-4.mb-md-0.mt-5
+        .row.justify-content-center(titulo="La chicha")
+          .col-md-5.mb-4.mb-md-0.mt-5
             h5 La chicha
             p Es una de las bebidas tradicionales latinoamericanas, a base de maíz fermentado con azúcar. En Colombia, dependiendo de la región del país se prepara a base de piña o yuca, aunque es propia de la región andina colombiana. Su grado de alcohol, así como su sabor dulce o amargo varía dependiendo del tiempo de fermentación.
             p La chicha es originariamente una bebida indígena Muisca, que poco a poco se volvió del común, tanto así que hoy en día se puede conseguir en el centro de Bogotá.
@@ -622,30 +631,30 @@
           .col-md-6.mt-5
             figure
               img(src='@/assets/curso/tema1/52.png', alt='Texto que describa la imagen')
-        .row(titulo="Refajo")
-          .col-md-6.mb-4.mb-md-0.mt-5
+        .row.justify-content-center(titulo="Refajo")
+          .col-md-5.mb-4.mb-md-0.mt-5
             h5 Refajo
             p Nada más colombiano que un refajo, una bebida que resulta al combinar cerveza con gaseosa, generalmente de sabor kola roja o con la famosa ‘Colombiana’. Esta es una de las bebidas más apetecidas en la mesa de los colombianos, ya sea para celebrar o simplemente para compartir una comida, pues desde los años 90’s se convirtió en una costumbre, tanto así que llegó al mercado con una presentación propia.
           .col-md-6.mt-5
             figure
               img(src='@/assets/curso/tema1/53.png', alt='Texto que describa la imagen')
-        .row(titulo="Masato")
-          .col-md-6.mb-4.mb-md-0.mt-5
+        .row.justify-content-center(titulo="Masato")
+          .col-md-5.mb-4.mb-md-0.mt-5
             h5 Masato
             p Es una de las bebidas artesanales más populares en los departamentos de Cundinamarca, Santander y Tolima. Al igual que la chicha, es fermentada y elaborada a base de cereales como el arroz, el maíz y el trigo, o tubérculos como la yuca. Se suele acompañar de una almojábana o pan de yuca, se consume fría y como merienda (en la mañana o en la tarde)
 
           .col-md-6.mt-5
             figure
               img(src='@/assets/curso/tema1/54.png', alt='Texto que describa la imagen')
-        .row(titulo="Viche")
-          .col-md-6.mb-4.mb-md-0.mt-5
+        .row.justify-content-center(titulo="Viche")
+          .col-md-5.mb-4.mb-md-0.mt-5
             h5 Viche
             p Esta bebida artesanal típica del Pacífico colombiano se fabrica a partir del jugo de la caña de azúcar y se le agregan diferentes ingredientes para darle un sabor más agradable. Su contenido de alcohol es similar al del aguardiente, incluso del viche se derivan otras bebidas colombianas como el ‘arrechón’, el ‘tumbacatre’ y el ‘tomaseca’. En el pasado, el viche fue utilizado para dolores estomacales, así como para aumentar el vigor y la fertilidad, y siempre ha sido conocido por sus efectos afrodisíacos.
           .col-md-6.mt-5
             figure
               img(src='@/assets/curso/tema1/i4.png', alt='Texto que describa la imagen')
-        .row(titulo="Aguardiente")
-          .col-md-6.mb-4.mb-md-0.mt-5
+        .row.justify-content-center(titulo="Aguardiente")
+          .col-md-5.mb-4.mb-md-0.mt-5
             h5 Aguardiente
             p Es coloquialmente conocido como ‘guaro’ y representa una de las bebidas colombianas por excelencia. El aguardiente es una bebida destilada a base de caña de azúcar y anís, considerada por los colombianos como el licor nacional. Tradicionalmente se disfruta solo y frío.
             p Su consumo es muy popular en las diferentes ciudades de Colombia, en donde se comercializan marcas emblemáticas como el Tapa Roja del Tolima, el Doble Anís del Huila, el Antioqueño, el Néctar de Cundinamarca, entre otros. Incluso, hoy en día han salido al mercado marcas colombianas premium o ultra premium como el Aguardiente Mil Demonios.
@@ -653,23 +662,23 @@
           .col-md-6.mt-5
             figure
               img(src='@/assets/curso/tema1/i5.png', alt='Texto que describa la imagen')
-        .row(titulo="Chirrinchi")
-          .col-md-6.mb-4.mb-md-0.mt-5
+        .row.justify-content-center(titulo="Chirrinchi")
+          .col-md-5.mb-4.mb-md-0.mt-5
             h5 Chirrinchi
             p Es una de las bebidas tradicionales de los pueblos originarios Wayuu en La Guajira colombiana. Es un licor que se obtiene al destilar la panela de caña de azúcar, mezclado con varias especias. Para los indígenas Wayuu es una bebida muy importante como parte de sus celebraciones y rituales. Sin embargo, en Bogotá se puede probar un chirrinchi distinto, a base de hierbas y frutos como el hinojo, la limonaria y la manzanilla.
           .col-md-6.mt-5
             figure
               img(src='@/assets/curso/tema1/i6.png', alt='Texto que describa la imagen')
-        .row(titulo="Borojó")
-          .col-md-6.mb-4.mb-md-0.mt-5
+        .row.justify-content-center(titulo="Borojó")
+          .col-md-5.mb-4.mb-md-0.mt-5
             h5 Borojó
             p A esta bebida se le atribuyen efectos afrodisíacos, al mismo tiempo, propiedades nutricionales y sanadoras. 
             p Se trata de un jugo preparado con borojó, una fruta de color morado o marrón (que solo se da en el Chocó), agua, leche, azúcar o panela, vainilla, huevos y hielo. Usualmente se toma al desayuno o para acompañar una merienda.
           .col-md-6.mt-5
             figure
               img(src='@/assets/curso/tema1/i7.png', alt='Texto que describa la imagen')
-        .row(titulo="Sabajón")
-          .col-md-6.mb-4.mb-md-0.mt-5
+        .row.justify-content-center(titulo="Sabajón")
+          .col-md-5.mb-4.mb-md-0.mt-5
             h5 Sabajón
             p Es un licor a base de aguardiente, muy popular por su sabor dulce y cremoso, debido a que incluye: leche, yema de huevo, leche condensada y canela. 
 
@@ -767,11 +776,11 @@
                 p.mb-0 <strong>Altura:</strong> gracias a la altura podemos jugar con los relieves y el movimiento en el plato.
           
           .col-lg-2
-            img(src='@/assets/curso/tema1/12.svg' alt='AvatarTop')
+            img.azx(src='@/assets/curso/tema1/12.svg' alt='AvatarTop')
     p.mt-4 A continuación, encontrará descrita estas reglas para una mejor apreciación de cómo llevar a cabo el servicio:
     .tarjeta.tarjeta--azul.p-4.mb-5.mt-5.bg7
       SlyderA(tipo="b")
-        .row
+        .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Reglas y tipos de emplatado
             p.mt-5 Para comenzar, tenemos que tener en cuenta que para emplatar se puede jugar con todas estas variables:
@@ -797,72 +806,72 @@
             p.mb-0 Si el plato es caliente, poner la carne a las a las 6 y el resto de componentes del plato a las 3 y a las 9, si es frío el plato, comenzar por el centro y desde ahí seguir con el montaje.
 
         
-          .col-md-7.mt-5   
+          .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t1.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h5 Diferentes técnicas de emplatado
             p.mt-5 <strong>Emplatado tradicional:</strong> en este emplatado se divide el plato como si se tratase de un reloj. La proteína se coloca a las 6, la guarnición de carbohidratos a las 2 y la de verduras a las 10. Se trata de un emplatado rápido y sencillo que deja a la vista todos los ingredientes.
 
-          .col-md-7.mt-5   
+          .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t2.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h5 Emplatado NO tradicional
             p.mt-5 aquí entra a formar parte la creatividad del cocinero, dejaremos las normas clásicas y nos vamos a utilizar la imaginación y la vena artística del chef, aparece con la Nouvelle Cuisine en Francia.
-          .col-md-7.mt-5   
+          .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t3.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h5 Emplatado estructurado o centrado
             p.mt-5 se caracteriza por la aparición de elementos decorativos y el cuidado de los detalles y aunque tengamos libertad, esta forma de emplatar se subdivide en dos categorías: estructurado y disperso
             p se caracteriza por la aparición de elementos decorativos y el cuidado de los detalles y aunque tengamos libertad, esta forma de emplatar se subdivide en dos categorías: estructurado y disperso
 
-          .col-md-7.mt-5   
+          .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t4.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h5 Emplatado disperso
             p.mt-5 ni números ni alturas, los ingredientes se integran por todo el plato, lo habitual es que el más importante o principal vaya en el centro y el resto a su alrededor. Se busca la armonía horizontal, todos los elementos lucen por sí mismos y se aprecian texturas y técnicas Este es el primer paso para aprender a emplatar, nos quedan más capítulos, los elementos y la composición serán los siguientes capítulos.
-          .col-md-7.mt-5   
+          .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t5.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h5 Emplatado simétrico
             p.mt-5 El plato se divide en dos partes y los elementos se colocan manteniendo un equilibrio proporcional entre ellas. 
             p Existe igualdad de peso en las dos partes del plato, como alas de mariposa. Transmite una sensación de orden y armonía procedente de la misma Naturaleza.
 
-          .col-md-7.mt-5   
+          .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t6.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h5 El emplatado asimétrico
             p.mt-5 al igual que en el caso anterior, dividimos el plato en dos partes, sin embargo, una tiene más peso visual que la otra.
-          .col-md-7.mt-5   
+          .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t7.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h5 Emplatado rítmico
             p.mt-5 se emplea mucho en los postres y la pastelería. Se trata de hacer repeticiones en el plato de los diferentes elementos para conseguir un diseño dinámico y atractivo aunque ordenado.
-          .col-md-7.mt-5   
+          .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t8.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h5 Emplatado triangular o romboidal
             p.mt-5 Al utilizar este tipo de emplatado conseguimos que el ojo se pasee por todo el plato. También permite jugar con las diferentes alturas.
-          .col-md-7.mt-5   
+          .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t9.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h5 Emplatado cuadrado u horizontal
             p.mt-5 Se utilizan los elementos en forma de cubos o formas similares.
-          .col-md-7.mt-5   
+          .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t10.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h5 Emplatado circular
             p.mt-5 el punto focal en este caso se sitúa en el centro del plato y los diferentes elementos se disponen a su alrededor.
-          .col-md-7.mt-5   
+          .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t11.png', alt='Texto que describa la imagen')
     .row.justify-content-center.mt-4
       .col-lg-10.col2.p-4
@@ -914,13 +923,13 @@
     .row.justify.content-center.mt-4
       .col-lg-8
         LineaTiempoD.color-acento-botones
-          p.text-small(numero="1" titulo="Innovación") En este aspecto se debe considerar el tipo de restaurante, tipo de comensal y funcionalidad de la vajilla. Se puede ofrecer una vajilla comercial que sea segura y que funcione con cualquier comida y cualquier decoración o una vajilla completamente innovadora y única, que brinde una ventaja competitiva.
+          p(numero="1" titulo="Innovación") En este aspecto se debe considerar el tipo de restaurante, tipo de comensal y funcionalidad de la vajilla. Se puede ofrecer una vajilla comercial que sea segura y que funcione con cualquier comida y cualquier decoración o una vajilla completamente innovadora y única, que brinde una ventaja competitiva.
           
-          p.text-small(numero="2" titulo="Ambiente") Se debe tener en cuenta el tipo de sensación que se desea crear con la decoración de su restaurante y la manera en que se desea que los clientes perciban el establecimiento. El menaje adecuado será de gran ayuda para asegurar el estilo de su negocio.
-          p.text-small(numero="3" titulo="Durabilidad") Es esencial considerar qué tan duradero es el servicio de mesa. Si tiene un restaurante grande con plazos de entrega rápidos, necesitará invertir en vajillas comerciales que sean mucho más duraderas que las que se necesitarían para un pequeño restaurante de estilo boutique donde el número de invitados es menor y la rotación o reposición de los utensilios será más progresiva. 
+          p(numero="2" titulo="Ambiente") Se debe tener en cuenta el tipo de sensación que se desea crear con la decoración de su restaurante y la manera en que se desea que los clientes perciban el establecimiento. El menaje adecuado será de gran ayuda para asegurar el estilo de su negocio.
+          p(numero="3" titulo="Durabilidad") Es esencial considerar qué tan duradero es el servicio de mesa. Si tiene un restaurante grande con plazos de entrega rápidos, necesitará invertir en vajillas comerciales que sean mucho más duraderas que las que se necesitarían para un pequeño restaurante de estilo boutique donde el número de invitados es menor y la rotación o reposición de los utensilios será más progresiva. 
           
-          p.text-small(numero="4" titulo="Materiales") Se debe definir entre los diferentes materiales que existen para el menaje, teniendo en cuenta que cada utensilio puede contribuir a la generación de valor de la marca. Existe la cerámica, la porcelana, la melamina, el barro, etc. 
-          p.text-small(numero="5" titulo="Proveedores de alimentos poco fiables") <strong>Platos:</strong> de pan, de presentación, trincheros, soperos, de postre, de consomé (también pueden ser tazas) <br><br> <strong>Copas (según tipo de bebida):</strong> agua, vino blanco, vino tinto champán, vermouth, jerez coñac, licor. <br><br><strong>Vasos:</strong> básico, tubo, highBall, pilsner, chupito <br><br> <strong>Cubiertos (puede variar según estilo/especialización del restaurante):</strong> cuchara sopera, tenedor y cuchillo de mesa, tenedor y cuchillo de trinchar, cuchillo de carne, tenedor y pala de pescado, pinzas de marisco, cuchara salsera, cuchara, tenedor y cuchillo de postre, cortador y pala de tartas. <br><br><strong>Utensilios de cocina:</strong> cucharas y cucharones, de acero inoxidable, juego de cuchillos de cocina y tijeras, tablas de cortar batería completa de sartenes y cacerolas, incluyendo ollas de presión,cazos y cestillos, bowls de diferentes tamaños, biberones para salsas, bandejas, moldes para hornear, brochetas, espátulas, colador.
+          p(numero="4" titulo="Materiales") Se debe definir entre los diferentes materiales que existen para el menaje, teniendo en cuenta que cada utensilio puede contribuir a la generación de valor de la marca. Existe la cerámica, la porcelana, la melamina, el barro, etc. 
+          p(numero="5" titulo="Proveedores de alimentos poco fiables") <strong>Platos:</strong> de pan, de presentación, trincheros, soperos, de postre, de consomé (también pueden ser tazas) <br><br> <strong>Copas (según tipo de bebida):</strong> agua, vino blanco, vino tinto champán, vermouth, jerez coñac, licor. <br><br><strong>Vasos:</strong> básico, tubo, highBall, pilsner, chupito <br><br> <strong>Cubiertos (puede variar según estilo/especialización del restaurante):</strong> cuchara sopera, tenedor y cuchillo de mesa, tenedor y cuchillo de trinchar, cuchillo de carne, tenedor y pala de pescado, pinzas de marisco, cuchara salsera, cuchara, tenedor y cuchillo de postre, cortador y pala de tartas. <br><br><strong>Utensilios de cocina:</strong> cucharas y cucharones, de acero inoxidable, juego de cuchillos de cocina y tijeras, tablas de cortar batería completa de sartenes y cacerolas, incluyendo ollas de presión,cazos y cestillos, bowls de diferentes tamaños, biberones para salsas, bandejas, moldes para hornear, brochetas, espátulas, colador.
  
       .col-lg-4.mt-4
         img(src='@/assets/curso/tema1/66.png', alt='Texto que describa la imagen')
@@ -947,7 +956,7 @@
           .col-lg-12
             .cajon.color-acento-botones.p-4
               h5 Fidelización
-              p Atraer y fidelizar comensales son de los retos más grandes que enfrenta la industria gastronómica, y el mercadeo digital es un aliado importante en este proceso.
+              p.mb-0 Atraer y fidelizar comensales son de los retos más grandes que enfrenta la industria gastronómica, y el mercadeo digital es un aliado importante en este proceso.
     p.mt-4 Las estrategias de marketing, se utilizan con el propósito de conectar a los consumidores con la empresa, en este caso el restaurante, a nivel de los productos que se ofrecen o que se pueden llegar a ofrecer en el futuro.   No basta con dar a conocer lo que queremos vender, sino que es necesario crear planteamientos de venta con perspectiva de futuro, tomando en cuenta los canales disponibles y jugando de acuerdo a sus dinámicas. Este es el motivo por el que cada sector tiene estrategias de marketing específicas orientadas a cubrir sus necesidades y peculiaridades. En el siguiente recurso, podrá enterarse de las principales condiciones a tener en cuenta cuando se plantea una estrategia de mercado para restaurantes, veamos:
     figure.mb-5
       .video

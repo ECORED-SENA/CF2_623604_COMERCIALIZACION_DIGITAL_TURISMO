@@ -334,7 +334,7 @@
         .row
           .col-lg-1
             img.tamimg(src='@/assets/curso/tema1/ico.svg', alt='Texto que describa la imagen')
-          .col-lg-9
+          .col-lg-9.mt-2
             h4 PDF - Mapa de la Empatía
 
             p.mb-0 Este documento hace referencia a la construcción del mapa de la empatía que es una técnica que nos permite conocer en detalle a nuestros usuarios respondiendo a una serie de preguntas.
