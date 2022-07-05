@@ -53,6 +53,38 @@
       .col-lg-6
         img(src='@/assets/curso/tema1/5.png', alt='Texto que describa la imagen')
     p.mt-4 Los alimentos se han clasiﬁcado de acuerdo a su valor nutritivo en seis grupos básicos. De estos, dos pertenecen a alimentos de origen animal y cuatro de origen vegetal, y por obvias razones, cada uno ofrece una diferente calidad de proteínas, tal como puede apreciar en el siguiente recurso educativo, veamos:
+    .row.mb-5
+      .col-lg-4.mb-3
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/tema1/111.png' alt='AvatarTop' style='width:400px')
+          .tarjetas-up_card.bg--2-claro.p-4
+            .title.d-flex.align-items-center.mb-4
+              span.c--4
+                i.fas.fa-caret-up.fa-2x.color-primario.me-3
+                i.fas.fa-caret-down.fa-2x.color-primario.me-3
+              h4.mb-0 1. Alimentos de origen vegetal 
+            p <strong>Comprenden las verduras, las frutas y</strong> los cereales y semillas dentro de las cuales se encuentran, las legumbres (lentejas, guisantes y frijoles) los cereales (trigo, arroz, maíz, avena) y las nueces.
+      .col-lg-4.mb-3
+        .tarjetas-up
+          img(src='@/assets/curso/tema1/112.png' alt='AvatarTop' style='width:400px')
+          .tarjetas-up_card.bg--2-claro.p-4
+            .title.d-flex.align-items-center.mb-4
+              span.c--4
+                i.fas.fa-caret-up.fa-2x.color-primario.me-3
+                i.fas.fa-caret-down.fa-2x.color-primario.me-3
+              h4.mb-0 2. Alimentos de origen animal
+            p Comprenden <strong>toda especie de ganado (ovino, porcino, caprino, bovino),</strong> todas las aves de corral (pavo, pollo, ganso, entre otros), los mariscos y las distintas especies de pescados. Entre los productos derivados de los animales están comprendidos: leche, queso, mantequilla, huevos, miel, salchichas. 
+      .col-lg-4.mb-3
+        .tarjetas-up
+          img(src='@/assets/curso/tema1/113.png' alt='AvatarTop' style='width:400px')
+          .tarjetas-up_card.bg--2-claro.p-4
+            .title.d-flex.align-items-center.mb-4
+              span.c--4
+                i.fas.fa-caret-up.fa-2x.color-primario.me-3
+                i.fas.fa-caret-down.fa-2x.color-primario.me-3
+              h4.mb-0 3. Alimentos de origen mineral 
+            p En este grupo se encuentra la sal de mesa (cloruro de sodio) que le da sabor a las comidas. Las sales minerales mantienen el equilibrio del metabolismo en conjunto con los azúcares, evitando la deshidratación del cuerpo y ayudando a retener agua.    
     p Todos necesitamos una alimentación lo suficientemente variada que nos garantice un aporte nutritivo adecuado, es por esto que hay otro modo de clasificar los alimentos, que se denomina la rueda de los alimentos, se trata de un recurso gráfico proporcionado a la población para seguir una alimentación segura y equilibrada, basado en la clasificación de los alimentos en diferentes grupos que tengan características nutricionales similares. El informe de 2019 del Programa Nacional de Promoción de Alimentos Saludables (PNPAS) incluyó una nueva revisión de la rueda de los alimentos para este 2020, podrá ver más en detalle al respecto en el siguiente recurso:
     .row.justify-content-center.mt-5
       .col-lg-4.bg1
@@ -517,7 +549,7 @@
               .col-lg-6.color22
                 p.mb-0.p-2 Existen dos tipos de bebidas alcohólicas: 
                 ul.lista-ul.p-2.mb-0
-                  li 
+                  li.mb-0
                     i.fas.fa-angle-right.ss
                     p.mb-0 Las fermentadas.
                   li 
@@ -810,20 +842,20 @@
               img(src='@/assets/curso/tema1/t1.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Diferentes técnicas de emplatado
+            h4 Diferentes técnicas de emplatado
             p.mt-5 <strong>Emplatado tradicional:</strong> en este emplatado se divide el plato como si se tratase de un reloj. La proteína se coloca a las 6, la guarnición de carbohidratos a las 2 y la de verduras a las 10. Se trata de un emplatado rápido y sencillo que deja a la vista todos los ingredientes.
 
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t2.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Emplatado NO tradicional
+            h4 Emplatado NO tradicional
             p.mt-5 aquí entra a formar parte la creatividad del cocinero, dejaremos las normas clásicas y nos vamos a utilizar la imaginación y la vena artística del chef, aparece con la Nouvelle Cuisine en Francia.
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t3.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Emplatado estructurado o centrado
+            h4 Emplatado estructurado o centrado
             p.mt-5 se caracteriza por la aparición de elementos decorativos y el cuidado de los detalles y aunque tengamos libertad, esta forma de emplatar se subdivide en dos categorías: estructurado y disperso
             p se caracteriza por la aparición de elementos decorativos y el cuidado de los detalles y aunque tengamos libertad, esta forma de emplatar se subdivide en dos categorías: estructurado y disperso
 
@@ -831,13 +863,13 @@
               img(src='@/assets/curso/tema1/t4.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Emplatado disperso
+            h4 Emplatado disperso
             p.mt-5 ni números ni alturas, los ingredientes se integran por todo el plato, lo habitual es que el más importante o principal vaya en el centro y el resto a su alrededor. Se busca la armonía horizontal, todos los elementos lucen por sí mismos y se aprecian texturas y técnicas Este es el primer paso para aprender a emplatar, nos quedan más capítulos, los elementos y la composición serán los siguientes capítulos.
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t5.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Emplatado simétrico
+            h4 Emplatado simétrico
             p.mt-5 El plato se divide en dos partes y los elementos se colocan manteniendo un equilibrio proporcional entre ellas. 
             p Existe igualdad de peso en las dos partes del plato, como alas de mariposa. Transmite una sensación de orden y armonía procedente de la misma Naturaleza.
 
@@ -845,31 +877,31 @@
               img(src='@/assets/curso/tema1/t6.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 El emplatado asimétrico
+            h4 El emplatado asimétrico
             p.mt-5 al igual que en el caso anterior, dividimos el plato en dos partes, sin embargo, una tiene más peso visual que la otra.
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t7.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Emplatado rítmico
+            h4 Emplatado rítmico
             p.mt-5 se emplea mucho en los postres y la pastelería. Se trata de hacer repeticiones en el plato de los diferentes elementos para conseguir un diseño dinámico y atractivo aunque ordenado.
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t8.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Emplatado triangular o romboidal
+            h4 Emplatado triangular o romboidal
             p.mt-5 Al utilizar este tipo de emplatado conseguimos que el ojo se pasee por todo el plato. También permite jugar con las diferentes alturas.
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t9.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Emplatado cuadrado u horizontal
+            h4 Emplatado cuadrado u horizontal
             p.mt-5 Se utilizan los elementos en forma de cubos o formas similares.
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t10.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Emplatado circular
+            h4 Emplatado circular
             p.mt-5 el punto focal en este caso se sitúa en el centro del plato y los diferentes elementos se disponen a su alrededor.
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t11.png', alt='Texto que describa la imagen')
@@ -995,12 +1027,24 @@
     p.mt-4 Algunos ejemplos de plataformas de reserva online pueden observarse a continuación:        
     h3  Plataformas de reserva online
     .row.t1
-      .col-lg-4
-        img(src='@/assets/curso/tema1/q1.png', alt='Texto que describa la imagen')
-      .col-lg-4
-        img(src='@/assets/curso/tema1/q2.png', alt='Texto que describa la imagen')
-      .col-lg-4 
-        img(src='@/assets/curso/tema1/q3.png', alt='Texto que describa la imagen')
+      .col-lg-4.grupo1.p-5
+        .row.mt-5
+        .row.mt-5
+        p.mt-5 Comprueba las reservas en tiempo real con tan solo un clic.<br>Recibe una notificación por cada nueva reserva.<br>Crea distintas cuentas de usuario para empleados concretos.<br>Registra todos los cambios en las reservas.
+      .col-lg-4.grupo2.p-5
+        .row.mt-5
+        .row.mt-5
+        p.mt-5 El restaurante debes tener su perfil en Google My Business.
+        p Esta aplicación recomienda restaurantes cercanos al lugar desde donde el cliente hace la búsqueda. 
+        p Hace su propia valoración de los mejores locales. Para ello tiene en cuenta las opiniones de los clientes y la información más completa y actualizada que haya proporcionado el propietario del restaurante.
+      .col-lg-4.grupo3.p-5
+        .row.mt-5
+        .row.mt-5
+        p.mt-5 Esta plataforma es casi una comunidad, donde todos los usuarios cuelgan sus opiniones de las diferentes experiencias que han vivido.
+
+        p Cuando se acumulan las opiniones de los clientes y si en su gran mayoría son positivas, TripAdvisor proporciona al restaurante una recomendación como “el mejor restaurante del año según los usuarios”. Lo que hace que aún más clientes se decidan a probar las delicias de las que todo el mundo habla.
+
+
     p.text-center Nota. https://bit.ly/3kYCXW4
     separador
     #t_1_10.titulo-segundo.color-acento-contenido
