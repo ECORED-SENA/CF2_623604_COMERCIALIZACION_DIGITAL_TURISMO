@@ -64,7 +64,8 @@
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
               h4.mb-0 1. Alimentos de origen vegetal 
-            p <strong>Comprenden las verduras, las frutas y</strong> los cereales y semillas dentro de las cuales se encuentran, las legumbres (lentejas, guisantes y frijoles) los cereales (trigo, arroz, maíz, avena) y las nueces.
+            
+            p.mt-5 <strong>Comprenden las verduras, las frutas y</strong> los cereales y semillas dentro de las cuales se encuentran, las legumbres (lentejas, guisantes y frijoles) los cereales (trigo, arroz, maíz, avena) y las nueces.
       .col-lg-4.mb-3
         .tarjetas-up
           img(src='@/assets/curso/tema1/112.png' alt='AvatarTop' style='width:400px')
@@ -74,7 +75,8 @@
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
               h4.mb-0 2. Alimentos de origen animal
-            p Comprenden <strong>toda especie de ganado (ovino, porcino, caprino, bovino),</strong> todas las aves de corral (pavo, pollo, ganso, entre otros), los mariscos y las distintas especies de pescados. Entre los productos derivados de los animales están comprendidos: leche, queso, mantequilla, huevos, miel, salchichas. 
+            
+            p.mt-5 Comprenden <strong>toda especie de ganado (ovino, porcino, caprino, bovino),</strong> todas las aves de corral (pavo, pollo, ganso, entre otros), los mariscos y las distintas especies de pescados. Entre los productos derivados de los animales están comprendidos: leche, queso, mantequilla, huevos, miel, salchichas. 
       .col-lg-4.mb-3
         .tarjetas-up
           img(src='@/assets/curso/tema1/113.png' alt='AvatarTop' style='width:400px')
@@ -84,7 +86,8 @@
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
               h4.mb-0 3. Alimentos de origen mineral 
-            p En este grupo se encuentra la sal de mesa (cloruro de sodio) que le da sabor a las comidas. Las sales minerales mantienen el equilibrio del metabolismo en conjunto con los azúcares, evitando la deshidratación del cuerpo y ayudando a retener agua.    
+              
+            p.mt-5 En este grupo se encuentra la sal de mesa (cloruro de sodio) que le da sabor a las comidas. Las sales minerales mantienen el equilibrio del metabolismo en conjunto con los azúcares, evitando la deshidratación del cuerpo y ayudando a retener agua.    
     p Todos necesitamos una alimentación lo suficientemente variada que nos garantice un aporte nutritivo adecuado, es por esto que hay otro modo de clasificar los alimentos, que se denomina la rueda de los alimentos, se trata de un recurso gráfico proporcionado a la población para seguir una alimentación segura y equilibrada, basado en la clasificación de los alimentos en diferentes grupos que tengan características nutricionales similares. El informe de 2019 del Programa Nacional de Promoción de Alimentos Saludables (PNPAS) incluyó una nueva revisión de la rueda de los alimentos para este 2020, podrá ver más en detalle al respecto en el siguiente recurso:
     .row.justify-content-center.mt-5
       .col-lg-4.bg1
@@ -452,7 +455,7 @@
             h5 Carta central
             p.mt-5 Este formato sirve para menús cortos, de servicio rápido y donde los clientes están familiarizados con las opciones que van a encontrar en el menú. Es común encontrarlo en restaurantes de comidas rápidas ya que permite que el comensal lea el menú mientras hace la fila. 
         
-          .col-md-7    
+          .col-md-6  
               img(src='@/assets/curso/tema1/80.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
@@ -460,19 +463,19 @@
             p.mt-5 Se utiliza cuando se tienen pocos productos para ofrecer y no requieren de mucha explicación. Es muy común encontrarlos en restaurantes de comida casual y gourmet. Funcionan en diferentes tipos y formas, a una sola cara o por ambas. La ventaja de este estilo de menú es que es muy sencillo y flexible, además de que es a bajo costo. 
 
         
-          .col-md-7   
+          .col-md-6   
               img(src='@/assets/curso/tema1/26.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h5 Formato de múltiples páginas
             p.mt-5 este menú es utilizado cuando existe una larga lista de platos que requieren de una descripción. También, si en su oferta tiene entradas, postres, fuertes y bebidas. El problema que tiene este tipo de menú es que el comensal se demora más tiempo en decidir, revisar y pedir. Lo que trae como consecuencia que se retrase la facturación y se estanque la rotación.
-          .col-md-7  
+          .col-md-6
               img(src='@/assets/curso/tema1/27.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h5 Secciones de la carta
             p.mt-5 Para crear y diseñar una carta de restaurante, es importante que la dividas por grupos:
-          .col-md-8 
+          .col-md-6
             .row.pt1.p-2
               p <strong>Primero</strong> puede incluir aquellos platos que estimulan el apetito del cliente “Para picar”: Entradas, Sopas, Cremas, Aperitivos…
             .row.pt2.p-2
@@ -490,7 +493,7 @@
             p.mt-5 <strong>1. Datos del negocio:</strong> son elementos que ayudarán al cliente a identificar el negocio: nombre, logotipo de manera visible, dirección, teléfono de contacto, correo electrónico y, muy importante hoy en día ¡las redes sociales!
             p <strong>2. Define tu público objetivo:</strong>  esto es esencial para saber cuál será el mejor estilo de carta y también ayudará a elegir los colores, los gráficos, los platos destacados, etc.
             p <strong>3. La propuesta gastronómica:</strong>   se debe tener por escrito los platillos que se quieren ofrecer, una breve reseña que describa su preparación y el precio. <strong>Comienza con los títulos o categorías y luego detalla las opciones.</strong> 
-          .col-md-7    
+          .col-md-6 
               img(src='@/assets/curso/tema1/29.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
@@ -504,7 +507,7 @@
             p.mb-0 Hacer que el cliente no piense en el gasto y no se guie por los precios: no se incluye el símbolo de $ o se coloca el precio con la letra K a lo último (que indica miles). Ejemplo 10 K.
             p Otra opción es exponer el valor de lo que se ofrece, es decir, mostrar por qué los platos más caros de la carta cuestan más. Por ejemplo, infórmale al cliente si el plato incluye una carne de primera calidad, verduras orgánicas o un proceso artesanal que insume más tiempo.
 
-          .col-md-7  
+          .col-md-6
               img(src='@/assets/curso/tema1/300.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
@@ -515,7 +518,7 @@
             p.mb-0 - El tipo de papel, tipo de acabado o la plataforma digital en la que se hará
             p.mb-0 - El tipo de letra: tamaño equilibrado, que sea legible (y ayudar a la percepción del cliente), con letras de color oscuro sobre un fondo claro, y facilitando la lectura.
             p.mb-0 - El tipo de carta a diseñar (según lo que ya se vio anteriormente).
-          .col-md-7 
+          .col-md-6
               img(src='@/assets/curso/tema1/311.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
@@ -523,7 +526,7 @@
 
             p.mt-5 No es imprescindible que en una carta de restaurante haya fotos de los platos, pero si se incluyen, deben ser de buena calidad.
 
-          .col-md-7   
+          .col-md-6 
               img(src='@/assets/curso/tema1/32.png', alt='Texto que describa la imagen')
     separador            
     #t_1_5.titulo-segundo.color-acento-contenido
@@ -946,11 +949,13 @@
       .col-lg-8.mb-5.mb-lg-0
         //- .bloque-texto-b debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        .bloque-texto-b.p-4
+
+        .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             h4.mb-0 “Recuerde que la diferencia reside en la originalidad del diseño, la cual cada vez está más alineada con los parámetros de calidad y buen gusto” 
-            i.fas.fa-quote-right
+            i.fas.fa-quote-right    
+      
     p Son varios los factores que influyen en una experiencia positiva con respecto al menaje, a continuación, encontrará descrito cada uno de estos y su injerencia en la presentación del plato, y el gusto e interés de los comensales
     .row.justify.content-center.mt-4
       .col-lg-8
@@ -1025,8 +1030,8 @@
         i.fas.fa-angle-right.ss
         p.mb-0 Recordatorios de reserva: estas plataformas siempre envían notificaciones a los clientes, por lo que éstos no olvidarán su cita con tu restaurante. 
     p.mt-4 Algunos ejemplos de plataformas de reserva online pueden observarse a continuación:        
-    h3  Plataformas de reserva online
-    .row.t1
+    h3.mt-5  Plataformas de reserva online
+    .row.t1.mt-5
       .col-lg-4.grupo1.p-5
         .row.mt-5
         .row.mt-5

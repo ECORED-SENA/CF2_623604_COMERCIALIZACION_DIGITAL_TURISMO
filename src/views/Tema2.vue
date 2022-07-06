@@ -278,7 +278,7 @@
       .row.mt-5
         .col-lg-6
           img(src='@/assets/curso/tema2/i19.png', alt='Texto que describa la imagen')
-        .col-lg-6
+        .col-lg-6.mt-2
           p Además, teniendo presente lo anterior, es importante conocer en lo posible ciertos aspectos de los turistas que llegan al destino con la intención de crear una experiencia gastronómica, lo más acertada posible. Algunas de las preguntas que se pueden responder para conocer a ese turista son:
           ul.lista-ul
             li 
@@ -477,7 +477,7 @@
       .col-lg-6
         img(src='@/assets/curso/tema2/i1.svg', alt='Texto que describa la imagen')
 
-      .col-lg-6
+      .col-lg-6.mt-4
         .tarjeta.tarjeta--azul.p-4.mb-5.tt
           SlyderA(tipo="b")
             .row
