@@ -475,7 +475,7 @@
           .col-md-4.mb-4.mb-md-0
             h5 Secciones de la carta
             p.mt-5 Para crear y diseñar una carta de restaurante, es importante que la dividas por grupos:
-          .col-md-6
+          .col-md-6.azxc
             .row.pt1.p-2
               p <strong>Primero</strong> puede incluir aquellos platos que estimulan el apetito del cliente “Para picar”: Entradas, Sopas, Cremas, Aperitivos…
             .row.pt2.p-2
@@ -814,7 +814,7 @@
             img.azx(src='@/assets/curso/tema1/12.svg' alt='AvatarTop')
     p.mt-4 A continuación, encontrará descrita estas reglas para una mejor apreciación de cómo llevar a cabo el servicio:
     .tarjeta.tarjeta--azul.p-4.mb-5.mt-5.bg7
-      SlyderA(tipo="b")
+      SlyderA.tema1-6(tipo="b")
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Reglas y tipos de emplatado
@@ -1035,17 +1035,17 @@
       .col-lg-4.grupo1.p-5
         .row.mt-5
         .row.mt-5
-        p.mt-5 Comprueba las reservas en tiempo real con tan solo un clic.<br>Recibe una notificación por cada nueva reserva.<br>Crea distintas cuentas de usuario para empleados concretos.<br>Registra todos los cambios en las reservas.
+        p.mt-4 Comprueba las reservas en tiempo real con tan solo un clic.<br>Recibe una notificación por cada nueva reserva.<br>Crea distintas cuentas de usuario para empleados concretos.<br>Registra todos los cambios en las reservas.
       .col-lg-4.grupo2.p-5
         .row.mt-5
         .row.mt-5
-        p.mt-5 El restaurante debes tener su perfil en Google My Business.
+        p.mt-4 El restaurante debes tener su perfil en Google My Business.
         p Esta aplicación recomienda restaurantes cercanos al lugar desde donde el cliente hace la búsqueda. 
         p Hace su propia valoración de los mejores locales. Para ello tiene en cuenta las opiniones de los clientes y la información más completa y actualizada que haya proporcionado el propietario del restaurante.
       .col-lg-4.grupo3.p-5
         .row.mt-5
         .row.mt-5
-        p.mt-5 Esta plataforma es casi una comunidad, donde todos los usuarios cuelgan sus opiniones de las diferentes experiencias que han vivido.
+        p.mt-4 Esta plataforma es casi una comunidad, donde todos los usuarios cuelgan sus opiniones de las diferentes experiencias que han vivido.
 
         p Cuando se acumulan las opiniones de los clientes y si en su gran mayoría son positivas, TripAdvisor proporciona al restaurante una recomendación como “el mejor restaurante del año según los usuarios”. Lo que hace que aún más clientes se decidan a probar las delicias de las que todo el mundo habla.
 
@@ -1116,4 +1116,8 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.azxc
+  @media screen and ( max-width: 420px)
+    width: 93%!important
+</style>
