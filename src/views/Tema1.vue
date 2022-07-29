@@ -977,8 +977,7 @@
     p Los principales tipos de servicio son: emplatado, inglesa, y bufet, cada uno de ellos con unas características específicas que lo hacen idóneo en función de las consideraciones oportunas que determinan la naturaleza del servicio. En el siguiente vídeo se explica con más detalle las características de cada uno de estos tipos de servicio:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4iYlPsNTcGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_1_9.titulo-segundo.color-acento-contenido
       h2 1.9.	 Mercadeo digital para restaurantes
@@ -997,7 +996,7 @@
     p.mt-4 Las estrategias de marketing, se utilizan con el propósito de conectar a los consumidores con la empresa, en este caso el restaurante, a nivel de los productos que se ofrecen o que se pueden llegar a ofrecer en el futuro.   No basta con dar a conocer lo que queremos vender, sino que es necesario crear planteamientos de venta con perspectiva de futuro, tomando en cuenta los canales disponibles y jugando de acuerdo a sus dinámicas. Este es el motivo por el que cada sector tiene estrategias de marketing específicas orientadas a cubrir sus necesidades y peculiaridades. En el siguiente recurso, podrá enterarse de las principales condiciones a tener en cuenta cuando se plantea una estrategia de mercado para restaurantes, veamos:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/FH4Vv68uxCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p Otra de las indicaciones establecidas dentro de esta forma de ofrecimiento del producto, son las plataformas de reserva online. Aunque aún existen personas que prefiere llamar para reservar una mesa en un restaurante, el uso online crece a medida que la edad del comensal disminuye, por ello, es importante aplicar diferentes estrategias a la hora de generar las reservas para un establecimiento gastronómico:
     .row.justify-content-center
       .col-lg-4
