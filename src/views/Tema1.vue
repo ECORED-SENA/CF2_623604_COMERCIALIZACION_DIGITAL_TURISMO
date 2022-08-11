@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 La gastronomía en la industria del turismo.
+      h1 La gastronomía en la industria del turismo
     p En los últimos años los destinos turísticos han encontrado en la gastronomía una oportunidad para destacar y brindar un mayor valor a la experiencia turística. Este tema se ha vuelto una poderosa motivación para viajar, ya que el comer no solo se percibe como una necesidad, sino como una experiencia estimulante que produce memorias placenteras y duraderas.
     .row.justify-content-center(data-aos="fade-up")
       .col-lg-6
@@ -35,7 +35,7 @@
     
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1.	Tipos de alimentos            
+      h2 1.1	Tipos de alimentos            
     .row.justify-content-center(data-aos="fade-up")
       .col-lg-6
         img(src='@/assets/curso/tema1/4.png', alt='Texto que describa la imagen')
@@ -47,8 +47,8 @@
     .row.justify-content-center.mt-4
       .col-lg-6
         p En cuanto al valor nutritivo de los alimentos, se puede decir que éste depende de la cantidad y calidad de sus componentes y de la presencia o ausencia de sustancias que afecten a su utilización nutritiva (digestibilidad, absorción o metabolismo) o que tengan efectos tóxicos (Clínica Universidad de Navarra, sf.) 
-        p La ausencia o disminución de nutrientes en el organismo, puede ocasionar enfermedades después de transcurrido un determinado tiempo, por ello se deben tener presentes los nutrientes esenciales que se deben consumir en una dieta diaria: 
-        p vitamina A, hierro, calcio, carbohidratos, grasas y ciertos aminoácidos.
+        p La ausencia o disminución de nutrientes en el organismo, puede ocasionar enfermedades después de transcurrido un determinado tiempo, por ello se deben tener presentes los nutrientes esenciales que se deben consumir en una dieta diaria: vitamina A, hierro, calcio, carbohidratos, grasas y ciertos aminoácidos.
+         
 
       .col-lg-6
         img(src='@/assets/curso/tema1/5.png', alt='Texto que describa la imagen')
@@ -65,7 +65,7 @@
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
               h4.mb-0 1. Alimentos de origen vegetal 
             
-            p.mt-5 <strong>Comprenden las verduras, las frutas y</strong> los cereales y semillas dentro de las cuales se encuentran, las legumbres (lentejas, guisantes y frijoles) los cereales (trigo, arroz, maíz, avena) y las nueces.
+            p.mt-5 <strong>Comprenden las verduras, las frutas y los cereales y semillas</strong> dentro de las cuales se encuentran, las legumbres (lentejas, guisantes y frijoles) los cereales (trigo, arroz, maíz, avena) y las nueces.
       .col-lg-4.mb-3
         .tarjetas-up
           img(src='@/assets/curso/tema1/112.png' alt='AvatarTop' style='width:400px')
@@ -99,7 +99,7 @@
             figure
               img(src='@/assets/curso/tema1/6.png', alt='Texto que describa la imagen')
 
-          div(x="22.5%" y="17%" tooltip="Grupo de lo cereales, pan, patatas, azúcares")
+          div(x="22.5%" y="17%" tooltip="1. Grupo de lo cereales, pan, patatas, azúcares")
             .row.justify-content-center.p-4
               .col-lg-5
                 h5 1. Grupo de lo cereales, pan, patatas, azúcares
@@ -110,7 +110,7 @@
               .col-lg-7.mt-5
                 img(src='@/assets/curso/tema1/7.png', alt='Texto que describa la imagen')
 
-          div(x="58%" y="3%" tooltip="1. Grupo de los aceites y las grasas")
+          div(x="58%" y="3%" tooltip="2. Grupo de los aceites y las grasas")
             .row.justify-content-center.p-4
               .col-lg-5
                 h5 2. Grupo de los aceites y las grasas
@@ -119,7 +119,7 @@
               .col-lg-7.mt-5
                 img(src='@/assets/curso/tema1/8.png', alt='Texto que describa la imagen')
 
-          div(x="76.6%" y="24.5%" tooltip="Grupo de las carnes, pescados, huevos, legumbres y frutos secos")
+          div(x="76.6%" y="24.5%" tooltip="3. Grupo de las carnes, pescados, huevos, legumbres y frutos secos")
             .row.justify-content-center.p-4
               .col-lg-5
                 h5 3. Grupo de las carnes, pescados, huevos, legumbres y frutos secos
@@ -130,7 +130,7 @@
 
               .col-lg-7.mt-5
                 img(src='@/assets/curso/tema1/9.png', alt='Texto que describa la imagen')
-          div(x="83%" y="50%" tooltip=" Grupo de los lácteos")
+          div(x="83%" y="50%" tooltip="4. Grupo de los lácteos")
             .row.justify-content-center.p-4
               .col-lg-5
                 h5 4. Grupo de los lácteos
@@ -138,7 +138,7 @@
                 p <strong>Ejemplos de estos alimentos son:</strong> leche, yogur líquido, yogur sólido, queso fresco, queso maduro, requesón, bebidas de soja enriquecidas con calcio, leche de soja, entre otros.
               .col-lg-7.mt-5
                 img(src='@/assets/curso/tema1/10.png', alt='Texto que describa la imagen')
-          div(x="72%" y="89%" tooltip=" Grupo de las legumbres")
+          div(x="72%" y="89%" tooltip="5. Grupo de las legumbres")
             .row.justify-content-center.p-4
               .col-lg-5
                 h5 5. Grupo de las legumbres
@@ -146,7 +146,7 @@
 
               .col-lg-7.mt-5
                 img(src='@/assets/curso/tema1/11.png', alt='Texto que describa la imagen')
-          div(x="28%" y="90%" tooltip="Grupo de las frutas")
+          div(x="28%" y="90%" tooltip="6. Grupo de las frutas")
             .row.justify-content-center.p-4
               .col-lg-5
                 h5 6. Grupo de las frutas
@@ -237,7 +237,7 @@
                 span Ingresar
                 i.fas.fa-link
                 .indicador--click(v-if="mostrarIndicador")
-    p.mt-5 En cuanto a la higiene de los alimentos más comunes en los restaurantes, debe regularse por el conjunto de normas, pautas y procedimientos que cada organización debe seguir, asegurando de esta forma la inocuidad e idoneidad de los alimentos. El objetivo es preservar la salud del consumidor respetando los principios que se explican a continuación en cada una delas etapas de la cadena alimenticia.
+    p.mt-5 En cuanto a la higiene de los alimentos más comunes en los restaurantes, debe regularse por el conjunto de normas, pautas y procedimientos que cada organización debe seguir, asegurando de esta forma la inocuidad e idoneidad de los alimentos. El objetivo es preservar la salud del consumidor respetando los principios que se explican a continuación en cada una de las etapas de la cadena alimenticia.
     SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
       .tarjeta.color-primario
         .row.justify-content-center.mb-3
@@ -279,12 +279,17 @@
           h4.mb-1 Carne
           p.mb-5 Para pollos y carnes rojas los jugos deben ser de un color claro.
     p En cuanto a los factores de riesgo habituales que pueden afectar los alimentos, se encuentran principalmente:
-    .row.justify-content-center.mt-5
+    .row.mt-5
+      .col-lg-6
+      .col-lg-6
+        p <strong> Mala higiene personal de los manipuladores de alimentos</strong>
+        p Se debe procurar que todos los empleados del restaurante tengan claro los habitos básicos en cuanto a su aseo personal, indumentaria e higiene en general
+    .row.justify-content-center
       .col-md-6.mb-5.mb-md-0
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         LineaTiempoD.color-acento-botones
-          p.text-small(numero="1" titulo="Mantenimiento de alimentos a temperaturas inadecuadas") Este riesgo suele aparecer cuando se rompe la cadena del frío, que provoca que los alimentos no se conserven adecuadamente. Esto ocurre cuando por ejemplo cuando pasa un cierto lapso de tiempo entre la entrega de productos por parte de los proveedores y el almacenamiento por parte de los empleados del restaurante.
+          p.text-small(numero="1" titulo="Mantenimiento de alimentos a temperaturas inadecuadas") Este riesgo suele aparecer cuando se rompe la cadena del frío, que provoca que los alimentos no se conserven adecuadamente. Esto ocurre cuando por ejemplo pasa un cierto lapso de tiempo entre la entrega de productos por parte de los proveedores y el almacenamiento por parte de los empleados del restaurante.
           
           p.text-small(numero="2" titulo="Cocción inadecuada") Un huevo frito poco hecho, una hamburguesa medio cruda o unos calamares poco pasados pueden ser un riesgo, ya que generan una mayor proliferación de microorganismos patógenos que generan las intoxicaciones en el ser humano. Por ello, se debe insistir en la profesionalización de los cocineros y en sus certificados de manipulación de alimentos al interior de cualquier restaurante.
           
@@ -299,7 +304,7 @@
         img(src='@/assets/curso/tema1/233.png' alt='AvatarTop')
     separador
     #t_1_4.titulo-segundo.color-acento-contenido
-      h2 1.4.	Caracterización de menús 
+      h2 1.4	Caracterización de menús 
     .row.justify-content-center
       .col-lg-6
         img(src='@/assets/curso/tema1/232.png' alt='AvatarTop')
@@ -322,7 +327,7 @@
       .col-lg-10
         .cajon.color-primario.p-4.mb-4
           p Elaborar el menú parece fácil, pero en realidad es uno de los aspectos más difíciles de hacer dentro de una cocina, ya que debe buscar el equilibrio entre varios factores como lo son los productos disponibles, la especialidad del restaurante, el tipo de comensal al cual va enfocado, los precios de los alimentos, margen de utilidad, entre otros.  El objetivo principal siempre será crear platos rentables para el restaurante y que estos sean los más pedidos por los comensales, por ello es importante analizar la composición del menú teniendo en cuenta las variables mencionadas.
-    p.mt-4 Una vez terminado el diseño del menú y de la carta, será importante darlas a conocer de manera digital, haciendo uso de redes sociales o de la página web del restaurante; esto con la intención de impulsar las ventas y dar a conocer la marca a más clientes.
+    p.mt-4 Una vez terminado el diseño del menú y de la carta, será importante darlas a conocer de manera digital, haciendo uso de redes sociales o de la página <i>web</i> del restaurante; esto con la intención de impulsar las ventas y dar a conocer la marca a más clientes.
     p En cuanto a los principales tipos de menús, son incontables, pues dependen del tipo de oferta de cada establecimiento, además de la manera en que se encuentren agrupados los platos ofertados, sin embargo, a continuación, podrá tener una clasificación general de estos menús:
     .tarjeta.tarjeta--azul.p-4.bg3
       SlyderA(tipo="b")
@@ -383,7 +388,7 @@
                 p.text-small.mb-0 Por ejemplo, podría haber un menú del día diferente durante dos semanas, y luego el ciclo del menú comenzaría nuevamente desde el principio.
               li 
                 i.fas.fa-angle-right.ss
-                p.text-small.mb-0 Al fin de cada periodo puede ser usados de nuevo los menús, evitando así la necesidad de crear unos nuevos.
+                p.text-small.mb-0 Al final de cada período puedem ser usados de nuevo los menús, evitando así la necesidad de crear unos nuevos.
           
           .col-md-6
         .row.p-4
@@ -414,17 +419,17 @@
             ul.lista-ul
               li 
                 i.fas.fa-angle-right.ss
-                p.text-small.mb-0 Es un menú que el cliente ha contratado con antelación y concertado con el chef del restaurante, tanto en el precio como en la composición de los platos que le integran.
+                p.text-small.mb-0 Es un menú que el cliente ha contratado con antelación y a concertado con el chef del restaurante, tanto en el precio como en la composición de los platos que lo integran.
 
               li 
                 i.fas.fa-angle-right.ss
-                p.text-small.mb-0 Este tipo de menú es el más usado para grandes grupos en catering y eventos.
+                p.text-small.mb-0 Este tipo de menú es el más usado para grandes grupos en <i>catering</i> y eventos.
         .row.p-4
           .col-md-5.mb-4.mb-md-0.mt-5
             .row.mt-5
             .row-mt-5
             <br>
-            h5.mt-5 Menú concertado
+            h5.mt-5 Menú por tiempos
             ul.lista-ul
               li 
                 p.text-small.mb-0 Se refiere a que cada uno de los tiempos es un diferente platillo por servir. Existen menús de tres y cuatro tiempos
@@ -460,7 +465,7 @@
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h5 Formato de una sola página
-            p.mt-5 Se utiliza cuando se tienen pocos productos para ofrecer y no requieren de mucha explicación. Es muy común encontrarlos en restaurantes de comida casual y gourmet. Funcionan en diferentes tipos y formas, a una sola cara o por ambas. La ventaja de este estilo de menú es que es muy sencillo y flexible, además de que es a bajo costo. 
+            p.mt-5 Se utiliza cuando se tienen pocos productos para ofrecer y no requieren de mucha explicación. Es muy común encontrarlos en restaurantes de comida casual y <i>gourmet</i>. Funcionan en diferentes tipos y formas, a una sola cara o por ambas. La ventaja de este estilo de menú es que es muy sencillo y flexible, además de que es de bajo costo. 
 
         
           .col-md-6   
@@ -468,7 +473,7 @@
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h5 Formato de múltiples páginas
-            p.mt-5 este menú es utilizado cuando existe una larga lista de platos que requieren de una descripción. También, si en su oferta tiene entradas, postres, fuertes y bebidas. El problema que tiene este tipo de menú es que el comensal se demora más tiempo en decidir, revisar y pedir. Lo que trae como consecuencia que se retrase la facturación y se estanque la rotación.
+            p.mt-5 Este menú es utilizado cuando existe una larga lista de platos que requieren de una descripción. También, si en su oferta tiene entradas, postres, platos fuertes y bebidas. El problema que tiene este tipo de menú es que el comensal se demora más tiempo en decidir, revisar y pedir. Lo que trae como consecuencia que se retrase la facturación y se estanque la rotación.
           .col-md-6
               img(src='@/assets/curso/tema1/27.png', alt='Texto que describa la imagen')
         .row.justify-content-center
@@ -477,14 +482,14 @@
             p.mt-5 Para crear y diseñar una carta de restaurante, es importante que la dividas por grupos:
           .col-md-6.azxc
             .row.pt1.p-2
-              p <strong>Primero</strong> puede incluir aquellos platos que estimulan el apetito del cliente “Para picar”: Entradas, Sopas, Cremas, Aperitivos…
+              p <strong>Primero</strong> pueden incluir aquellos platos que estimulan el apetito del cliente “Para picar”: entradas, sopas, cremas, aperitivos…
             .row.pt2.p-2
-              p En un <strong>segundo grupo</strong> se coloca los platos ligeros: ensaladas, sándwiches, tortillas, arroces y pastas.
+              p En un <strong>segundo grupo</strong> se colocan los platos ligeros: ensaladas, sándwiches, tortillas, arroces y pastas.
             .row.pt1.p-2
               p En una <strong>tercera parte</strong> coloca los platos principales y fuertes: carnes blancas, rojas, pescados o platos de la casa.
             .row.pt2.p-2
               p Por último, coloca los postres (tanto fríos como calientes), y las principales bebidas.
-              p Si se tiene una selección grande de vinos, cocktails o alcoholes fuertes, incluye otra carta especial para este tipo de bebidas.
+              p Si se tiene una selección grande de vinos, <i>cocktails</i> o alcoholes fuertes, incluye otra carta especial para este tipo de bebidas.
    
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
@@ -500,12 +505,12 @@
             h5 Categoriza y simplifica la información
 
 
-            p.mb-0 Debes categorizar el orden en el que va a presentar la oferta gastronómica. Los comensales están acostumbrados a leer primero: Entrantes, Primer Plato, Segundo Plato. Si la oferta de postres y bebidas es grande, se recomienda tener una carta aparte.
+            p.mb-0 Debes categorizar el orden en el que va a presentar la oferta gastronómica. Los comensales están acostumbrados a leer primero: entradas, primer plato, segundo plato.  Si la oferta de postres y bebidas es grande, se recomienda tener una carta aparte.
 
             p.mb-0 <strong>Establece los precios de la carta</strong>
             p.mb-0 Se pueden seguir dos estrategias. 
             p.mb-0 Hacer que el cliente no piense en el gasto y no se guie por los precios: no se incluye el símbolo de $ o se coloca el precio con la letra K a lo último (que indica miles). Ejemplo 10 K.
-            p Otra opción es exponer el valor de lo que se ofrece, es decir, mostrar por qué los platos más caros de la carta cuestan más. Por ejemplo, infórmale al cliente si el plato incluye una carne de primera calidad, verduras orgánicas o un proceso artesanal que insume más tiempo.
+            p Otra opción es exponer el valor de lo que se ofrece, es decir, mostrar por qué los platos más caros de la carta cuestan más. Por ejemplo, infórmale al cliente si el plato incluye una carne de primera calidad, verduras orgánicas o un proceso artesanal que consume más tiempo.
 
           .col-md-6
               img(src='@/assets/curso/tema1/300.png', alt='Texto que describa la imagen')
@@ -513,11 +518,12 @@
           .col-md-4.mb-4.mb-md-0
             h5 Define la línea de diseño
             p esto va depender del público objetivo y la propuesta de tu restaurante.
-            p.mb-0 Acá se debe tener en cuenta:
-            p.mb-0 <strong>Los colores:</strong> Establecer un fondo neutro, preferiblemente blanco, es recomendable para lograr que la comida luzca bien y se destaque; también cuida la iluminación y el formato de las imágenes. El rojo, naranja, amarillo son tonos secundarios ideales para abrir el apetito. Si se desea una carta elegante, se puede optar por los clásicos negro y blanco.
-            p.mb-0 - El tipo de papel, tipo de acabado o la plataforma digital en la que se hará
-            p.mb-0 - El tipo de letra: tamaño equilibrado, que sea legible (y ayudar a la percepción del cliente), con letras de color oscuro sobre un fondo claro, y facilitando la lectura.
-            p.mb-0 - El tipo de carta a diseñar (según lo que ya se vio anteriormente).
+            p.mb-0 Acá se deben tener en cuenta:
+            p.mb-0 <strong>- Los colores:</strong> Establecer un fondo neutro, preferiblemente blanco, es recomendable para lograr que la comida luzca bien y se destaque; también cuida la iluminación y el formato de las imágenes. El rojo, naranja, amarillo son tonos secundarios ideales para abrir el apetito. Si se desea una carta elegante, se puede optar por los clásicos negro y blanco.
+            p.mb-0 - <strong>El tipo de papel</strong>, tipo de acabado o la plataforma digital en la que se hará
+            p.mb-0 - <strong>El tipo de letra:</strong> tamaño equilibrado, que sea legible (y ayudar a la percepción del cliente), con letras de color oscuro sobre un fondo claro, y facilitando la lectura.
+            p.mb-0 - <strong>El tipo de carta a diseñar</strong> (según lo que ya se vio anteriormente).
+            p Tono de la redacción: según el tipo de cliente que se tenga, sus edades, su estilo. En un establecimiento de jóvenes puedes redactar la carta en un lenguaje informal o jovial, destacar las redes sociales o los elementes interactivos del menú.
           .col-md-6
               img(src='@/assets/curso/tema1/311.png', alt='Texto que describa la imagen')
         .row.justify-content-center
@@ -561,8 +567,8 @@
             p.mt-4 Se considera una bebida alcohólica si contiene más de 2.5 grados de alcohol etílico.
             p.mb-0 Las bebidas fermentadas son las procedentes de frutas o de cereales que, por acción de ciertas sustancias microscópicas (levaduras), convierten el azúcar en alcohol.
             p Las bebidas fermentadas más comunes son el vino, la cerveza y la sidra.
-            p.mb-0 Las bebidas destiladas son el resultado del proceso de separación de agua y alcohol de un líquido previamente fermentado. El método de destilación puede ser industrial o artesanal, dependiendo del volumen de producción y de la calidad deseada para el producto final. En cualquier caso, su objetivo es el de obtener una bebida de alcohol puro con un nivel superior a los 40 °.
-            p Entre las bebidas destiladas más conocidas se encuentran: el coñac o brandy, la ginebra, el whisky, el ron y el vodka.
+            p.mb-0 Las bebidas destiladas son el resultado del proceso de separación de agua y alcohol de un líquido previamente fermentado. El método de destilación puede ser industrial o artesanal, dependiendo del volumen de producción y de la calidad deseada para el producto final. En cualquier caso, su objetivo es el de obtener una bebida de alcohol puro con un nivel superior a los 40°.
+            p Entre las bebidas destiladas más conocidas se encuentran: el <i>coñac</i> o <i>brandy</i>, la ginebra, el <i>whisky</i>, el ron y el <i>vodka</i>.
 
           .col-md-5
               img(src='@/assets/curso/tema1/i1.png', alt='Texto que describa la imagen')
@@ -593,7 +599,7 @@
                 p.mb-0 Bebidas deportivas
               li 
                 i.fas.fa-angle-right.ss
-                p.mb-0 El Té
+                p.mb-0 El té
               li 
                 i.fas.fa-angle-right.ss
                 p.mb-0 Las infusiones
@@ -601,6 +607,9 @@
               img(src='@/assets/curso/tema1/i2.png', alt='Texto que describa la imagen')
     p.mb-0 Al igual que con el menú de alimentos, las bebidas también exigen unas consideraciones en el diseño de su carta.
     p Si hablamos del mercado de bebidas debemos saber que tiene un gran margen de beneficio, llegando a triplicar su coste con respecto al precio de venta al público (PVP). Además, las bebidas son un producto que se puede vender por unidades y de rápido servicio.
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 1
+      span <i>Consideraciones en la carta de bebidas</i>   
     .row.mt-5
       .col-lg-5.bg5
         h4.text-white.text-center.mt-3 Consideraciones en la carta de bebidas    
@@ -608,12 +617,11 @@
       .col-lg-6
         LineaTiempoD.color-acento-botones
           p(numero="1" titulo="Estructura clara") Una estructura sencilla facilitará la elección de los clientes, por ejemplo: <br>Bebidas calientes o frías.<br>Bebidas clásicas o especiales.<br>Bebidas pequeñas o grandes.
-          p(numero="2" titulo="Mezcla los precios") Los precios de la carta de bebidas tienen que estar mezclados, es decir, no coloque las bebidas más caras por un lado y las menos costosas por otro. <br>Mezclar los precios hará que tu cliente consuma más de lo que tenía pensado.          
-          p(numero="3" titulo="Contaminación en utensilios e instalaciones") El objetivo es llamar la atención del cliente, un exceso de texto en la carta hará que no le preste tanta atención al producto. El texto de la carta tiene que ser breve, explicativo y claro. Se pueden usar palabras atractivas como “natural”, “fresco” o “local”
-          p(numero="4" titulo="Texto") Para cada restaurante debe ser un hábito revisar y controlar la entrega de productos por parte de proveedores. Se debe tener en cuenta la temperatura, el etiquetado, los envases y embalajes, los medios en los que se transportan los productos, etc.; adicional a ello, se deben pedir los correspondientes certificados de calidad a quienes proveen los alimentos al establecimiento. 
-          p(numero="5" titulo="Separa las cartas de bebida") Un error clásico es juntar los vinos con el resto de bebidas, debe crear dos cartas, una con los vinos de comercialización, y otra con el resto de las bebidas. 
-          p(numero="6" titulo="Destaque sugerencias o especialidades de la casa") Ponga algunas bebidas en negrita, mayúsculas o cursiva, reálcelas con imágenes atractivas o colores sugerentes. Pero no exagere demasiado o el efecto se esfumará.
-          p(numero="7" titulo="El diseño") Una vez definida la estructura hay que decidir el diseño. La carta es un buen escaparate, se deben tener en cuenta varios factores para su elaboración, como el estilo y el diseño de la portada, el tipo de letra, el color e imágenes, el tipo de papel y la distribución del contenido.
+          p(numero="2" titulo="Mezcla los precios") Los precios de la carta de bebidas tienen que estar mezclados, es decir, no coloques las bebidas más caras por un lado y las menos costosas por otro. <br>Mezclar los precios hará que tu cliente consuma más de lo que tenía pensado.          
+          p(numero="3" titulo="Texto") El objetivo es llamar la atención del cliente, un exceso de texto en la carta hará que no le preste tanta atención al producto. El texto de la carta tiene que ser breve, explicativo y claro. Se pueden usar palabras atractivas como “natural”, “fresco” o “local”
+          p(numero="4" titulo="Separa las cartas de bebida") Un error clásico es juntar los vinos con el resto de bebidas, debe crear dos cartas, una con los vinos de comercialización, y otra con el resto de las bebidas. 
+          p(numero="5" titulo="Destaque sugerencias o especialidades de la casa") Ponga algunas bebidas en negrita, mayúsculas o cursiva, reálcelas con imágenes atractivas o colores sugerentes. Pero no exagere demasiado o el efecto se esfumará.
+          p(numero="6" titulo="El diseño") Una vez definida la estructura hay que decidir el diseño. La carta es un buen escaparate, se deben tener en cuenta varios factores para su elaboración, como el estilo y el diseño de la portada, el tipo de letra, el color e imágenes, el tipo de papel y la distribución del contenido.
       .col-lg-6.mt-2  
         img(src='@/assets/curso/tema1/i3.png', alt='Texto que describa la imagen')
     p.mt-5 La tendencia actual es tener cartas reducidas porque facilitan al cliente su elección, acortan el tiempo de toma de la comanda y reducen el número de artículos de almacén.
@@ -628,7 +636,7 @@
           .col-lg-2
             .mt-3
               a.boton.me-3.indicador__container(
-                :href="('https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SNA/Guia-inocuidad-alimentos-establecimientos-gastronomicos-restaurantes.pdf ')"
+                :href="('https://fliphtml5.com/kseay/jvwf/basic')"
                 target="_blank"
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"
@@ -642,7 +650,7 @@
       //- PasosB debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       PasosB.color-primario
-        .row.justify-content-center(titulo="Palabra")
+        .row.justify-content-center(titulo="Agua de panela")
           .col-md-5.mb-4.mb-md-0.mt-5
             h5 Agua de panela
             p El agua de panela, o ‘aguapanela’, como se le conoce comúnmente, es una de las bebidas tradicionales, es refrescante, energizante y al mismo tiempo, un “remedio” casero para aliviar los días de resfriado. Se prepara con panela, agua y en algunas ocasiones, con zumo de limón, y se consume en todas las regiones de Colombia, ya sea caliente o fría.
@@ -753,8 +761,8 @@
             img(src='@/assets/curso/tema1/82.png' alt='AvatarTop')
         .row.p-3
           h4.mb-1 La proteína
-          p Son el elemento líquido del plato, además de aportar sabor contribuye a unificar los diferentes elementos del plato.
-
+          p.mb-5 En general es la protagonista del plato.
+          .row.mt-5
 
       .tarjeta.color-acento-contenido.color12
         .row.justify-content-center
@@ -765,12 +773,13 @@
           p.mb-5 Constituye el acompañamiento primario del plato, está constituida por el arroz, las patatas, la pasta, etc.
 
       .tarjeta.color-acento-contenido.color12
-        .row.justify-content-center.mb-4
+        .row.justify-content-center
           .col-12
             img(src='@/assets/curso/tema1/60.png' alt='AvatarTop')
         .row.p-3
           h4.mb-1 La guarnición vegetal
           p.mb-5 Son las verduras que dan vitaminas y color.
+          .row.mt-4
       .tarjeta.color-acento-contenido.color12
         .row.justify-content-center
           .col-12
@@ -780,12 +789,13 @@
           p.mb-4 Son el elemento líquido del plato, además de aportar sabor contribuye a unificar los diferentes elementos del plato.
 
       .tarjeta.color-acento-contenido.color12
-        .row.justify-content-center.mb-4
+        .row.justify-content-center
           .col-12
             img(src='@/assets/curso/tema1/62.png' alt='AvatarTop')
         .row.p-3
           h4.mb-1 La decoración
           p.mb-5 No es obligatorio, pero aporta originalidad.
+          .row.mt-4
     .row.justify-content-center
       .col-lg-10
         p Por otra parte, en cuanto a las reglas que deben tenerse en cuenta, cada cocinero puede encontrar sus propias presentaciones, pero en general se considera que todas deben responder a las siguientes reglas:
@@ -836,8 +846,8 @@
                 p.mb-0 Guarniciones       
               li 
                 i.fas.fa-angle-right.ss
-                p.mb-0 Salsas Vajillas
-            p Y para colocar los alimentos, de una manera armónica, tenemos que ver el plato, como si fuera un reloj, tal como vemos en la imagen:
+                p.mb-0 Salsas 
+            p Y vajillas para colocar los alimentos, de una manera armónica, tenemos que ver el plato, como si fuera un reloj, tal como vemos en la imagen:
             p.mb-0 Si el plato es caliente, poner la carne a las a las 6 y el resto de componentes del plato a las 3 y a las 9, si es frío el plato, comenzar por el centro y desde ahí seguir con el montaje.
 
         
@@ -853,41 +863,41 @@
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Emplatado NO tradicional
-            p.mt-5 aquí entra a formar parte la creatividad del cocinero, dejaremos las normas clásicas y nos vamos a utilizar la imaginación y la vena artística del chef, aparece con la Nouvelle Cuisine en Francia.
+            p.mt-5 Aquí entra a formar parte la creatividad del cocinero, dejaremos las normas clásicas y nos vamos a utilizar la imaginación y la vena artística del chef, aparece con la <i>Nouvelle Cuisine</i> en Francia.
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t3.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Emplatado estructurado o centrado
-            p.mt-5 se caracteriza por la aparición de elementos decorativos y el cuidado de los detalles y aunque tengamos libertad, esta forma de emplatar se subdivide en dos categorías: estructurado y disperso
-            p se caracteriza por la aparición de elementos decorativos y el cuidado de los detalles y aunque tengamos libertad, esta forma de emplatar se subdivide en dos categorías: estructurado y disperso
+            p.mt-5 Se caracteriza por la aparición de elementos decorativos y el cuidado de los detalles y aunque tengamos libertad, esta forma de emplatar se subdivide en dos categorías: estructurado y disperso
+            p Todos los elementos se unen formando un conjunto y, vamos a jugar con la altura y el volumen, en la base, la guarnición, encima la proteína o el ingrediente principal, rodeando a la torre, la salsa y la decoración por encima de los alimentos.
 
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t4.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Emplatado disperso
-            p.mt-5 ni números ni alturas, los ingredientes se integran por todo el plato, lo habitual es que el más importante o principal vaya en el centro y el resto a su alrededor. Se busca la armonía horizontal, todos los elementos lucen por sí mismos y se aprecian texturas y técnicas Este es el primer paso para aprender a emplatar, nos quedan más capítulos, los elementos y la composición serán los siguientes capítulos.
+            p.mt-5 Ni números ni alturas, los ingredientes se integran por todo el plato, lo habitual es que el más importante o principal vaya en el centro y el resto a su alrededor. Se busca la armonía horizontal, todos los elementos lucen por sí mismos y se aprecian texturas y técnicas Este es el primer paso para aprender a emplatar, nos quedan más capítulos, los elementos y la composición serán los siguientes capítulos.
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t5.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Emplatado simétrico
             p.mt-5 El plato se divide en dos partes y los elementos se colocan manteniendo un equilibrio proporcional entre ellas. 
-            p Existe igualdad de peso en las dos partes del plato, como alas de mariposa. Transmite una sensación de orden y armonía procedente de la misma Naturaleza.
+            p Existe igualdad de peso en las dos partes del plato, como alas de mariposa. Transmite una sensación de orden y armonía procedente de la misma naturaleza.
 
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t6.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 El emplatado asimétrico
-            p.mt-5 al igual que en el caso anterior, dividimos el plato en dos partes, sin embargo, una tiene más peso visual que la otra.
+            p.mt-5 Al igual que en el caso anterior, dividimos el plato en dos partes, sin embargo, una tiene más peso visual que la otra.
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t7.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Emplatado rítmico
-            p.mt-5 se emplea mucho en los postres y la pastelería. Se trata de hacer repeticiones en el plato de los diferentes elementos para conseguir un diseño dinámico y atractivo aunque ordenado.
+            p.mt-5 Se emplea mucho en los postres y la pastelería. Se trata de hacer repeticiones en el plato de los diferentes elementos para conseguir un diseño dinámico y atractivo aunque ordenado.
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t8.png', alt='Texto que describa la imagen')
         .row.justify-content-center
@@ -905,7 +915,7 @@
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Emplatado circular
-            p.mt-5 el punto focal en este caso se sitúa en el centro del plato y los diferentes elementos se disponen a su alrededor.
+            p.mt-5 El punto focal en este caso se sitúa en el centro del plato y los diferentes elementos se disponen a su alrededor.
           .col-md-6.mt-5   
               img(src='@/assets/curso/tema1/t11.png', alt='Texto que describa la imagen')
     .row.justify-content-center.mt-4
@@ -920,7 +930,7 @@
           .col-lg-2
             .mt-3
               a.boton.me-3.indicador__container(
-                :href="('https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SNA/Guia-inocuidad-alimentos-establecimientos-gastronomicos-restaurantes.pdf ')"
+                :href="('https://www.youtube.com/watch?v=02Brgs60BiY&t=8s')"
                 target="_blank"
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"
@@ -938,13 +948,12 @@
             .cajon.color-acento-botones.p-1
               p.p-3 Cada restaurante tiene unas necesidades diferentes con relación a los utensilios que requiere para poder crear sus preparaciones y para servirlas a sus clientes; esto normalmente depende del presupuesto disponible, del tipo de público al que se apunta y la imagen que se desea transmitir a los comensales.
 
-          p.p-3.mb-0 Cuando se habla entonces de menaje, se hace referencia a los utensilios utilizados en la presentación de los alimentos: la vajilla empleada para servir y presentar los platos y bebidas a los comensales, vasos, copas, platos y bowls, cubiertos, entre otros. Con lo anterior, se puede decir que el mensaje no se resume solo a los utensilios utilizados dentro de la cocina, sino también a los que salen a las mesas y los que se utilizan en las barras. 
+          p.p-3.mb-0 Cuando se habla entonces de menaje, se hace referencia a los utensilios utilizados en la presentación de los alimentos: la vajilla empleada para servir y presentar los platos y bebidas a los comensales, vasos, copas, platos y <i>bowls</i>, cubiertos, entre otros. Con lo anterior, se puede decir que el mensaje no se resume solo a los utensilios utilizados dentro de la cocina, sino también a los que salen a las mesas y los que se utilizan en las barras. 
       .col-lg-4
         img(src='@/assets/curso/tema1/ttt.png', alt='Texto que describa la imagen')
       .col-lg-4.mt-2
         p Este tema juega un rol primordial ya que es la carta de presentación del establecimiento. Una vez se ha creado la experiencia para el comensal, la estética y la presentación de los platos, tienen un papel protagónico a la hora de generar una percepción agradable y una recompra en el servicio. La vajilla, por ejemplo, es uno de los factores que más genera diferenciación entre los restaurantes y recordación en un comensal, quien normalmente no consume solo el alimento, sino que se percata también del cubierto que se utiliza, el material de los platos, el color, los diseños etc. 
         p.mb-0 Los clientes esperan mucho más que un buen servicio, buscan vivir una experiencia única por lo que cada utensilio de la mesa juega un papel relevante.
-        p Los clientes esperan mucho más que un buen servicio, buscan vivir una experiencia única por lo que cada utensilio de la mesa juega un papel relevante.
     .row.mb-5.justify-content-center.mt-4
       .col-lg-8.mb-5.mb-lg-0
         //- .bloque-texto-b debe ir acompañado de una de una de estas clases => 
@@ -966,7 +975,7 @@
           p(numero="3" titulo="Durabilidad") Es esencial considerar qué tan duradero es el servicio de mesa. Si tiene un restaurante grande con plazos de entrega rápidos, necesitará invertir en vajillas comerciales que sean mucho más duraderas que las que se necesitarían para un pequeño restaurante de estilo boutique donde el número de invitados es menor y la rotación o reposición de los utensilios será más progresiva. 
           
           p(numero="4" titulo="Materiales") Se debe definir entre los diferentes materiales que existen para el menaje, teniendo en cuenta que cada utensilio puede contribuir a la generación de valor de la marca. Existe la cerámica, la porcelana, la melamina, el barro, etc. 
-          p(numero="5" titulo="Proveedores de alimentos poco fiables") <strong>Platos:</strong> de pan, de presentación, trincheros, soperos, de postre, de consomé (también pueden ser tazas) <br><br> <strong>Copas (según tipo de bebida):</strong> agua, vino blanco, vino tinto champán, vermouth, jerez coñac, licor. <br><br><strong>Vasos:</strong> básico, tubo, highBall, pilsner, chupito <br><br> <strong>Cubiertos (puede variar según estilo/especialización del restaurante):</strong> cuchara sopera, tenedor y cuchillo de mesa, tenedor y cuchillo de trinchar, cuchillo de carne, tenedor y pala de pescado, pinzas de marisco, cuchara salsera, cuchara, tenedor y cuchillo de postre, cortador y pala de tartas. <br><br><strong>Utensilios de cocina:</strong> cucharas y cucharones, de acero inoxidable, juego de cuchillos de cocina y tijeras, tablas de cortar batería completa de sartenes y cacerolas, incluyendo ollas de presión,cazos y cestillos, bowls de diferentes tamaños, biberones para salsas, bandejas, moldes para hornear, brochetas, espátulas, colador.
+          p(numero="5" titulo="Características del menaje") <strong>Platos:</strong> de pan, de presentación, trincheros, soperos, de postre, de consomé (también pueden ser tazas) <br><br> <strong>Copas (según tipo de bebida):</strong> agua, vino blanco, vino tinto champán, <i>vermouth</i>, jerez <i>coñac</i>, licor. <br><br><strong>Vasos:</strong> básico, tubo, <i>highBall</i>, <i>pilsner</i>, chupito <br><br> <strong>Cubiertos (puede variar según estilo/especialización del restaurante):</strong> cuchara sopera, tenedor y cuchillo de mesa, tenedor y cuchillo de trinchar, cuchillo de carne, tenedor y pala de pescado, pinzas de marisco, cuchara salsera, cuchara, tenedor y cuchillo de postre, cortador y pala de tartas. <br><br><strong>Utensilios de cocina:</strong> cucharas y cucharones, de acero inoxidable, juego de cuchillos de cocina y tijeras, tablas de cortar batería completa de sartenes y cacerolas, incluyendo ollas de presión,cazos y cestillos, bowls de diferentes tamaños, biberones para salsas, bandejas, moldes para hornear, brochetas, espátulas, colador.
  
       .col-lg-4.mt-4
         img(src='@/assets/curso/tema1/66.png', alt='Texto que describa la imagen')
@@ -986,7 +995,7 @@
         img(src='@/assets/curso/tema1/67.png', alt='Texto que describa la imagen')
 
       .col-lg-6.mt-2
-        p El mercadeo es el conjunto de técnicas y estudios que buscan mejorar la comercialización de un producto a partir de la identificación de las necesidades de los consumidores; al hablar puntualmente de restaurantes, este término se refiere a todas las acciones y estrategias (tanto offline como online) que buscan fidelizar al cliente, mejorar la relación con él, llegar a nuevos consumidores, promover los productos, aumentar ventas y diferenciar a la compañía.
+        p El mercadeo es el conjunto de técnicas y estudios que buscan mejorar la comercialización de un producto a partir de la identificación de las necesidades de los consumidores; al hablar puntualmente de restaurantes, este término se refiere a todas las acciones y estrategias (tanto <i>offline</i> como <i>online</i>) que buscan fidelizar al cliente, mejorar la relación con él, llegar a nuevos consumidores, promover los productos, aumentar ventas y diferenciar a la compañía.
         p En la actualidad, se debe prestar gran importancia al mercadeo digital ya que el Internet es el canal por excelencia para llegar a una mayor cantidad de clientes. La mayoría de los usuarios hoy día, usan su celular para reservar su mesa en restaurantes y una vez visitado el establecimiento, comparten opiniones que llevan a una más alta reputación digital del establecimiento. Las tendencias son claras: todos los negocios están migrando hacia una mayor virtualización de sus servicios, así que el sector gastronómico no se puede quedar atrás. 
         .row.justify-content-center
           .col-lg-12
@@ -997,21 +1006,21 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/FH4Vv68uxCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    p Otra de las indicaciones establecidas dentro de esta forma de ofrecimiento del producto, son las plataformas de reserva online. Aunque aún existen personas que prefiere llamar para reservar una mesa en un restaurante, el uso online crece a medida que la edad del comensal disminuye, por ello, es importante aplicar diferentes estrategias a la hora de generar las reservas para un establecimiento gastronómico:
+    p Otra de las indicaciones establecidas dentro de esta forma de ofrecimiento del producto, son las plataformas de reserva <i>online</i>. Aunque aún existen personas que prefiere llamar para reservar una mesa en un restaurante, el uso <i>online</i> crece a medida que la edad del comensal disminuye, por ello, es importante aplicar diferentes estrategias a la hora de generar las reservas para un establecimiento gastronómico:
     .row.justify-content-center
       .col-lg-4
         .row.colort.p-4
           h3.mt-4 Económica
-          p.mt-4 Las más económica pero no tan funcional: se trata de colocar un formulario en la web del restaurante que servirá para obtener los datos del cliente, sin embargo, se requiere de alguien que esté encargado de lo que sucede en la web para recibir dichos formularios a tiempo, ya que esta opción no permite confirmar la reserva al momento, ni permite cierta conectividad.
+          p.mt-4 Las más económica pero no tan funcional: se trata de colocar un formulario en la <i>web</i> del restaurante que servirá para obtener los datos del cliente, sin embargo, se requiere de alguien que esté encargado de lo que sucede en la <i>web</i> para recibir dichos formularios a tiempo, ya que esta opción no permite confirmar la reserva al momento, ni permite cierta conectividad.
       
       .col-lg-4
         img(src='@/assets/curso/tema1/68.png', alt='Texto que describa la imagen')
 
-      .col-lg-4.mt-2
+      .col-lg-4
         .row.color2.p-4
           h3.mt-4 Mejor opción
-          p.mt-4 La mejor opción: software de reservas asociado a un canal de venta. Esta es la mejor opción para restaurantes que desean difusión y notoriedad online. Los canales de venta, son a la vez guías y buscadores de restaurantes que te traerán nuevos clientes, pero también cobrarán su porcentaje cada que un comensal haga una reserva.
-    p.mt-4 Entre las ventajas de las plataformas de reservas online se encuentran las siguientes:
+          p.mt-4 La mejor opción: <i>software</i> de reservas asociado a un canal de venta. Esta es la mejor opción para restaurantes que desean difusión y notoriedad <i>online</i>. Los canales de venta, son a la vez guías y buscadores de restaurantes que te traerán nuevos clientes, pero también cobrarán su porcentaje cada que un comensal haga una reserva.
+    p.mt-4 Entre las ventajas de las plataformas de reservas <i>online</i> se encuentran las siguientes:
     ul.lista-ul
       li 
         i.fas.fa-angle-right.ss
@@ -1028,8 +1037,8 @@
       li 
         i.fas.fa-angle-right.ss
         p.mb-0 Recordatorios de reserva: estas plataformas siempre envían notificaciones a los clientes, por lo que éstos no olvidarán su cita con tu restaurante. 
-    p.mt-4 Algunos ejemplos de plataformas de reserva online pueden observarse a continuación:        
-    h3.mt-5  Plataformas de reserva online
+    p.mt-4 Algunos ejemplos de plataformas de reserva <i>online</i> pueden observarse a continuación:        
+    h3.mt-5  Plataformas de reserva <i>online</i>
     .row.t1.mt-5
       .col-lg-4.grupo1.p-5
         .row.mt-5
@@ -1088,10 +1097,10 @@
         .row.justify-content-center.mb-3.mt-4
           .col-7.marg
             img(src='@/assets/curso/tema1/icono5.svg' alt='AvatarTop')
-        h4.text-center Utiliza esta formula
-        p.text-center.mb-0 Porcentaje de costo de alimentos - (Inventario Inicial + compras - Inventario Final) + Ventas de alimentos.
+        h4.text-center Utiliza esta fórmula
+        p.text-center.mb-0 Porcentaje de costo de alimentos - (Inventario inicial + compras - inventario final) + ventas de alimentos.
         p.text-center ¡Y listo! 
-
+        p.text-center.mb-0 Porcentaje de costos = (l.l + C - l.f.) + ventas
 
 
 

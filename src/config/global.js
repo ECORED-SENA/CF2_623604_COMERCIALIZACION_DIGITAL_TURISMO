@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Diseño de experiencias gastronómicas',
     descripcionCurso:
-      'Actualmente, destinos de todo el mundo diseñan estrategias para potenciar la identidad gastronómica de sus territorios e impulsar propuestas que conlleven a los turistas a querer profundizar en la cultura gastronómica de los lugares que visita. Así, la gastronomía ha tomado relevancia, en la diferenciación de los destinos y del turismo gastronómico convirtiéndose en un segmento de mercado, enfocado en generar experiencias.',
+      'Actualmente, destinos de todo el mundo diseñan estrategias para potenciar la identidad gastronómica de sus territorios e impulsar propuestas que conlleven a los turistas a querer profundizar en la cultura gastronómica de los lugares que visitan. Así, la gastronomía ha tomado relevancia, en la diferenciación de los destinos y del turismo gastronómico convirtiéndose en un segmento de mercado, enfocado en generar experiencias.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -171,132 +171,144 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Bartalent Lab (sf).Top 3 plataformas online para dar visibilidad a tu restaurante. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.bartalentlab.com/degustanews/hosteleria-digital/hosteleria-digital/degustanewstendenciashosteleria-digitaltop-3-plataformas-online-para-dar-visibilidad-a-tu-restaurante ',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Basque Culinary Center (2018), Future of Food Report for 2050.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://projectgastronomia.org/uploads/categories/FUTURE_FOOD_REPORT_2050-Reduced.pdf  ',
     },
+
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Clínica Universidad de Navarra (sf). Grupos básicos de los alimentos.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.cun.es/chequeos-salud/vida-sana/nutricion/grupos-basicos-alimentos ',
     },
+
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'En la Cocina, Magazine (sf). Cómo diseñar la carta de un restaurante.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://enlacocina.telemesa.es/marketing-restaurantes/como-disenar-la-carta-de-un-restaurante/ ',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'González Ramos, E (2019). La experiencia de cliente en el sector gastronómico. Facultad de Ciencias Económicas y Empresariales. Universidad Pontificia Comillas. ',
+      link: 'https://repositorio.comillas.edu/rest/bitstreams/272538/retrieve ',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Kotler, P. (1973). Atmospherics as a Mercadeo Tool. Journal of Retailing, 49 (4).',
+    },
+    {
+      referencia:
+        'Magazinehorse (2015). Experiencias gastronómicas que estimulan cada uno de los sentidos.  ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.magazinehorse.com/experiencias-gastronomicas-que-estimulan-cada-uno-de-los-sentidos/ ',
+    },
+    {
+      referencia:
+        'Morillo Moreno, M (2009). Costos del servicio de alimentos y bebidas en establecimientos de alojamientos turísticos Visión Gerencial, núm. 2, pp. 304-327 Universidad de los Andes Mérida, Venezuela. ',
+      link: 'https://www.redalyc.org/pdf/4655/465545881013.pdf ',
+    },
+    {
+      referencia:
+        'Organización Mundial del Turismo (2021). Guía para el desarrollo del turismo gastronómico. ',
+      link: 'https://www.e-unwto.org/doi/pdf/10.18111/9789284420995',
+    },
+    {
+      referencia:
+        'Ocampo A (2018). ¿Por qué el menaje es el elemento diferenciador de su restaurante? ',
+      link:
+        'https://www.revistalabarra.com/campanias/vajillas-corona/el-menaje-como-elemento-diferenciador-de-su-restaurante/       ',
+    },
+    {
+      referencia:
+        'Ortega Reina, F (sf). ¿Qué es una experiencia gastronómica? Definición, Ideas, Precios y Ejemplos. ',
+      link: 'https://ingenieriademenu.com/experiencia-gastronomica/ ',
+    },
+    {
+      referencia:
+        'Salazar A (2017). Especial: conozca los diferentes tipos de menú. Revista La Barra. ',
+      link:
+        'https://www.revistalabarra.com/especial-conozca-los-diferentes-tipos-menu/',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Turismo – Sernatur (2017). Manual de diseño experiencias turísticas. Subdirección de Desarrollo-Chile. ',
+      link:
+        'https://www.sernatur.cl/wp-content/uploads/2018/11/MDD-Manual-de-Experiencias-Turi%CC%81sticas-1.pdf ',
+    },
+    {
+      referencia:
+        'Subdirección de Salud Nutricional, Alimentos y Bebidas (2018). Guía de inocuidad de alimentos y bebidas para restaurantes o establecimientos gastronómicos. ',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SNA/Guia-inocuidad-alimentos-establecimientos-gastronomicos-restaurantes.pdf  ',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Digitalización',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Es el proceso de transformar procesos analógicos y objetos físicos en digitales.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Gastronomía',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de conocimientos y actividades que están relacionados con los ingredientes, recetas y técnicas de la culinaria, así como con su evolución histórica.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Menaje ',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Todos los utensilios, elementos y material profesional, empleados para el servicio de alimentos y bebidas',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Mercadeo',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
-    },
-    {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de técnicas y estudios que tienen como objeto mejorar la comercialización de un producto.',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'La gastronomía y la industria del turismo',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Organización Mundial del Turismo y Basque Culinary Center (2021). Guía para el desarrollo del turismo gastronómico. ',
+      tipo: 'Documento Guía',
+      link: 'https://www.e-unwto.org/doi/pdf/10.18111/9789284420995 ',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Parámetros de inocuidad alimentaria',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Guía de inocuidad de alimentos y bebidas para restaurantes o establecimientos gastronómicos. Subdirección de Salud Nutricional, Alimentos y Bebidas. Bogotá D.C. 2017. ',
+      tipo: 'Documento Guía',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SNA/Guia-inocuidad-alimentos-establecimientos-gastronomicos-restaurantes.pdf ',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Caracterización de menús',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'De Suremain, C.E (2017). Cuando la alimentación se hace patrimonio. Rutas gastronómicas, globalización y desarrollo local (México). Trace (Méx. DF) n.72, pp.165-181.   ',
+      tipo: 'Artículo',
+      link:
+        'http://www.scielo.org.mx/scielo.php?pid=S0185-62862017000200165&script=sci_abstract&tlng=pt ',
+    },
+    {
+      tema: 'Emplatados y presentación de platos',
+      referencia:
+        'Plate like a pro with these quick and easy dinner party plating tricks | Food Hacks by So Yummy. [Vídeo] 2022.',
+      tipo: 'Vídeo',
+      link: 'https://www.youtube.com/watch?v=02Brgs60BiY&t=8s ',
+    },
+    {
+      tema: 'Costos para restaurantes',
+      referencia:
+        'Costos del servicio de alimentos y bebidas en establecimientos de alojamientos turísticos Visión Gerencial, núm. 2, pp. 304-327 Universidad de los Andes Mérida, Venezuela.',
+      tipo: 'Artículo',
+      link: 'https://www.redalyc.org/pdf/4655/465545881013.pdf ',
     },
   ],
   creditos: {
@@ -314,6 +326,37 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Fabio Alberto Ramírez Ayala',
+        cargo: 'Experto temático',
+        centro: 'Centro Comercio y Servicios.Regional Tolima.',
+      },
+      {
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Experto temático',
+        centro: 'Centro Comercio y Servicios.Regional Tolima.',
+      },
+      {
+        nombre: 'Luisa Fernanda Posada Hincapié',
+        cargo: 'Experto temático',
+        centro: 'Centro de Comercio, Industria y Turismo Regional Quindío',
+      },
+      {
+        nombre: 'Gloria Alexandra Orejarena Barrios',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Gestión Industrial.Regional Distrito Capital.',
+      },
+      {
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios.Regional Norte de Santander.',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesor metodológico',
+        centro: 'Centro de Diseño y Metrología. Regional Distrito Capital.',
+      },
     ],
     desarrolloProducto: [
       {
@@ -328,25 +371,90 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Fabian Zarate'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Sergio Mauricio Valencia Martínez',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andrea Botello',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Yeimmy Bibiana Barrera Maldonado',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Miguel Guerrero Gutiérrez ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Pedro Nel Calao Zabala',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Carlos Eduardo Garavito Parada',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'María Eugenia Mejía López',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

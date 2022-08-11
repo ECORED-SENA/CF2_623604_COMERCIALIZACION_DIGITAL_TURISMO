@@ -49,7 +49,7 @@
               p.mb-0 Integrar recursos y productos autóctonos del territorio 
             li 
               i.fas.fa-angle-right.ss
-              p.mb-0 Contar con recordatorios o suvenires tangibles que se pueda llevar el cliente 
+              p.mb-0 Contar con recordatorios o <i>souvenirs</i>  tangibles que se pueda llevar el cliente 
         .col-lg-6
           img(src='@/assets/curso/tema2/i2.png', alt='Texto que describa la imagen')
       p.mt-4 Cuando logramos brindarle ese momento memorable al turista, obtenemos su fidelidad y su satisfacción; lo que se traduce en una recompra y una publicidad gratuita, haciendo que nuestra marca sea cada vez más reconocida y que llegue a ella muchas más personas. 
@@ -62,10 +62,11 @@
       .py-3.py-md-4(titulo="Experiencias gastronómicas en casa")
         .row
           .col-md-7.mb-4.mb-md-0
-            p Aunque a veces preferimos ir a los restaurantes más renombrados en busca de toda innovación, hoy día también podemos disfrutar de las mejores experiencias gastronómicas y sin salir de casa. Si tienes invitados en casa y lo que quieres es ahorrar tiempo y esfuerzo, existen empresas que llevan las mejores experiencias gastronómicas a tu entorno más exclusivo, ya sea en tu casa, oficina o en otro espacio privado. 
+            p Aunque a veces preferimos ir a los restaurantes más renombrados en busca de toda innovación, hoy día también podemos disfrutar de las mejores experiencias gastronómicas y sin salir de casa. 
+            p Si tienes invitados en casa y lo que quieres es ahorrar tiempo y esfuerzo, existen empresas que llevan las mejores experiencias gastronómicas a tu entorno más exclusivo, ya sea en tu casa, oficina o en otro espacio privado. 
             p Se pueden encontrar dos modalidades para generar esta experiencia en casa:
-            p <strong>“Reserva un Chef privado”</strong> para una experiencia personalizada, con menús que van desde un almuerzo ligero, una paella o barbacoa, a una cena gourmet.
-            p <strong>“Talleres Privados”</strong> donde un Chef profesional te enseñará técnicas y recetas en detalle, mientras preparas los platos para su posterior degustación.        
+            p <strong>“Reserva un chef privado”</strong> para una experiencia personalizada, con menús que van desde un almuerzo ligero, una paella o barbacoa, a una cena <i>gourmet</i>.
+            p <strong>“Talleres privados”</strong> donde un chef profesional te enseñará técnicas y recetas en detalle, mientras preparas los platos para su posterior degustación.        
           .col-md-5
             figure
               img(src='@/assets/curso/tema2/i3.png', alt='Texto que describa la imagen')
@@ -92,7 +93,7 @@
           .col-md-5
             figure
               img(src='@/assets/curso/tema2/i5.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Turismo Enológico")
+      .py-3.py-md-4(titulo="Turismo enológico")
         .row
           .col-md-7.mb-4.mb-md-0
             p Comprende actividades relacionadas con el vino y su cultura, y se basa en los recorridos hechos alrededor de los lugares donde se produce esta bebida. Es ideal para los amantes del tema, pero también para todos aquellos viajeros que disfrutan de las actividades al aire libre, el contacto con la naturaleza y la comida regional.
@@ -107,10 +108,11 @@
       .py-3.py-md-4(titulo="Recorridos alrededor del vino ")
         .row
           .col-md-7.mb-4.mb-md-0
-            p Es la principal provincia vitivinícola de Argentina y desde 2005, una de las ocho capitales del vino de reconocimiento internacional (Great Wine Capitals). Posee alrededor de 150.000 hectáreas cultivadas con vid y más de 1.200 bodegas distribuidas en cinco regiones, de las cuales cuatro proponen circuitos turístico-enológicos.
+            h5 Mendoza - argentina: la octava capital del vino
+            p Es la principal provincia vitivinícola de Argentina y desde 2005, una de las ocho capitales del vino de reconocimiento internacional (<i>Great Wine Capitals</i>). Posee alrededor de 150.000 hectáreas cultivadas con vid y más de 1.200 bodegas distribuidas en cinco regiones, de las cuales cuatro proponen circuitos turístico-enológicos.
             p Cabalgatas por los viñedos, visita a las bodegas, degustaciones..
             p Fincas, que tiene planes de cosecha, poda, o paseos en globo, todo con el propósito de disfrutar los viñedos. Los programas siempre se hacen desde la mañana hasta el atardecer, e incluyen desayuno, refrigerio, recorrido guiado, actividades y degustaciones.
-            p Recorridos de los viñedos y bodegas en bicicleta con mapa de ruta, tours independientes o con guiados, con itinerario de visita a las bodegas, con horarios, y alternativas de almuerzo, etc.
+            p Recorridos de los viñedos y bodegas en bicicleta con mapa de ruta, <i>tours</i> independientes o con guiados, con itinerario de visita a las bodegas, con horarios, y alternativas de almuerzo, etc.
             p Algunos recorridos incluyen no solo la visita a las fincas, los viñedos y las bodegas, sino también a los restaurantes mas lujosos donde se obtiene una cena completa acompañada de esta maravillosa bebida.
           .col-md-5
             figure
@@ -126,7 +128,7 @@
           .col-lg-2
             .mt-3
               a.boton.me-3.indicador__container(
-                :href="('https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SNA/Guia-inocuidad-alimentos-establecimientos-gastronomicos-restaurantes.pdf ')"
+                :href="('https://colombia.travel/es/blog/las-5-experiencias-gastronomicas-imperdibles-en-bogota')"
                 target="_blank"
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"
@@ -149,10 +151,10 @@
               img(src='@/assets/curso/tema2/i8.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            h4 2.<i>Soneva Kiri en Tailandia</i>
+            h4 2. <i>Soneva Kiri en Tailandia</i>
             p Este restaurante se encuentra en el bosque de la isla tailandesa de Koh Kood, en el complejo hotelero con vista a la bahía Soneva Kiri Eco Resort. 
             p El comensal vive su experiencia en mesas gigantes en forma de ‘nidos de pájaro’ fabricados en madera y mimbre, sobre árboles cuidadosamente seleccionados a más de 5 metros de altura, desde donde se puede disfrutar de una maravillosa vista al océano y a la selva.
-            p El precio para dos personas está alrededor de 500 $ y podrás ser atendido por expertos camareros suspendidos con arnés de seguridad.
+            p El precio para dos personas está alrededor de 500 € y podrás ser atendido por expertos camareros suspendidos con arnés de seguridad.
           .col-md-7
             figure
               img(src='@/assets/curso/tema2/i9.png', alt='Texto que describa la imagen')
@@ -176,7 +178,7 @@
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h4 5.  <i> Solo Per Due / Vacone</i>
-            p Es el ‘restaurante más pequeño del mundo’ que comprende una única mesa para dos comensales. Se dice que las paredes que rodean al restaurante conformaban una villa romana perteneciente al poeta latino Horacio. Asimismo, después de la cena puedes visitar la fuente Bandusia, a la cual el célebre poeta le habría dedicado una de sus creaciones. La aventura romántica te costará 250 € por persona, pero te garantiza que no será molestado, más que cuando hagas sonar una campanilla de plata.
+            p Es el ‘restaurante más pequeño del mundo’ que comprende una única mesa para dos comensales. Se dice que las paredes que rodean al restaurante conformaban una villa romana perteneciente al poeta latino Horacio. Asimismo, después de la cena puedes visitar la fuente Bandusia, a la cual el célebre poeta le habría dedicado una de sus creaciones. La aventura romántica te costará 250 € por persona, pero te garantiza que no serás molestado, más que cuando hagas sonar una campanilla de plata.
           .col-md-7
             figure
               img(src='@/assets/curso/tema2/i12.png', alt='Texto que describa la imagen')
@@ -185,7 +187,7 @@
       h2 2.2.	 Determinantes de una experiencia gastronómica memorable
     p La experiencia gastronómica va más allá de una buena cocina y un equipo experimentado a sus espaldas. Son muchos los factores que influyen para que una experiencia sea o no satisfactoria. Arhippainen y Tähti (2003), citado por González Ramos (2019), menciona que son 4 los factores los que deben interactuar entre sí para que una experiencia funcione correctamente: 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 1. 
+      h5 Figura 3. 
       span Determinantes de la experiencia
     .row.justify-content-center
       .col-lg-11
@@ -214,13 +216,16 @@
       .col-lg-4
         img(src='@/assets/curso/tema2/i14.png', alt='Texto que describa la imagen')
     p.mt-4 Así mismo Zorrilla (2002), menciona que las principales dimensiones atmosféricas incluyen:
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 4. 
+      span <i>Factores atmosféricos</i>
     .row.mt-5
       .col-lg-3.bg8
         h4.text-white.text-center.mt-3 Factores atmosféricos
     .row.justify-content-center.mt-5
       .col-lg-8
         img(src='@/assets/curso/tema2/i15.png', alt='Texto que describa la imagen')
-    p.text-center.mt-4 Nota. Nuevas tendencias en merchandising: Generar experiencias para conquistar emociones y fidelizar clientes. Distribución y Consumo.  Zorrilla, P. (2002).
+    p.text-center.mt-4 Nota. Nuevas tendencias en <i>merchandising</i>: generar experiencias para conquistar emociones y fidelizar clientes. Distribución y Consumo.  Zorrilla, P. (2002).
     separador
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3.	  Pasos para crear una experiencia memorable
@@ -230,7 +235,7 @@
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         LineaTiempoD.color-acento-botones
-          p(numero="1" titulo="Conocer al público objetivo") El análisis del público objetivo es una de las primeras estrategias que se deben aplicar a la hora de crear una experiencia gastronómica, o establecer un cambio sustancial en la línea de comida que define al restaurante.<br><br>Existen una variedad de perfiles e intereses gastronómicos; conocerlos y estudiarlos permitirá tener un mejor entendimiento de cómo y cuándo intervenir. <br><br>Los perfiles de consumidores de turismo gastronómico se pueden segmentar por:Variables demográficas. Variables socioeconómicas. Variables  psicográficas y conductuales. <br><br>Luego de conocer un poco sobre el perfil del turista que llega al destino, es importante definir aspectos necesarios para crear la experiencia gastronómica.
+          p(numero="1" titulo="Conocer al público objetivo") Las buenas experiencias no están dirigidas a todos los comensales por igual. El análisis del público objetivo es una de las primeras estrategias que se deben aplicar a la hora de crear una experiencia gastronómica, o establecer un cambio sustancial en la línea de comida que define al restaurante<br><br>Existen una variedad de perfiles e intereses gastronómicos; conocerlos y estudiarlos permitirá tener un mejor entendimiento de cómo y cuándo intervenir. <br><br>Los perfiles de consumidores de turismo gastronómico se pueden segmentar por:Variables demográficas. Variables socioeconómicas. Variables  psicográficas y conductuales. <br><br>Luego de conocer un poco sobre el perfil del turista que llega al destino, es importante definir aspectos necesarios para crear la experiencia gastronómica.
           p(numero="2" titulo="Conoce a tu entorno") Acá la idea es incluir en la experiencia gastronómica todo lo que  caracteriza o identifica al destino donde se ubica al restaurante o al tipo de comida que éste ofrece. <br><br>Productos locales, bebidas tradicionales, historia local del destino que pueda ser un complemento a la experiencia gastronómica, fiestas, ferias o eventos culturales autóctonos que tengan relación con el plato a ofrecer o que se puedan incluir en la experiencia como tal.<br><br>Las empresas de servicios gastronómicos para el turista (productores e industrias agroalimentarias, alojamientos, restaurantes en sus múltiples tipologías, mercados, tiendas gourmet, compras, actividades culinarias, centros y museos gastronómicos, etc.). Asociaciones turísticas, de cocineros o de productores, y zonas o municipios marcados por un producto gastronómico puntual.
           p(numero="3" titulo="Conoce a tu competencia") En esta sección averiguamos sobre experiencias gastronómicas similares a la nuestra, que se ofrecen tanto en municipios o regiones cercanas; como en otros países. <br><br>La idea con este proceso es identificar sus elementos más distintivos; actividades, temáticas y estilos de la competencia para identificar sus fortalezas y verificar lo que no esté cubriendo o lo que consideres podrías mejorar con un estilo propio.
           
@@ -395,7 +400,7 @@
             td.text-center 15 min
             td Recorrido por la viña.
             td Viñedo. Carruaje. Conductor. Guía
-            td Descripción dl lugar/entorno/historia. Explicación sobre las variedades de cepas.
+            td Descripción del lugar/entorno/historia. Explicación sobre las variedades de cepas.
             td Entregar claves generales de interpretación de la experiencia.<br>Mantener la expectación.
           tr.fonta
             td.text-center 45 min
@@ -431,7 +436,7 @@
             td Una historia es más fácil de recordar que cualquier listado de características. El storytelling puede ser implementado en todas las partes de la experiencia gastronómica; desde el diseño de la carta; la descripción de los platos; la web del establecimiento; sus redes sociales o incluso la manera en la que los anfitriones hablan de las opciones del menú.<br><br>Adicional a lo anterior, también es importante que todos los elementos del establecimiento vayan en coherencia con lo presentado en los textos que leerá el comensal; siendo así, el espacio, la decoración, el servicio y la comida deben tener clara sintonía para que el cliente viva la desde el principio hasta el fin.
     separador
     #t_2_4.titulo-segundo.color-acento-contenido
-      h2 2.4.	  Experiencias gastronómicas online
+      h2 2.4	  Experiencias gastronómicas <i>online</i>
     .row
       .col-lg-6
         p El mundo de los restaurantes está en continua evolución, y es por eso que constantemente aparecen iniciativas innovadoras dignas de ser aplicadas y evaluadas como ideas de gran potencial a largo plazo. 
@@ -448,7 +453,7 @@
 
       li 
         i.fas.fa-check.ssa
-        p.mb-0 Tree by Naked es una experiencia gastronómica actual con sede en Japón donde se hace un uso extensivo de la tecnología VR.
+        p.mb-0 <i>Tree by Naked</i> es una experiencia gastronómica actual con sede en Japón donde se hace un uso extensivo de la tecnología VR.
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mt-5(data-aos="fade-up-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/i22.png')})`}"
@@ -459,7 +464,7 @@
     separador
     #t_2_5.titulo-segundo.color-acento-contenido
       h2 2.5.	  Digitalización de las experiencias gastronómicas
-    p Las experiencias gastronómicas están muy ligadas al efecto voz a voz y a las reseñas de otros usuarios. Hoy podemos contar con diferentes plataformas online que permiten compartir la experiencia personal en un restaurante, para que otros usuarios puedan hacer uso de estas recomendaciones y experimentar por su propia cuenta el resultado.  
+    p Las experiencias gastronómicas están muy ligadas al efecto voz a voz y a las reseñas de otros usuarios. Hoy podemos contar con diferentes plataformas <i>online</i> que permiten compartir la experiencia personal en un restaurante, para que otros usuarios puedan hacer uso de estas recomendaciones y experimentar por su propia cuenta el resultado.  
     .row
       .col-lg-6
         img(src='@/assets/curso/tema2/i23.png', alt='Texto que describa la imagen')
@@ -468,7 +473,7 @@
         .row.justify-content-center
           .col-lg-12
             .cajon.color-primario.p-4.mb-4
-              p Sitios web tales como Tripadvisor o El Tenedor (app líder de reservas online en España), se han enfocado justamente en presentarle al usuario la calificación y opinión de muchos con respecto al servicio y la comida obtenida en diferentes establecimientos gastronómicos, lo que genera ciertas expectativas en el lector y hace que desee o no, visitar el lugar. Adicional a estos medios, en las redes sociales en especial Instagram, se comparte la experiencia y se realizan comentarios acerca de restaurantes, productos, o bebidas. Este tipo de plataformas generan empatía, interacción social, transmiten conocimiento y brindan imágenes que sirven de apoyo en las decisiones del comensal, a la hora de elegir el restaurante.
+              p Sitios <i>web</i> tales como Tripadvisor o El Tenedor (app líder de reservas online en España), se han enfocado justamente en presentarle al usuario la calificación y opinión de muchos con respecto al servicio y la comida obtenida en diferentes establecimientos gastronómicos, lo que genera ciertas expectativas en el lector y hace que desee o no, visitar el lugar. Adicional a estos medios, en las redes sociales en especial Instagram, se comparte la experiencia y se realizan comentarios acerca de restaurantes, productos, o bebidas. Este tipo de plataformas generan empatía, interacción social, transmiten conocimiento y brindan imágenes que sirven de apoyo en las decisiones del comensal, a la hora de elegir el restaurante.
         p Adicional a lo anterior, también se debe tener presente que a partir de los efectos generados por la pandemia del Covid-19 al sector gastronómico, el servicio al interior de los restaurantes se ha transformado ya que hoy día, se hace un mayor uso de herramientas digitales para presentar un menú virtual a través de códigos QR, al igual que plataformas de pago a través de dispositivos móviles evitando el uso del dinero en efectivo y tarjetas de crédito.
         p.mb-0 Con una mayor inversión, los restaurantes también pueden lograr la implementación de domicilios y reservas de manera virtual; y los sensores que ayudan por ejemplo a que el comensal no tenga que abrir o cerrar la puerta del establecimiento o que, en su interior, el aire se mantenga sanitizado.
         p Así mismo las soluciones digitales como software para mejorar la gestión financiera, contable y de recursos humanos, también se hace importante para aquellos restaurantes que desean estar a la vanguardia en todos sus procesos, evitando pérdidas innecesarias y aumentando su valor en el mercado.
