@@ -346,7 +346,7 @@
           .col-lg-2
             .mt-3
               a.boton.me-3.indicador__container(
-                :href="('https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SNA/Guia-inocuidad-alimentos-establecimientos-gastronomicos-restaurantes.pdf ')"
+                :href="('https://www.redalyc.org/pdf/4655/465545881013.pdf ')"
                 target="_blank"
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"
