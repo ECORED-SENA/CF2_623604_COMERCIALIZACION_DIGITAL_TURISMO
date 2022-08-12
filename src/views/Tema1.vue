@@ -99,10 +99,10 @@
             figure
               img(src='@/assets/curso/tema1/6.png', alt='Texto que describa la imagen')
 
-          div(x="22.5%" y="17%" tooltip="1. Grupo de lo cereales, pan, patatas, azúcares")
+          div(x="22.5%" y="17%" tooltip="1. Grupo de los cereales, pan, patatas, azúcares")
             .row.justify-content-center.p-4
               .col-lg-5
-                h5 1. Grupo de lo cereales, pan, patatas, azúcares
+                h5 1. Grupo de los cereales, pan, patatas, azúcares
                 p Este grupo contiene gran cantidad de hidratos de carbono, de tal forma que son los utilizados para el suministro de calorías en la dieta. También poseen cantidades de algunos minerales y vitaminas del complejo B. La digestibilidad es variable en función del contenido en materia no degradable.
                 p <strong>Ejemplo de cereales y sus derivados:</strong> arroz, pasta, pan, galletas, avena, cereales matutinos, harinas de cereales, patatas, boniatos, ñames, mandioca, maíz, trigo, centeno, cuscús.
                 p <strong>Ejemplo de tubérculos:</strong> calabaza, berro, lechuga, acelga, apio, puerro, berenjena, remolacha, brócoli, cebolla, zanahoria, chucrut, calabacín, col, col de Saboya, col de Bruselas, espárragos, espinacas, judías verdes, nabo, nabo, pepino, pimiento, rábano, col, rúcula, tomate.
@@ -293,7 +293,7 @@
           
           p.text-small(numero="2" titulo="Cocción inadecuada") Un huevo frito poco hecho, una hamburguesa medio cruda o unos calamares poco pasados pueden ser un riesgo, ya que generan una mayor proliferación de microorganismos patógenos que generan las intoxicaciones en el ser humano. Por ello, se debe insistir en la profesionalización de los cocineros y en sus certificados de manipulación de alimentos al interior de cualquier restaurante.
           
-          p.text-small(numero="3" titulo="Contaminación en utensilios e instalaciones") Es necesario hacer uso de productos desinfectantes para reducir el riesgo de posibles microorganismos
+          p.text-small(numero="3" titulo="Contaminación en utensilios e instalaciones") Es necesario hacer uso de productos desinfectantes para reducir el riesgo de posibles microorganismos.
           
           p.text-small(numero="4" titulo="Proveedores de alimentos poco fiables") Para cada restaurante debe ser un hábito revisar y controlar la entrega de productos por parte de proveedores. Se debe tener en cuenta la temperatura, el etiquetado, los envases y embalajes, los medios en los que se transportan los productos, etc.; adicional a ello, se deben pedir los correspondientes certificados de calidad a quienes proveen los alimentos al establecimiento. 
           
@@ -415,7 +415,7 @@
             .row.mt-5
             .row-mt-5
             <br>
-            h5.mt-5 Menú concertado
+            h5.mt-5 Menú por tiempos
             ul.lista-ul
               li 
                 i.fas.fa-angle-right.ss
@@ -564,8 +564,7 @@
                   li 
                     i.fas.fa-angle-right.ss
                     p.mb-0 Las destiladas.
-            p.mt-4 Se considera una bebida alcohólica si contiene más de 2.5 grados de alcohol etílico.
-            p.mb-0 Las bebidas fermentadas son las procedentes de frutas o de cereales que, por acción de ciertas sustancias microscópicas (levaduras), convierten el azúcar en alcohol.
+            p.mb-0.mt-4 Las bebidas fermentadas son las procedentes de frutas o de cereales que, por acción de ciertas sustancias microscópicas (levaduras), convierten el azúcar en alcohol.
             p Las bebidas fermentadas más comunes son el vino, la cerveza y la sidra.
             p.mb-0 Las bebidas destiladas son el resultado del proceso de separación de agua y alcohol de un líquido previamente fermentado. El método de destilación puede ser industrial o artesanal, dependiendo del volumen de producción y de la calidad deseada para el producto final. En cualquier caso, su objetivo es el de obtener una bebida de alcohol puro con un nivel superior a los 40°.
             p Entre las bebidas destiladas más conocidas se encuentran: el <i>coñac</i> o <i>brandy</i>, la ginebra, el <i>whisky</i>, el ron y el <i>vodka</i>.
@@ -684,7 +683,7 @@
         .row.justify-content-center(titulo="Masato")
           .col-md-5.mb-4.mb-md-0.mt-5
             h5 Masato
-            p Es una de las bebidas artesanales más populares en los departamentos de Cundinamarca, Santander y Tolima. Al igual que la chicha, es fermentada y elaborada a base de cereales como el arroz, el maíz y el trigo, o tubérculos como la yuca. Se suele acompañar de una almojábana o pan de yuca, se consume fría y como merienda (en la mañana o en la tarde)
+            p Es una de las bebidas artesanales más populares en los departamentos de Cundinamarca, Santander y Tolima. Al igual que la chicha, es fermentada y elaborada a base de cereales como el arroz, el maíz y el trigo, o tubérculos como la yuca. Se suele acompañar de una almojábana o pan de yuca, se consume fría y como merienda (en la mañana o en la tarde).
 
           .col-md-6.mt-5
             figure
@@ -975,7 +974,7 @@
           p(numero="3" titulo="Durabilidad") Es esencial considerar qué tan duradero es el servicio de mesa. Si tiene un restaurante grande con plazos de entrega rápidos, necesitará invertir en vajillas comerciales que sean mucho más duraderas que las que se necesitarían para un pequeño restaurante de estilo boutique donde el número de invitados es menor y la rotación o reposición de los utensilios será más progresiva. 
           
           p(numero="4" titulo="Materiales") Se debe definir entre los diferentes materiales que existen para el menaje, teniendo en cuenta que cada utensilio puede contribuir a la generación de valor de la marca. Existe la cerámica, la porcelana, la melamina, el barro, etc. 
-          p(numero="5" titulo="Características del menaje") <strong>Platos:</strong> de pan, de presentación, trincheros, soperos, de postre, de consomé (también pueden ser tazas) <br><br> <strong>Copas (según tipo de bebida):</strong> agua, vino blanco, vino tinto champán, <i>vermouth</i>, jerez <i>coñac</i>, licor. <br><br><strong>Vasos:</strong> básico, tubo, <i>highBall</i>, <i>pilsner</i>, chupito <br><br> <strong>Cubiertos (puede variar según estilo/especialización del restaurante):</strong> cuchara sopera, tenedor y cuchillo de mesa, tenedor y cuchillo de trinchar, cuchillo de carne, tenedor y pala de pescado, pinzas de marisco, cuchara salsera, cuchara, tenedor y cuchillo de postre, cortador y pala de tartas. <br><br><strong>Utensilios de cocina:</strong> cucharas y cucharones, de acero inoxidable, juego de cuchillos de cocina y tijeras, tablas de cortar batería completa de sartenes y cacerolas, incluyendo ollas de presión,cazos y cestillos, bowls de diferentes tamaños, biberones para salsas, bandejas, moldes para hornear, brochetas, espátulas, colador.
+          p(numero="5" titulo="Características del menaje") <strong>Platos:</strong> de pan, de presentación, trincheros, soperos, de postre, de consomé (también pueden ser tazas) <br><br> <strong>Copas (según tipo de bebida):</strong> agua, vino blanco, vino tinto champán, <i>vermouth</i>, jerez <i>coñac</i>, licor. <br><br><strong>Vasos:</strong> básico, tubo, <i>highBall</i>, <i>pilsner</i>, chupito <br><br> <strong>Cubiertos (puede variar según estilo/especialización del restaurante):</strong> cuchara sopera, tenedor y cuchillo de mesa, tenedor y cuchillo de trinchar, cuchillo de carne, tenedor y pala de pescado, pinzas de marisco, cuchara salsera, cuchara, tenedor y cuchillo de postre, cortador y pala de tartas. <br><br><strong>Utensilios de cocina:</strong> cucharas y cucharones, de acero inoxidable, juego de cuchillos de cocina y tijeras, tablas de cortar batería completa de sartenes y cacerolas, incluyendo ollas de presión,cazos y cestillos, <i>bowls</i> de diferentes tamaños, biberones para salsas, bandejas, moldes para hornear, brochetas, espátulas, colador.
  
       .col-lg-4.mt-4
         img(src='@/assets/curso/tema1/66.png', alt='Texto que describa la imagen')
@@ -983,7 +982,7 @@
     #t_1_8.titulo-segundo.color-acento-contenido
       h2 1.8.	 Tipos de servicio en un restaurante
     p Entendemos por tipos de servicio las diferentes formas en las que podemos hacer llegar el alimento preparado a la persona que lo va a degustar, pudiendo ser éste el cliente de un restaurante, o cualquier miembro familiar que se siente en la mesa para comer.
-    p Los principales tipos de servicio son: emplatado, inglesa, y bufet, cada uno de ellos con unas características específicas que lo hacen idóneo en función de las consideraciones oportunas que determinan la naturaleza del servicio. En el siguiente vídeo se explica con más detalle las características de cada uno de estos tipos de servicio:
+    p Los principales tipos de servicio son: emplatado, inglesa, y <i>bufet</i>, cada uno de ellos con unas características específicas que lo hacen idóneo en función de las consideraciones oportunas que determinan la naturaleza del servicio. En el siguiente vídeo se explica con más detalle las características de cada uno de estos tipos de servicio:
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/4iYlPsNTcGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

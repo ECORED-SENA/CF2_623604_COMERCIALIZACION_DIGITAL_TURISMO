@@ -105,10 +105,9 @@
           .col-md-5
             figure
               img(src='@/assets/curso/tema2/i6.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Recorridos alrededor del vino ")
+      .py-3.py-md-4(titulo="Mendoza - argentina: la octava capital del vino")
         .row
           .col-md-7.mb-4.mb-md-0
-            h5 Mendoza - argentina: la octava capital del vino
             p Es la principal provincia vitivinícola de Argentina y desde 2005, una de las ocho capitales del vino de reconocimiento internacional (<i>Great Wine Capitals</i>). Posee alrededor de 150.000 hectáreas cultivadas con vid y más de 1.200 bodegas distribuidas en cinco regiones, de las cuales cuatro proponen circuitos turístico-enológicos.
             p Cabalgatas por los viñedos, visita a las bodegas, degustaciones..
             p Fincas, que tiene planes de cosecha, poda, o paseos en globo, todo con el propósito de disfrutar los viñedos. Los programas siempre se hacen desde la mañana hasta el atardecer, e incluyen desayuno, refrigerio, recorrido guiado, actividades y degustaciones.
@@ -235,7 +234,7 @@
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         LineaTiempoD.color-acento-botones
-          p(numero="1" titulo="Conocer al público objetivo") Las buenas experiencias no están dirigidas a todos los comensales por igual. El análisis del público objetivo es una de las primeras estrategias que se deben aplicar a la hora de crear una experiencia gastronómica, o establecer un cambio sustancial en la línea de comida que define al restaurante<br><br>Existen una variedad de perfiles e intereses gastronómicos; conocerlos y estudiarlos permitirá tener un mejor entendimiento de cómo y cuándo intervenir. <br><br>Los perfiles de consumidores de turismo gastronómico se pueden segmentar por:Variables demográficas. Variables socioeconómicas. Variables  psicográficas y conductuales. <br><br>Luego de conocer un poco sobre el perfil del turista que llega al destino, es importante definir aspectos necesarios para crear la experiencia gastronómica.
+          p(numero="1" titulo="Conocer al público objetivo") Las buenas experiencias no están dirigidas a todos los comensales por igual. El análisis del público objetivo es una de las primeras estrategias que se deben aplicar a la hora de crear una experiencia gastronómica, o establecer un cambio sustancial en la línea de comida que define al restaurante<br><br>Existen una variedad de perfiles e intereses gastronómicos; conocerlos y estudiarlos permitirá tener un mejor entendimiento de cómo y cuándo intervenir. <br><br>Los perfiles de consumidores de turismo gastronómico se pueden segmentar por: variables demográficas, variables socioeconómicas, variables  psicográficas y conductuales. <br><br>Luego de conocer un poco sobre el perfil del turista que llega al destino, es importante definir aspectos necesarios para crear la experiencia gastronómica.
           p(numero="2" titulo="Conoce a tu entorno") Acá la idea es incluir en la experiencia gastronómica todo lo que  caracteriza o identifica al destino donde se ubica al restaurante o al tipo de comida que éste ofrece. <br><br>Productos locales, bebidas tradicionales, historia local del destino que pueda ser un complemento a la experiencia gastronómica, fiestas, ferias o eventos culturales autóctonos que tengan relación con el plato a ofrecer o que se puedan incluir en la experiencia como tal.<br><br>Las empresas de servicios gastronómicos para el turista (productores e industrias agroalimentarias, alojamientos, restaurantes en sus múltiples tipologías, mercados, tiendas gourmet, compras, actividades culinarias, centros y museos gastronómicos, etc.). Asociaciones turísticas, de cocineros o de productores, y zonas o municipios marcados por un producto gastronómico puntual.
           p(numero="3" titulo="Conoce a tu competencia") En esta sección averiguamos sobre experiencias gastronómicas similares a la nuestra, que se ofrecen tanto en municipios o regiones cercanas; como en otros países. <br><br>La idea con este proceso es identificar sus elementos más distintivos; actividades, temáticas y estilos de la competencia para identificar sus fortalezas y verificar lo que no esté cubriendo o lo que consideres podrías mejorar con un estilo propio.
           
@@ -346,7 +345,7 @@
           .col-lg-2
             .mt-3
               a.boton.me-3.indicador__container(
-                :href="('https://www.redalyc.org/pdf/4655/465545881013.pdf ')"
+                :href="('http://accioneduca.org/admin/archivos/clases/material/mapa-de-empatia_1563898005.pdf')"
                 target="_blank"
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"
@@ -433,7 +432,7 @@
         tbody
           tr
             td.p-4 Obviamente la comida es una pieza indispensable, es la base de la experiencia gastronómica; ya que si el servicio, el ambiente y el menú cumplen con las expectativas del cliente; la comida lo debe hacer en una mayor proporción.  En los platos se transmite de igual manera, el amor, la delicadeza, la calidad, la innovación y el concepto del establecimiento. Los clientes deben poder deleitar su vista, sentir una explosión olfativa y, obviamente, gustativa.
-            td Una historia es más fácil de recordar que cualquier listado de características. El storytelling puede ser implementado en todas las partes de la experiencia gastronómica; desde el diseño de la carta; la descripción de los platos; la web del establecimiento; sus redes sociales o incluso la manera en la que los anfitriones hablan de las opciones del menú.<br><br>Adicional a lo anterior, también es importante que todos los elementos del establecimiento vayan en coherencia con lo presentado en los textos que leerá el comensal; siendo así, el espacio, la decoración, el servicio y la comida deben tener clara sintonía para que el cliente viva la desde el principio hasta el fin.
+            td Una historia es más fácil de recordar que cualquier listado de características. El <i>storytelling</i> puede ser implementado en todas las partes de la experiencia gastronómica; desde el diseño de la carta; la descripción de los platos; la web del establecimiento; sus redes sociales o incluso la manera en la que los anfitriones hablan de las opciones del menú.<br><br>Adicional a lo anterior, también es importante que todos los elementos del establecimiento vayan en coherencia con lo presentado en los textos que leerá el comensal; siendo así, el espacio, la decoración, el servicio y la comida deben tener clara sintonía para que el cliente viva la desde el principio hasta el fin.
     separador
     #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4	  Experiencias gastronómicas <i>online</i>
@@ -476,7 +475,7 @@
               p Sitios <i>web</i> tales como Tripadvisor o El Tenedor (app líder de reservas online en España), se han enfocado justamente en presentarle al usuario la calificación y opinión de muchos con respecto al servicio y la comida obtenida en diferentes establecimientos gastronómicos, lo que genera ciertas expectativas en el lector y hace que desee o no, visitar el lugar. Adicional a estos medios, en las redes sociales en especial Instagram, se comparte la experiencia y se realizan comentarios acerca de restaurantes, productos, o bebidas. Este tipo de plataformas generan empatía, interacción social, transmiten conocimiento y brindan imágenes que sirven de apoyo en las decisiones del comensal, a la hora de elegir el restaurante.
         p Adicional a lo anterior, también se debe tener presente que a partir de los efectos generados por la pandemia del Covid-19 al sector gastronómico, el servicio al interior de los restaurantes se ha transformado ya que hoy día, se hace un mayor uso de herramientas digitales para presentar un menú virtual a través de códigos QR, al igual que plataformas de pago a través de dispositivos móviles evitando el uso del dinero en efectivo y tarjetas de crédito.
         p.mb-0 Con una mayor inversión, los restaurantes también pueden lograr la implementación de domicilios y reservas de manera virtual; y los sensores que ayudan por ejemplo a que el comensal no tenga que abrir o cerrar la puerta del establecimiento o que, en su interior, el aire se mantenga sanitizado.
-        p Así mismo las soluciones digitales como software para mejorar la gestión financiera, contable y de recursos humanos, también se hace importante para aquellos restaurantes que desean estar a la vanguardia en todos sus procesos, evitando pérdidas innecesarias y aumentando su valor en el mercado.
+        p Así mismo las soluciones digitales como <i>software</i> para mejorar la gestión financiera, contable y de recursos humanos, también se hace importante para aquellos restaurantes que desean estar a la vanguardia en todos sus procesos, evitando pérdidas innecesarias y aumentando su valor en el mercado.
     p.mt-4 Por último, le invitamos a consultar la siguiente infografía ilustrativa, sobre las cuatro empresas online que ofrece servicios gastronómicos, con mejor puntaje y garantía a nivel de domicilios:
     .row
       .col-lg-6
