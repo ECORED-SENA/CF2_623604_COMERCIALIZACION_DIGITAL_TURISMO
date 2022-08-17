@@ -56,7 +56,7 @@
       
     separador
     #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1.	Tipos de experiencias gastronómicas
+      h2 2.1	Tipos de experiencias gastronómicas
     p Las experiencias gastronómicas son una estrategia utilizada por varios establecimientos hoy día. Se refieren al conjunto de conocimientos que se adquieren al asistir a un restaurante, bar o al contratar un servicio de alimentos, es decir se relaciona con todo aquello que los clientes viven en un restaurante, desde el momento en que entran por la puerta, hasta la hora de marcharse, allí se engloba todo, el servicio, el concepto, el local, es decir tanto lo físico como lo sensorial y ambiental. En el siguiente recurso podrá informarse más ampliamente a este respecto:
     TabsC.color-primario(data-aos="fade-right")
       .py-3.py-md-4(titulo="Experiencias gastronómicas en casa")
@@ -132,7 +132,7 @@
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"
               )
-                span Descargar
+                span Ingresar
                 i.fas.fa-link
                 .indicador--click(v-if="mostrarIndicador")
     p.mt-4 Igualmente, alrededor del mundo entero, se pueden disfrutar un sinfín de experiencias gastronómicas, cada vez son más los lugares que buscan una recordación en sus visitantes, además, de brindarle la mejor de las experiencias, en el siguiente recurso podrá consultar algunas de estas experiencias:
@@ -183,7 +183,7 @@
               img(src='@/assets/curso/tema2/i12.png', alt='Texto que describa la imagen')
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2.	 Determinantes de una experiencia gastronómica memorable
+      h2 2.2	 Determinantes de una experiencia gastronómica memorable
     p La experiencia gastronómica va más allá de una buena cocina y un equipo experimentado a sus espaldas. Son muchos los factores que influyen para que una experiencia sea o no satisfactoria. Arhippainen y Tähti (2003), citado por González Ramos (2019), menciona que son 4 los factores los que deben interactuar entre sí para que una experiencia funcione correctamente: 
     .titulo-sexto.color-acento-contenido
       h5 Figura 1. 
@@ -218,23 +218,20 @@
     .titulo-sexto.color-acento-contenido
       h5 Figura 2. 
       span <i>Factores atmosféricos</i>
-    .row.mt-5
-      .col-lg-3.bg8
-        h4.text-white.text-center.mt-3 Factores atmosféricos
     .row.justify-content-center.mt-5
       .col-lg-8
         img(src='@/assets/curso/tema2/i15.png', alt='Texto que describa la imagen')
     p.text-center.mt-4 Nota. Nuevas tendencias en <i>merchandising</i>: generar experiencias para conquistar emociones y fidelizar clientes. Distribución y Consumo.  Zorrilla, P. (2002).
     separador
     #t_2_3.titulo-segundo.color-acento-contenido
-      h2 2.3.	  Pasos para crear una experiencia memorable
+      h2 2.3	  Pasos para crear una experiencia memorable
     p Cada establecimiento gastronómico debe identificar sus puntos fuertes y transmitirlos al comensal para que vivan un momento único y especial. Para ello se debe tener en cuenta algunos pasos que ya se han visto en el componente formativo 01: “Diseño de paquetes turísticos”. En el siguiente recurso educativo, encontrará los pasos que deben seguirse para diseñar una experiencia turística, veamos:
     .row(data-aos="fade-up-left")
       .col-md-6.mb-5.mb-md-0
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         LineaTiempoD.color-acento-botones
-          p(numero="1" titulo="Conocer al público objetivo") Las buenas experiencias no están dirigidas a todos los comensales por igual. El análisis del público objetivo es una de las primeras estrategias que se deben aplicar a la hora de crear una experiencia gastronómica, o establecer un cambio sustancial en la línea de comida que define al restaurante<br><br>Existen una variedad de perfiles e intereses gastronómicos; conocerlos y estudiarlos permitirá tener un mejor entendimiento de cómo y cuándo intervenir. <br><br>Los perfiles de consumidores de turismo gastronómico se pueden segmentar por: variables demográficas, variables socioeconómicas, variables  psicográficas y conductuales. <br><br>Luego de conocer un poco sobre el perfil del turista que llega al destino, es importante definir aspectos necesarios para crear la experiencia gastronómica.
+          p(numero="1" titulo="Conocer al público objetivo") El análisis del público objetivo es una de las primeras estrategias que se deben aplicar a la hora de crear una experiencia gastronómica, o establecer un cambio sustancial en la línea de comida que define al restaurante<br><br>Existen una variedad de perfiles e intereses gastronómicos; conocerlos y estudiarlos permitirá tener un mejor entendimiento de cómo y cuándo intervenir. <br><br>Los perfiles de consumidores de turismo gastronómico se pueden segmentar por: variables demográficas, variables socioeconómicas, variables  psicográficas y conductuales. <br><br>Luego de conocer un poco sobre el perfil del turista que llega al destino, es importante definir aspectos necesarios para crear la experiencia gastronómica.
           p(numero="2" titulo="Conoce a tu entorno") Acá la idea es incluir en la experiencia gastronómica todo lo que  caracteriza o identifica al destino donde se ubica al restaurante o al tipo de comida que éste ofrece. <br><br>Productos locales, bebidas tradicionales, historia local del destino que pueda ser un complemento a la experiencia gastronómica, fiestas, ferias o eventos culturales autóctonos que tengan relación con el plato a ofrecer o que se puedan incluir en la experiencia como tal.<br><br>Las empresas de servicios gastronómicos para el turista (productores e industrias agroalimentarias, alojamientos, restaurantes en sus múltiples tipologías, mercados, tiendas gourmet, compras, actividades culinarias, centros y museos gastronómicos, etc.). Asociaciones turísticas, de cocineros o de productores, y zonas o municipios marcados por un producto gastronómico puntual.
           p(numero="3" titulo="Conoce a tu competencia") En esta sección averiguamos sobre experiencias gastronómicas similares a la nuestra, que se ofrecen tanto en municipios o regiones cercanas; como en otros países. <br><br>La idea con este proceso es identificar sus elementos más distintivos; actividades, temáticas y estilos de la competencia para identificar sus fortalezas y verificar lo que no esté cubriendo o lo que consideres podrías mejorar con un estilo propio.
           
@@ -348,7 +345,7 @@
                 :href="obtenerLink('downloads/Mapae.pdf')" target="_blank" type="application/pdf"
                 @mouseover="mostrarIndicador = false"
               )
-                span Ingresar
+                span Descargar
                 i.fas.fa-file-download
                 .indicador--click(v-if="mostrarIndicador")
     p.mt-5 Luego de conocer un poco sobre el perfil del turista que llega al destino, es importante definir aspectos necesarios para crear la experiencia gastronómica:
@@ -366,7 +363,7 @@
         p.mb-0 Según el tipo de mercado y los ingresos promedio de éste, se debe plantear el tipo de decoración dentro de la experiencia, la ubicación el lugar donde se va a ofrecer, el tipo de restaurante entre otros. 
     p Algunas propuestas de experiencias gastronómicas pueden ser:
     .titulo-sexto.color-acento-contenido
-      h5 Figura . 
+      h5 Figura 3. 
       span Propuestas gastronómicas 
     .row.justify-content-center
       .col-lg-8
