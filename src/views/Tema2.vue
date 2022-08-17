@@ -457,7 +457,7 @@
     p.mt-5 Adicionalmente, la empresa Foodies por ejemplo, viene implementando cenas clandestinas, donde de manera online se realiza una reunión con personas que no se conocen entre sí, para que compartan su plato favorito; contribuyendo a mitigar la soledad de muchos y las relaciones sociales para otros. 
     separador
     #t_2_5.titulo-segundo.color-acento-contenido
-      h2 2.5.	  Digitalización de las experiencias gastronómicas
+      h2 2.5	  Digitalización de las experiencias gastronómicas
     p Las experiencias gastronómicas están muy ligadas al efecto voz a voz y a las reseñas de otros usuarios. Hoy podemos contar con diferentes plataformas <i>online</i> que permiten compartir la experiencia personal en un restaurante, para que otros usuarios puedan hacer uso de estas recomendaciones y experimentar por su propia cuenta el resultado.  
     .row
       .col-lg-6

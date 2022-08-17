@@ -234,7 +234,7 @@
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"
               )
-                span Ingresar
+                span Descargar
                 i.fas.fa-link
                 .indicador--click(v-if="mostrarIndicador")
     p.mt-5 En cuanto a la higiene de los alimentos más comunes en los restaurantes, debe regularse por el conjunto de normas, pautas y procedimientos que cada organización debe seguir, asegurando de esta forma la inocuidad e idoneidad de los alimentos. El objetivo es preservar la salud del consumidor respetando los principios que se explican a continuación en cada una de las etapas de la cadena alimenticia.
