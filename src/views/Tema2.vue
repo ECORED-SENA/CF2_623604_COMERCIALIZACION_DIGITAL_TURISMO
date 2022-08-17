@@ -105,7 +105,7 @@
           .col-md-5
             figure
               img(src='@/assets/curso/tema2/i6.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Mendoza - argentina: la octava capital del vino")
+      .py-3.py-md-4(titulo="Recorridos alrededor del vino")
         .row
           .col-md-7.mb-4.mb-md-0
             p Es la principal provincia vitivinícola de Argentina y desde 2005, una de las ocho capitales del vino de reconocimiento internacional (<i>Great Wine Capitals</i>). Posee alrededor de 150.000 hectáreas cultivadas con vid y más de 1.200 bodegas distribuidas en cinco regiones, de las cuales cuatro proponen circuitos turístico-enológicos.
@@ -132,7 +132,7 @@
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"
               )
-                span Ingresar
+                span Descargar
                 i.fas.fa-link
                 .indicador--click(v-if="mostrarIndicador")
     p.mt-4 Igualmente, alrededor del mundo entero, se pueden disfrutar un sinfín de experiencias gastronómicas, cada vez son más los lugares que buscan una recordación en sus visitantes, además, de brindarle la mejor de las experiencias, en el siguiente recurso podrá consultar algunas de estas experiencias:
@@ -186,7 +186,7 @@
       h2 2.2.	 Determinantes de una experiencia gastronómica memorable
     p La experiencia gastronómica va más allá de una buena cocina y un equipo experimentado a sus espaldas. Son muchos los factores que influyen para que una experiencia sea o no satisfactoria. Arhippainen y Tähti (2003), citado por González Ramos (2019), menciona que son 4 los factores los que deben interactuar entre sí para que una experiencia funcione correctamente: 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 3. 
+      h5 Figura 1. 
       span Determinantes de la experiencia
     .row.justify-content-center
       .col-lg-11
@@ -216,7 +216,7 @@
         img(src='@/assets/curso/tema2/i14.png', alt='Texto que describa la imagen')
     p.mt-4 Así mismo Zorrilla (2002), menciona que las principales dimensiones atmosféricas incluyen:
     .titulo-sexto.color-acento-contenido
-      h5 Figura 4. 
+      h5 Figura 2. 
       span <i>Factores atmosféricos</i>
     .row.mt-5
       .col-lg-3.bg8
@@ -345,9 +345,7 @@
           .col-lg-2
             .mt-3
               a.boton.me-3.indicador__container(
-                :href="('http://accioneduca.org/admin/archivos/clases/material/mapa-de-empatia_1563898005.pdf')"
-                target="_blank"
-                type="application/pdf"
+                :href="obtenerLink('downloads/Mapae.pdf')" target="_blank" type="application/pdf"
                 @mouseover="mostrarIndicador = false"
               )
                 span Ingresar
@@ -368,7 +366,7 @@
         p.mb-0 Según el tipo de mercado y los ingresos promedio de éste, se debe plantear el tipo de decoración dentro de la experiencia, la ubicación el lugar donde se va a ofrecer, el tipo de restaurante entre otros. 
     p Algunas propuestas de experiencias gastronómicas pueden ser:
     .titulo-sexto.color-acento-contenido
-      h5 Figura 2. 
+      h5 Figura . 
       span Propuestas gastronómicas 
     .row.justify-content-center
       .col-lg-8

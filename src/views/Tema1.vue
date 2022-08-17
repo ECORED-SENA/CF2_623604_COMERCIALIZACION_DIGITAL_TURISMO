@@ -159,7 +159,7 @@
                 img(src='@/assets/curso/tema1/12.png', alt='Texto que describa la imagen')
     separador
     #t_1_2.titulo-segundo.color-acento-contenido
-      h2 1.2.	Propiedades organolépticas de los alimentos
+      h2 1.2	Propiedades organolépticas de los alimentos
     p Los alimentos son una fuente imperiosa de estímulos relacionados directamente con la calidad. Es por eso que los expertos analizan esta calidad a partir de los sentidos. Cuando disfrutamos de una buena comida los cinco sentidos están activos; no solo el gusto está involucrado en la acción de comer, sino también todos los otros sentidos y por ello se habla de propiedades organolépticas, que son las características físicas que son percibidas por los distintos sentidos, como el sabor, el olor, la textura y el color.
     p Los expertos en restaurantes o los especialistas en nutrición los utilizan para comprobar la calidad de los alimentos o para conocer los gustos de los consumidores o para innovar en las recetas. Su función es la siguiente:
     .row.justify-content-center.mt-5(data-aos="fade-up")
@@ -208,7 +208,7 @@
               p Los seres humanos podemos distinguir hasta diez mil olores diferentes aunque es muy difícil catalogar el olor, lo que normalmente sucede, es que creamos analogías para describirlo como, por ejemplo: aromas que se asemejan a la madera, las flores o algo que se está ahumando. 
     separador
     #t_1_3.titulo-segundo.color-acento-contenido
-      h2 1.3.	Parámetros de inocuidad alimentaria
+      h2 1.3	Parámetros de inocuidad alimentaria
     p La inocuidad de los alimentos puede definirse como el conjunto de condiciones y medidas necesarias durante la producción, almacenamiento, distribución y preparación de alimentos para asegurar que una vez ingeridos, no representen un riesgo para la salud (Ministerio de Salud Colombiano, sf.)
     .row.justify-content-center
       .col-lg-6
@@ -536,7 +536,7 @@
               img(src='@/assets/curso/tema1/32.png', alt='Texto que describa la imagen')
     separador            
     #t_1_5.titulo-segundo.color-acento-contenido
-      h2 1.5.	 Caracterización de bebidas 
+      h2 1.5	 Caracterización de bebidas 
     .row.justify-content-center
       .col-lg-6
         img(src='@/assets/curso/tema1/33.png', alt='Texto que describa la imagen')
@@ -606,9 +606,7 @@
               img(src='@/assets/curso/tema1/i2.png', alt='Texto que describa la imagen')
     p.mb-0 Al igual que con el menú de alimentos, las bebidas también exigen unas consideraciones en el diseño de su carta.
     p Si hablamos del mercado de bebidas debemos saber que tiene un gran margen de beneficio, llegando a triplicar su coste con respecto al precio de venta al público (PVP). Además, las bebidas son un producto que se puede vender por unidades y de rápido servicio.
-    .titulo-sexto.color-acento-contenido
-      h5 Figura 1
-      span <i>Consideraciones en la carta de bebidas</i>   
+  
     .row.mt-5
       .col-lg-5.bg5
         h4.text-white.text-center.mt-3 Consideraciones en la carta de bebidas    
@@ -730,7 +728,7 @@
               img(src='@/assets/curso/tema1/56.png', alt='Texto que describa la imagen')
     separador
     #t_1_6.titulo-segundo.color-acento-contenido
-      h2 1.6.	 Emplatados y presentación de platos
+      h2 1.6	 Emplatados y presentación de platos
     .row.justify-content-center
       .col-lg-4
         .row.justify-content-center
@@ -939,7 +937,7 @@
                 .indicador--click(v-if="mostrarIndicador")
     separador 
     #t_1_7.titulo-segundo.color-acento-contenido
-      h2 1.7.	 Menaje
+      h2 1.7	 Menaje
     .row.justify-content-center
       .col-lg-4
         .row.justify-content-center
@@ -980,7 +978,7 @@
         img(src='@/assets/curso/tema1/66.png', alt='Texto que describa la imagen')
     separador
     #t_1_8.titulo-segundo.color-acento-contenido
-      h2 1.8.	 Tipos de servicio en un restaurante
+      h2 1.8	 Tipos de servicio en un restaurante
     p Entendemos por tipos de servicio las diferentes formas en las que podemos hacer llegar el alimento preparado a la persona que lo va a degustar, pudiendo ser éste el cliente de un restaurante, o cualquier miembro familiar que se siente en la mesa para comer.
     p Los principales tipos de servicio son: emplatado, inglesa, y <i>bufet</i>, cada uno de ellos con unas características específicas que lo hacen idóneo en función de las consideraciones oportunas que determinan la naturaleza del servicio. En el siguiente vídeo se explica con más detalle las características de cada uno de estos tipos de servicio:
     figure.mb-5
@@ -988,7 +986,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/4iYlPsNTcGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_1_9.titulo-segundo.color-acento-contenido
-      h2 1.9.	 Mercadeo digital para restaurantes
+      h2 1.9	 Mercadeo digital para restaurantes
     .row.justify-content-center
       .col-lg-6
         img(src='@/assets/curso/tema1/67.png', alt='Texto que describa la imagen')
@@ -1060,8 +1058,8 @@
     p.text-center Nota. https://bit.ly/3kYCXW4
     separador
     #t_1_10.titulo-segundo.color-acento-contenido
-      h2 1.10.	 Costos para restaurantes
-    p Calcular el costo de los alimentos es muy importante para un restaurante, principalmente porque permite tener claridad sobre el margen de utilidad y rentabilidad del negocio, además de establecer el precio de los alimentos y bebidas. A continuación, encontrará información ampliada al respecto, además de invitar a consultar el artículo de Morillo Moreno, M (2009). Costos del servicio de alimentos y bebidas en establecimientos de alojamientos turísticos Visión Gerencial, núm. 2, pp. 304-327 Universidad de los Andes Mérida, Venezuela. https://www.redalyc.org/pdf/4655/465545881013.pdf  en su sección 2, encontrará explicación a este tema tan interesante. 
+      h2 1.10	 Costos para restaurantes
+    p Calcular el costo de los alimentos es muy importante para un restaurante, principalmente porque permite tener claridad sobre el margen de utilidad y rentabilidad del negocio, además de establecer el precio de los alimentos y bebidas. A continuación, encontrará información ampliada al respecto, además de invitar a consultar el artículo de Morillo Moreno, M (2009). Costos del servicio de alimentos y bebidas en establecimientos de alojamientos turísticos Visión Gerencial, núm. 2, pp. 304-327 Universidad de los Andes Mérida, Venezuela. <a href="https://www.redalyc.org/pdf/4655/465545881013.pdf">https://www.redalyc.org/pdf/4655/465545881013.pdf</a>  en su sección 2, encontrará explicación a este tema tan interesante. 
     SlyderF.mb-5.mt-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-acento-contenido.p-4.mt-5
         .row.justify-content-center.mb-3.mt-4
