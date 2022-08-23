@@ -314,9 +314,9 @@ export default {
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Maria Camila Garcia Santamaria',
+        nombre: 'María Camila García Santamaría',
         cargo: 'Líder del equipo',
-        centro: 'Dirección General',
+        centro: 'Dirección general',
       },
     ],
     contenidoInstruccional: [
@@ -324,7 +324,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura regional Santander',
       },
       {
         nombre: 'Fabio Alberto Ramírez Ayala',
@@ -339,7 +339,7 @@ export default {
       {
         nombre: 'Luisa Fernanda Posada Hincapié',
         cargo: 'Experto temático',
-        centro: 'Centro de Comercio, Industria y Turismo Regional Quindío',
+        centro: 'Centro de Comercio, Industria y Turismo regional Quindío',
       },
       {
         nombre: 'Gloria Alexandra Orejarena Barrios',

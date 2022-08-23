@@ -280,10 +280,6 @@
           p.mb-5 Para pollos y carnes rojas los jugos deben ser de un color claro.
     p En cuanto a los factores de riesgo habituales que pueden afectar los alimentos, se encuentran principalmente:
     .row.mt-5
-      .col-lg-6
-      .col-lg-6
-        p <strong> Mala higiene personal de los manipuladores de alimentos</strong>
-        p Se debe procurar que todos los empleados del restaurante tengan claro los habitos básicos en cuanto a su aseo personal, indumentaria e higiene en general
     .row.justify-content-center
       .col-md-6.mb-5.mb-md-0
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
@@ -300,6 +296,8 @@
           p.text-small(numero="5" titulo="Mala gestión de residuos") Eso incluye mantener residuos en áreas de trabajo o botes sin la debida separación de los alimentos.
           
           p.text-small(numero="6" titulo="Malas prácticas de almacenamiento de productos") Garantizar la salubridad de los mismos. Para ello, es esencial seguir unas estrictas pautas de almacenamiento y evitar malas prácticas como, por ejemplo, colocar los productos en el suelo aunque estén protegidos por cajas.
+          p.text-small(numero="7" titulo="Mala higiene personal de los manipuladores de alimentos") Se debe procurar que todos los empleados del restaurante tengan claro los habitos básicos en cuanto a su aseo personal, indumentaria e higiene en general.
+      
       .col-lg-6
         img(src='@/assets/curso/tema1/233.png' alt='AvatarTop')
     separador
@@ -311,7 +309,7 @@
       .col-lg-6.mt-3
         .row.justify-content-center.color2
           .col-lg-12
-            p.p-3 La palabra menú nació en los primeros restaurantes de Francia y tiene su raíz en el vocablo latino “minutus”, que significa “pequeño”. El término se comienza a usar en 1718 y muchos autores lo han definido en resumen como una presentación de las comidas, bebidas y postres disponibles para el comensal. Es el conjunto cerrado de platos que un establecimiento ofrece al cliente
+            p.p-3 La palabra menú nació en los primeros restaurantes de Francia y tiene su raíz en el vocablo latino “minutus”, que significa “pequeño”. El término se comienza a usar en 1718 y muchos autores lo han definido en resumen como una presentación de las comidas, bebidas y postres disponibles para el comensal. Es el conjunto cerrado de platos que un establecimiento ofrece al cliente.
         p.mt-4 Este término en ocasiones se confunde con la palabra “carta”, sin embargo, existe una diferencia puntual y es que ésta última está hecha en cartón, papel o cualquier otro medio y describe detalladamente los precios de los platos y bebidas; es decir, presenta el conjunto de todos los platos que ofrece el restaurante y en el que suele estar incluido el menú del día.
     .row.justify-content-center.mt-4
       .col-lg-6
@@ -388,7 +386,7 @@
                 p.text-small.mb-0 Por ejemplo, podría haber un menú del día diferente durante dos semanas, y luego el ciclo del menú comenzaría nuevamente desde el principio.
               li 
                 i.fas.fa-angle-right.ss
-                p.text-small.mb-0 Al final de cada período puedem ser usados de nuevo los menús, evitando así la necesidad de crear unos nuevos.
+                p.text-small.mb-0 Al final de cada período pueden ser usados de nuevo los menús, evitando así la necesidad de crear unos nuevos.
           
           .col-md-6
         .row.p-4
@@ -419,7 +417,7 @@
             ul.lista-ul
               li 
                 i.fas.fa-angle-right.ss
-                p.text-small.mb-0 Es un menú que el cliente ha contratado con antelación y a concertado con el chef del restaurante, tanto en el precio como en la composición de los platos que lo integran.
+                p.text-small.mb-0 Es un menú que el cliente ha contratado con antelación y es concertado con el chef del restaurante, tanto en el precio como en la composición de los platos que lo integran.
 
               li 
                 i.fas.fa-angle-right.ss
